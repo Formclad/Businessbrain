@@ -1,0 +1,450 @@
+FORMCLAD BUSINESS BRAIN – INDEX
+Last updated: 23 September 2026 (late afternoon: alignment check after the estimating work)
+Owner: Sofia
+
+This folder holds the key documents that describe how Formclad works. People and AI tools (Claude, Copilot) should use the files listed here as the source of truth. Some documents already have an official home elsewhere; this index points to them rather than keeping a second copy.
+
+WHERE THIS LIVES (changed 19 Sep 2026)
+The Brain is now its own document library: AdminHub > 00 Business Brain, sitting alongside the numbered libraries 01 to 09. It was previously a folder inside the library whose display name is "08 SOPs" — that library's URL still reads "General Docs", which is why older path references say General Docs. When following a path in this index that mentions General Docs, look for "08 SOPs" on the site.
+
+
+RULES FOR THIS FOLDER
+- Keep one current version of each document, with CURRENT in the file name.
+- Move older versions to the Superseded folder in this library (created 23 Sep 2026). Do not keep copies on desktops or in personal OneDrive folders.
+- DOCUMENTS VERSUS LISTS (added 21 Sep 2026). Registers — repeating records with the same fields, such as Builder Profiles, the Supplier Register, published Client Grades, the job results register and the employee ticket register — belong in SharePoint lists, because lists can be filtered, queried by Power Automate and read properly by Copilot. Documents that carry sequence, reasoning or judgement stay as documents. The index points at the list; the list is the only copy. Never keep the same content in both a list and a file — that is how two sources of truth start.
+- OPEN WORK VERSUS HOW THINGS RUN (added 22 Sep 2026). The same rule applied to the build itself. What is OPEN — to do, to decide, to supply, to consider — lives in the Planner plan (see BUSINESS SYSTEMS AND AGENTS). How the business RUNS lives here. When an item closes in Planner and changes how something works, write the change into the relevant document in this folder; ticking it in Planner is not the same as recording it.
+- ONE HOME PER RULE (added 23 Sep 2026). Money figures live only in Pricing Settings. Estimating rates and allowances live only in Estimating Rules of Thumb. Who approves what lives only in Approval Authorities. Every other document — SOP, Commercial Rules, Nexvia master, QA Checklist, agent instructions — points to those three rather than restating their figures, so a change is made once.
+- When using a file in a Copilot or Claude chat, work from the SharePoint copy and save the final result back to SharePoint before closing the chat. Personal OneDrive folders (Microsoft Copilot Chat Files, Copilot > Created) hold chat snapshots only and should be treated as scrap. (Watch for this: on 23 Sep the updated Commercial Rules was saved to Microsoft Copilot Chat Files instead of this folder.)
+- Final estimate figures come from Nexvia. Export finals from Nexvia into the tender folder rather than relying on chat copies.
+- This folder is shared with the team. Owner pay, drawings, loan, revenue and profit information is not kept here; it sits with the directors.
+- Update this index whenever a document or tool is added, replaced or retired.
+- Review this folder monthly (see the Monthly Brain Review).
+
+
+THE COMPANY
+Entity: T Harding & S Calado Pty Ltd T/as Formclad, ABN 84 671 176 748. Licence BLD 333524.
+Former entity to 31 Dec 2025: Harding & Calado Family Trust, ABN 36 633 906 403. See the Entity Change Checklist.
+
+Travis Harding – Director (Operations Approver).
+Sofia Calado – General Manager (Commercial Approver). ALSO RUNS PAYROLL, and
+  the timesheet check that has to happen before it. This is why labour
+  landing in Unassigned costs Sofia her Wednesday rather than being someone
+  else's reporting annoyance.
+Mairead – Tender & Estimating Coordinator.
+Marianne – Bookkeeper AND Financial Administrator. One role, both halves.
+  Payroll is not hers.
+Five field employees.
+
+THE NUMBERS
+From "Formclad – Pricing Settings – CURRENT". When any other document conflicts, Pricing Settings applies.
+As at 17 Sep 2026: labour cost $80/productive hour; break-even $141.56; ROR Red below $155 (both approvers), Amber $155–165 (Commercial Approver), Acceptable $165–175, Green $175–195 (target), Strong $195–225, Excellent $225+; gross margin target 30–32%, review floor 28%; largest single job about $225,000; minimum crane allowance $1,500 per crane day.
+NEXVIA TENDER DEFAULTS (23 Sep 2026): Default Waste set to 0% — wastage is allowed once, in the take-off and workbook. Default Margin is 25%, below the 28% floor: margins are set where the cost lives, never left on the default. Whether the default should change is open.
+UNRESOLVED as at 21 Sep 2026: labour COST is settled at $80, but the V7.3 master still says $84 (recorded there as management-confirmed 4 September). CHARGE-OUT is not settled — $110 in V7.3, $115 on the Our Lady project row, $120 in Nexvia's labour type settings. Nexvia's setting wins on import, so whatever sits there is what the next tender prices at.
+ESTIMATING RATES (added 23 Sep 2026): labour hours per unit, difficulty loadings, preliminaries, wastage and material rules are in "Formclad – Estimating Rules of Thumb – CURRENT" (item 10a), not here. The V7.3 master's Labour_Factors sheet is out of step with it.
+
+WHO APPROVES WHAT
+From "Formclad – Approval Authorities – CURRENT". Commercial Approver: price, margin, contract, credit, cash. Operations Approver: scope, buildability, labour hours, programme, site, procurement. Some decisions need both. Older documents saying "Director review" are mapped across in that file.
+
+
+A. HOW THE BUSINESS RUNS
+1. Business Plan Part A – Operating Plan. Positioning, ideal work and no-bid triggers, roles, operating rhythm, pricing rules, tender workflow, delivery and escalation triggers, cash and debtor rules, systems, dashboard, risks, role priorities. Part B (financial and owner plan) is held by the directors.
+2. Approval Authorities. Who approves what, the mapping from older "Director" references, and the threshold list.
+3. Pricing Settings. Labour cost, break-even, ROR ratings, gross margin figures, Nexvia tender defaults, and how ROR is calculated. Wording updated 23 Sep 2026 (authorities named; figures unchanged).
+4. Weekly Routine. Friday review and Monday setup, built around Sofia's Formclad days. Thursday is pay day. See NEXVIA REPORTING below for what to pull each Friday.
+5. Monthly Brain Review. Fifteen minutes, six questions, plus the quarterly and annual layers.
+6. FINANCE ROLE — Marianne (still to confirm with her; the old "Bookkeeper Task List" is this).
+   Marianne is the bookkeeper AND the financial administrator. One person, both
+   halves, so there is no handover line to draw — the constraint is her
+   capacity, not a split.
+     LEDGER: bank reconciliation, BAS/IAS and super, month-end close in Xero,
+     supplier statement reconciliation.
+     OPERATIONAL: EzzyBills capture and approval, bills into Nexvia and the
+     coding exceptions, raising and sending purchase orders, chasing debtors,
+     retentions, invoice reminders.
+   NOT HERS: payroll and the timesheet check (Sofia). Margin, pricing, valuing
+   variations, progress claims, locking totals, approvals above her limit
+   (Sofia, as Commercial Approver).
+   ESCALATES rather than guesses: a bill nobody can place. A wrong code is
+   worse than an unanswered question, because it is invisible afterwards.
+   THREE OUTCOMES define the role — nothing sits uncoded; nobody owes us past
+   terms without being chased; suppliers paid to terms. If those are true she
+   is doing the job.
+   WHY THIS MATTERS COMMERCIALLY: every hour spent hand-coding bills at bulk
+   import is an hour not spent chasing debt. Our Lady is $22,825.16 invoiced
+   with nothing paid and both invoices overdue. The PO practice and the cost
+   structure are what buy that hour back.
+7. Entity Change Checklist. What still carries the old trust ABN, sorted by risk.
+8. Computer Session Plan. Everything that needs a computer, in the order that gets the most from one sitting.
+
+B. WINNING WORK
+9. SOP – Tender & Estimating Coordinator. In AdminHub > 08 SOPs > 02_Client & Estimate Management, file "Standard Operating Procedure Tender Estimating Coordinator_V2.1_V7_Updated.docx". STATUS 23 Sep: the file in SharePoint is still V2.1 (last changed 4 Sep). "SOP V2.2 – replacement wording" sits beside it with sections 6 and 7 ready to paste (updated 23 Sep to point to Rules of Thumb; loadings multiply). If V2.2 was done elsewhere, save it over this file and move the replacement wording to Superseded.
+10. Estimate Review QA Checklist — v1.1, 23 Sep 2026. In 02_Client & Estimate Management. The person's version of the checks the Review Agent runs. v1.1 points to Rules of Thumb and adds: wastage once only and Nexvia Default Waste 0%, labour on net quantities, unit checks for rolls/packs/lengths, placeholder prices, margins not left on the default, Group IDs, commonly missed items, box gutter overflows.
+10a. Estimating Rules of Thumb — v1.1, 23 Sep 2026. THE estimator's knowledge, written down: labour hours per unit for roof and wall sheeting by profile, roof layers, flashings, plumbing, penetrations, strip-out and safety; preliminaries (set-out, site setup, induction, handling, clean); difficulty loadings (they MULTIPLY; above a combined 1.60 the labour goes to Travis); whole-job sanity checks; wastage and material rules (cover widths, laps, fixings, brackets, the mandatory box gutter overflow check); commonly missed items. Every figure tagged CONFIRMED (Formclad's own) or WORKING (decided 23 Sep from four research sources). Travis can override any WORKING figure; finished-job results turn them into CONFIRMED. Read by both Copilot agents. Changes the V7.3 Labour_Factors for insulation, sarking, mesh, rainheads and small flashings. v1.1 added valley gutter interim rate, wall sheet and gutter/downpipe/fascia allowances, spacers per m2 of roof, and labour always on NET quantity.
+10b. Estimate Review Agent – Instructions — v1.0, 23 Sep 2026. The record copy of the text pasted into the Copilot agent's Instructions box. Edit here first, then paste into the agent. NOT to be added to the agent's knowledge sources.
+10c. Estimate Builder Agent – Instructions — v1.0, 23 Sep 2026. Record copy for the second Copilot agent (see BUSINESS SYSTEMS AND AGENTS). Same rule: edit here first, never add to the agent's knowledge sources.
+11. Estimate Review Commercial Rules & Delegation. The reference the Estimate Review Agent reads. STATUS 23 Sep: the v2.1 wording has been applied, but the updated file was saved to Sofia's personal OneDrive (Microsoft Copilot Chat Files > "Formclad_Estimate_Review_Commercial_Rules_and_Delegation.docx"). The copy in THIS folder ("Formclad – Estimate Review Commercial Rules & Delegation – CURRENT.docx") still holds the OLD $150/$160 wording and was locked (open) when checked. To fix: close it, then replace it with the updated version and move the old one to Superseded. The replacement-wording text file has already been moved to Superseded. Until this is done, the Review Agent reads the old gate.
+12. Prequalification Pack. What builders ask for, where each item lives, what needs updating.
+13. Nexvia estimate import master.
+    V7.3 IS THE CURRENT MASTER. AdminHub > Estimating > Estimating Template & Tools. KNOWN PROBLEMS: (a) two contradictory hierarchy standards; the V7 version (Assembly = job, Fixture = work package) is correct. (b) $84 labour and $150/$160 ROR in Commercial Settings. (c) Labour_Factors out of step with Rules of Thumb. (d) Its Import Standard V7 sheet says one labour line per item — superseded by Setup Procedure v6 (one Installation Labour line per fixture). (e) Found on the live Estia Salisbury workbook, 23 Sep: labour is calculated on take-off quantities that already include Efficaxone's waste (5–10% sheets, 15% flashings), inflating those hours by the same %; downpipe and gutter-guard quantities are counts of 6 m lengths and 5 m packs labelled "lm", so their labour is about 52 hours light; insulation spacers unpriced and in lm against a per-m2 rate; $1 placeholder prices on polycarbonate, cowls and vent pipes; 3 boxes of fasteners for a roof needing about 12,000 screws; one labour line per material coded "Site Labour – General"; the Weight column holding calculated cost totals. CORRECTION: an earlier note here said no wastage was applied on Estia. That was wrong — Efficaxone builds the allowance into its quantities.
+    V8 — BUILT 23 Sep 2026, PAUSED. Sofia found it too much to take in as built; it is to be simplified before sign-off. Not saved to SharePoint. The design stays: formulas do the arithmetic; net quantity drives labour and order quantity drives material; wastage applied once; one Installation Labour line per fixture; Weight blank; a checks sheet; manual Items and commonly-missed-items register. Tested on Estia Salisbury and a two-building case with zero formula errors.
+14. Labour return calculator. https://claude.ai/artifact/6zoY8vX2SYTzcZghM1X9Ee — settings read automatically from the central company settings.
+15. Job Request & Prequalification Reference Guide, and Quote & Estimate Terms & Conditions v1. In 02_Client & Estimate Management.
+
+C. CLIENTS AND SUPPLIERS
+16. Client Rating Rubric. Thirteen criteria, grading bands, review cadence.
+17. Client Grades (published). The readable grades for the team and Copilot. Republished after each review round. NOTE: does not yet include Mossop, Horizon or SRM, whose scores currently exist only in the ratings workbook. To become a SharePoint list.
+18. SOP – Client Ratings. Who rates what, when, and how grades are used. Includes the EstimateOne two-decision rule (is the project worth pricing; which builders do we quote) and the never-awards rule.
+19. Client ratings workbook — "Formclad – Client Ratings – CURRENT.xlsx". All 18 builders, with grade, score and status calculating from the criteria, and a Definitions tab holding the 1–4 wording and who scores what. Sofia only; the published grades file is what the team reads. Replaces the earlier artifact at https://claude.ai/artifact/ANtr2yFqmxui4BR9YsATN1
+20. Builder Profiles. Claim method, cut-offs, portals, contacts and quirks per builder. To become a SharePoint list.
+21. Supplier Register. Accounts, terms, lead times, price books held, reliability. Includes the rule that large quantities are always quoted. To become a SharePoint list. NOTE: this register also decides who gets a standing purchase order — see PURCHASE ORDERS below — and needs a column for it.
+
+D. DELIVERING AND MEASURING WORK
+22. Nexvia Diagnosis and Fix. WHY Nexvia is not working: the two root causes, the three machines (extents, breakdowns, cost coding), why labour goes to Unassigned and bills to Miscellaneous, why every project is set up differently, the three conflicting labour rate cards, and a seven-step fix in dependency order. Read this before changing anything in Nexvia.
+23. Nexvia Setup Procedure, Tender to Claim — v6.1, 23 Sep 2026. THE method for every new job: the six-line structure, the admin defaults to fix first, then tender (Mairead), job won, running the job and claiming, each step with a verification check. Key points: fixtures are work packages and never cost types; "Installation Labour" is a LINE inside a fixture and never a fixture of its own; Default Waste 0% at A2; the tender Hours tab stays empty; the breakdown is built with Import Breakdown off the Group IDs; margins not left on the 25% default (A7); export the Pricing Full Breakdown and run the Review Agent (A8); non-labour rows are deleted at extent activation. Supersedes v1.0 to v6.0 and the old "Extent of Works" file name. Step C2 covers purchase orders; the PO practice below expands on it.
+24. Job Costing Review Routine — v1.1, 23 Sep 2026. The weekly three numbers per job, the close-out review, the job results register, and what it feeds. Close-out compares hours per work package and checks material and loadings against Rules of Thumb; results feed back into Rules of Thumb and Labour_Factors together. The job results register to become a SharePoint list. The reports that feed it are listed under NEXVIA REPORTING below.
+25. Variations. The five stages, entered when they happen rather than at claim time, with the notice-period trap.
+26. Getting Paid: Variations, Claims and Retentions. How claims, invoicing, retentions and price books work today, and what should change.
+27. Subcontract Agreements. Intake rule, review list before signing, filing, Nexvia entry, and the contract summary.
+28. Subcontract Agreement Sweep (18 Sep 2026). Where every agreement is, what is missing, and the entity problem.
+29. Job Close-Out. Seven stages starting two weeks before the job finishes.
+29a. Project Delivery, Contract to Close-Out — v1.1, 23 Sep 2026. THE SPINE for running a job: links items 23 to 29 in order and fills the middle they did not cover. Who does what (Sofia commercial PM, Travis site PM, the site supervisor); builder contact in two channels (office via Sofia, site via Travis) with the cc rule; what the site supervisor can do and what stays with Travis; the sequence from contract to close-out — handover meeting, drawing revision check, two-stage ordering, check-measure before cut-to-length orders, bookings, pre-start; and SCHEDULING AND WEEKLY CONTROL — crew-days from quoted hours, the labour board across all jobs, and the Monday / daily / Friday rhythm with the weekly hours check per work package.
+
+E. TEMPLATES HELD ELSEWHERE
+30. Roof Installation Methodology – MASTER TEMPLATE. AdminHub > Operations & Systems.
+31. O&M Manual – MASTER TEMPLATE. AdminHub > Operations & Systems. Includes the pre-issue checks (entity and ABN, placeholder text, warranties appendix).
+32. Project filing template. Formclad > Projects > Filing System. Now includes 01 - Commercial with the contract summary template, and 05 - Close-Out with the close-out checklist and six subfolders.
+33. Capability Statement, with the rewritten copy for layout. In this folder. Three decisions still marked in it.
+34. Company Workflow, Desk Side Roles & Responsibilities, Purpose Mission & Values, FY25/26 Marketing Strategy. AdminHub > Management & Strategy, and People & HR. NOTE: Company Workflow step 1.8 still has the Director reviewing every estimate; under the delegation matrix and the Estimate Review Agent, the Director sees only escalated questions.
+35. Commercial Estimating & Management Training Manual v2 — original source of the wastage baselines, filed under 02_Client & Estimate Management > Superseeded. DECIDED 23 Sep 2026: no longer the reference; its wastage figures are carried into Rules of Thumb (item 10a).
+
+
+=====================================================================
+THE BILL CHAIN — EZZYBILLS TO XERO TO NEXVIA
+Recorded 21 September 2026. Parts of this still need confirming.
+=====================================================================
+
+THE CHAIN as currently understood: supplier invoice arrives at EzzyBills >
+EzzyBills reads it > into Xero as a bill > exported > bulk-imported into
+Nexvia > coded to a job and budget line.
+
+THE PROBLEM WITH THAT SHAPE. The coding decision happens at the WRONG END.
+By the time a bill reaches Nexvia's bulk import it has been through two
+systems, it is often weeks old, and all anyone has to work from is a supplier
+name and an amount. That is not data entry, it is forensics, and it is why
+the job has kept landing on Sofia.
+
+EzzyBills does not fix that. PURCHASE ORDERS do — see below. What EzzyBills
+gives you is capture, an approval trail, and no typing.
+
+MARIANNE'S WORKFLOW
+  Daily    Invoices arrive at the EzzyBills address — ONE destination, never
+           people's personal inboxes. Check the OCR read: supplier, date,
+           amount, GST, line detail. This step cannot be skipped; OCR is
+           good, not right. Approve, or route above her limit to Sofia.
+  Weekly   Bulk import into Nexvia. With POs carrying the coding, most lines
+           match and inherit. Her job is the EXCEPTIONS — bills with no PO
+           behind them. Ambiguous ones are flagged, not guessed.
+  Standing Every supplier sends to the EzzyBills address; chasing the
+           stragglers is hers, because a bill landing in someone's personal
+           inbox breaks the chain invisibly until month end. Confirm Xero
+           and Nexvia still agree.
+
+THE MEASURE. Bills needing manual coding each week, from the Bill Lines
+Report in the Friday pull. It should fall toward zero as PO coverage rises.
+That is the scorecard for the whole arrangement.
+
+TWO THINGS TO CHECK
+  Whether EzzyBills can set the Xero TRACKING CATEGORY at capture, and
+  whether Nexvia's import reads it. If both are true, some coding could
+  happen at the front of the chain instead of the back.
+  What the broken XERO BILL EXPORT FILTER actually is. It sits in the middle
+  of this flow and nobody has looked at it.
+
+
+=====================================================================
+PURCHASE ORDERS — THE PRACTICE
+Set 21 September 2026. Supersedes "purchase orders: not currently used".
+=====================================================================
+
+WHY. Purchase orders are now raised UP FRONT for key suppliers, before the
+bill arrives, so that an incoming bill matches its PO line and INHERITS the
+coding. This removes the manual allocation step on every line of a bulk bill
+import — the most tedious task in the accounts week.
+
+RAISE THEM AT THE BUDGETED AMOUNT, NOT A NOMINAL $1. Confirmed 21 Sep 2026.
+A purchase order is what Cost to Complete reads as COMMITTED cost. A $1 PO
+commits $1, so the forecast shows nothing committed and every bill then
+arrives as a surprise. Raising the PO at its budgeted figure gives both
+benefits at once: the bill inherits the coding AND the committed number is
+real from the day the order is placed. Coding is the smaller prize;
+committed cost is the bigger one, and a nominal PO throws it away.
+
+NOMINAL OR ALLOWANCE POs are for genuinely open-ended supply only — a hire
+account, or a trade account taking many small deliveries where the total
+cannot be known in advance. Even then use the budget allowance rather than
+$1, so the commitment figure means something.
+
+THE CODING HAS TO BE RIGHT. The PO must carry the assembly or item group
+that matches the work packages. A PO coded to Miscellaneous inherits nothing
+useful and simply moves the problem one step upstream. The three raised on
+21 Sep are typed Assembly / Materials – Roofing & Cladding, which is correct.
+
+TEST THIS BEFORE A BATCH. Confirm what Nexvia does when a bill EXCEEDS its
+purchase order value in this configuration — whether it passes, flags a
+variance, or forces an approval.
+
+DO NOT SEND INTERNAL POs TO SUPPLIERS. A PO raised purely to carry coding is
+an internal control, not an order document. Watch the "PO to be sent" count
+on the staff dashboard.
+
+WHO GETS ONE. Key suppliers first — the ones whose figures come straight off
+the estimate. Record it against the Supplier Register (item 21).
+
+STATUS as at 21 Sep 2026: three POs raised — two on 394 Goodwood Rd, one on
+Our Lady Queen of Peace.
+
+
+=====================================================================
+NEXVIA REPORTING — WHAT TO PULL AND WHEN
+Added 21 September 2026, after auditing the live system.
+=====================================================================
+
+WHERE THE REPORTS ACTUALLY ARE. Nexvia has far more reporting than anyone
+here has been using. There is no "Reports" item in the staff left-hand menu,
+which is why it has gone unnoticed. Three places:
+
+  1. STAFF APP > ACCOUNTS > REPORTS tab. Twenty-five active reports, each
+     with column filters, a Save Filter button and an Export dropdown. This
+     is the main engine.
+  2. ADMIN PORTAL > JOBS. Three cross-project grids, each with Export:
+     Job Management (all jobs, status, extent count), Job Weekly Hours List
+     (hours by job by day, with a Labour Type filter and Last Week / This
+     Week buttons), and Job Costing Summary (materials, time, misc, total
+     cost, sales price, GP, GP% per job).
+  3. ADMIN PORTAL > PROJECT TOOLS > PIPELINE REPORTS. A report builder with
+     a Create New Report button. Four reports exist, all shipped by Nexvia,
+     none built by Formclad: Estimation Overview, Operations Report, WIP
+     Management Report, and a disabled Construction Stage Report.
+
+Admin > Tracking Tools is stock control and Staff Tools is training and
+inductions. Neither is reporting.
+
+
+PER TENDER — before submission (added 23 Sep 2026)
+
+  T1. PRICING FULL BREAKDOWN REPORT  (from the tender in Nexvia)
+      Exported once the estimate and all manual Items are finished, saved into
+      that tender's folder in Tenders & Estimates with the date in the file
+      name (Setup Procedure step A8). This is what the Estimate Review Agent
+      reads — no separate review pack. Still to confirm on the first run: that
+      it shows line quantities, unit costs, the Installation Labour lines and
+      the Items. If it does not, a second export is needed.
+
+
+WEEKLY — pull on Friday, with the Weekly Routine
+
+  R1. TIME ENTRIES REPORT  (Accounts > Reports)
+      Columns include Job #, Employee, EXTENT OF WORK, LABOUR TYPE, Labour
+      Group, hours and date, across every project at once. A blank Extent of
+      Work column is the tell that a project was set up wrong. Save a filter
+      for blank extents and it becomes a one-click weekly check.
+      Answers: is anything landing in Unassigned, and where. This one matters
+      most to Sofia directly, because unassigned hours are what stand between
+      her and running Thursday's pay.
+
+  R2. JOB WEEKLY HOURS LIST  (Admin > Jobs > Weekly Hours)
+      Hours by job by day for the week, filterable by labour type, with a
+      This Week button. Answers: where did the week's hours go, and is any
+      job burning faster than its budget.
+
+  R3. BILL LINES REPORT and BILL LABOUR LINES REPORT  (Accounts > Reports)
+      All bill lines in a date range. Answers: what arrived uncoded or went
+      to Miscellaneous, while it is still one week's worth to fix. Once the
+      PO practice is running this should shrink to near nothing, which makes
+      it the measure of whether the POs are working and whether Marianne's
+      exception pile is falling.
+
+  R4. PROJECT BUDGET ACTUALS REPORT  (Accounts > Reports)
+      Budget against actual per project. Answers the three numbers per job
+      that the Job Costing Review Routine asks for.
+
+
+MONTHLY — pull with the claim cycle
+
+  R5. REVENUE STATUS REPORT and INVOICE LINES REPORT  (Accounts > Reports)
+      Revenue per project and every invoice line. Answers: what has been
+      claimed, invoiced and paid. Add CLIENT PROGRESS CLAIM RETENTIONS
+      REPORT for what is being held.
+
+  R6. PROFIT ANALYSIS REPORT  (Accounts > Reports), cross-checked against
+      JOB COSTING SUMMARY (Admin > Jobs). Margin per job against the 28%
+      review floor and the 30–32% target.
+
+  R7. PROJECT STATUS REPORT and TENDER STATUS REPORT  (Accounts > Reports)
+      A summary line per project and per tender. Answers: what is live, what
+      is stalled, and how the pipeline is converting.
+
+  R8. WIP REPORT / DATA EXTRACTION REPORT  (Accounts > Reports)
+      WIP values across all projects. For the monthly position and anything
+      the accountant asks for.
+
+NOT FORTNIGHTLY. Hours are answered weekly and money monthly. A fortnightly
+layer would only mean looking at the same numbers twice.
+
+ALSO WORTH KNOWING
+  BUDGET CHECK TRANSACTIONS REPORT shows the budget checks saved across all
+  projects — it is how you confirm anyone is actually doing step D1 of the
+  setup procedure before claiming.
+  PROJECT XERO TRACKING CATEGORIES REPORT is relevant to the Xero bill
+  export filter problem and to the tracking-category question above.
+  PURCHASE ORDER LINES REPORT is now a live report rather than a spare one.
+  It is how you check every key supplier has a standing order and that the
+  committed figures look right.
+
+TWO WARNINGS
+  The JOB COSTING SUMMARY currently shows Materials at $0.00 on every job,
+  which throws every GP% on it. That is not a reporting fault — it is the
+  missing cost structure. The report becomes trustworthy only after cost
+  categories, cost codes and item groups exist and bills code to them. The
+  PO practice is part of what fixes this.
+  None of R1 to R4 will tell the truth until the two admin defaults are
+  fixed and projects are being set up the v6 way. Start the weekly pull
+  the week after those two checkboxes change.
+
+WHERE EXPORTS GO
+  AdminHub > 00 Business Brain > Nexvia Exports, with the date in the file
+  name — for example "Time Entries 2026-09-26.xlsx". Claude reads that
+  folder directly, which is what makes the comparison work possible without
+  anyone pasting figures into a chat. Exception: the per-tender Pricing Full
+  Breakdown (T1) goes in the tender's own folder.
+
+
+SAFETY AND QUALITY
+- SWMS are produced on the Master Builders SA platform. Completed job SWMS are saved in Projects > 04 - Safety & Quality.
+- ITP Roof Plumbing (Goodwood Rd) is the working reference.
+- The Nexvia app carries Site Audit, WOHS Audit, Installation Checks and Checklists. Travis's finishing standards belong there, done on site.
+- The methodology and O&M templates capture much of the finishing knowledge already (blower-vac each shift, pack retainers, hold points).
+- A HazardCo WHS manual and site audit templates sit in Sofia's OneDrive and should move into a WHS folder.
+
+
+=====================================================================
+TO DO — NOW TRACKED IN PLANNER
+Moved 22 September 2026.
+=====================================================================
+
+The open items that used to be listed here — needs a computer, needs a
+decision, needs Travis, needs Marianne, still to build, and housekeeping —
+now live in the Planner plan "Formclad Business Brain — Build". See
+BUSINESS SYSTEMS AND AGENTS below for what is in it and how it relates to
+this index.
+
+PLANNER IS THE ONLY COPY. Do not re-list open items here. If both carry the
+same items, the one that gets updated is Planner and this file quietly goes
+stale — which is the two-sources-of-truth problem the rules above exist to
+prevent.
+
+WHAT STAYS HERE, AND WHY. The Nexvia work has a dependency ORDER that
+Planner cannot express, and order is reasoning rather than a task list, so
+it stays in this document. Each step below is close to worthless until the
+one above it is done:
+
+  1. Fix the admin defaults — untick "Default Use Extents in CTC", tick
+     "Enable Commercial Quote by Default" and "Enable Commercial Project".
+     Still outstanding as at 21 Sep. Nothing below this line, and none of
+     R1 to R4, is trustworthy until it is done. (Tender Default Waste is
+     now 0%, set 23 Sep.)
+  2. Settle the charge-out rate. Nexvia's labour type setting wins on
+     import, so whatever sits there is what the next tender prices at.
+  3. Simplify and sign off V8 (item 13), save it to Estimating Template &
+     Tools, retire V7.3. Until then V7.3 stays in use with the known
+     problems listed.
+  4. Build the cost structure: cost categories, cost codes, material cost
+     categories, services, item groups. Needs Travis.
+  5. Test what happens when a bill exceeds its purchase order value, THEN
+     roll the PO practice out to the key suppliers.
+  6. Run the v6.1 procedure end to end on the next won job and confirm the
+     C1 check — one hour booked, lands against its labour type, Not
+     Allocated $0.00.
+  7. Fix the Xero bill export filter.
+  8. Then, and only then, start the weekly report pull above.
+
+NOT ORDER-DEPENDENT, so tracked in Planner rather than listed here: ask
+Tosin whether Formclad is still in an implementation phase, what the
+Allocated Percent default is set to, and whether the tender Default Waste
+can be set to 0% at company level.
+
+
+BUSINESS SYSTEMS AND AGENTS
+- MICROSOFT PLANNER — "Formclad Business Brain — Build". Created 22 Sep 2026,
+  built by Copilot from a seed list drawn out of this index.
+  https://planner.cloud.microsoft/webui/plan/WOaW9RHFL02a0w48cCESTggAFUrn/view/board
+  THE BUILD TRACKER for the Brain itself, and the replacement for sending
+  conversation outcomes around by email. Four buckets:
+      ACTIONS — what is being developed or fixed.
+      NEEDS FROM ME — documents, figures and confirmations the Brain is
+        waiting on from a person. The assignee is the person it is waiting
+        ON, not whoever chases it.
+      DECISIONS — what has been settled, with the reasoning, and what is
+        still open. A RECORD, NOT WORK: these items are never completed. If
+        Planner's styling makes that confusing, move them into a document in
+        this folder and keep Planner for the other three buckets.
+      IDEAS — future development for the Brain or the business, not yet
+        committed.
+  Intended labels: Nexvia, Finance, Automation, Brain docs, Risk,
+  Housekeeping, Business.
+  KNOWN GAP as at 22 Sep 2026. Copilot could not apply labels or assignees
+  when it built the plan, so both were written into each task's notes as
+  text — "Label: Nexvia. Assignee requested: Sofia." Nothing is actually
+  assigned, which means the Needs from me items do not reach Travis,
+  Mairead or Marianne, and nothing appears in anyone's My Tasks. Applying
+  real assignees is the fix that matters; labels are only needed if the
+  board is being filtered by stream.
+  HOW IT RELATES TO THIS INDEX. Planner holds what is OPEN; this index holds
+  how the business RUNS. Closing an item in Planner is not the same as
+  recording it — when something closes and changes how the business works,
+  write it into the relevant document here.
+  Sofia owns it. Travis, Mairead and Marianne need access before any
+  assignment will reach them.
+- Nexvia: estimating, project budgets, purchase orders, bills, timesheets, job costing, retentions, and the site app. Half-implemented — see the Diagnosis and Fix document, the Setup Procedure, THE BILL CHAIN, PURCHASE ORDERS and NEXVIA REPORTING above.
+- Xero: accounting, payroll, statutory reporting. Client invoices export from Nexvia. Invoice reminders currently off (template mismatch) — switching them back on is Marianne's. Connected to Nexvia as "Formclad 2026", active, payroll active.
+- EzzyBills: invoice capture, and the front of the bill chain — see THE BILL CHAIN above.
+- PayApps: used by some builders — note the Nexvia PayApps integration runs the other way (it syncs contracts Formclad awards, not claims Formclad submits) and is not connected. DocuSign: used by Chappell.
+- Master Builders SA platform: SWMS.
+- SharePoint and Microsoft 365: documents, registers (including the Tender Tracker), workflows.
+- POWER AUTOMATE — diagnosed 20 Sep 2026. Three flows, all built 28 August, none of them working:
+    "AI Prequalification" — on, and has failed every run since the day it was created. It fails at the "Run a prompt" step with "Missing Copilot Credit or AI Builder credit capacity". That is a licensing limit, not a bug: AI Builder credits have never been purchased. Editing the flow cannot fix it.
+    "Create Tender Tracker From Folder" — currently switched off. Ten runs on 11 Sep, each dead in about 150ms, all with "Action 'Create_item' failed: The passed in field 'AIStatus' could not be found". It is writing to a SharePoint list that has no AIStatus column. This one is a small, real fix and is the first to do, because a working Tender Tracker list is what everything else hangs off.
+    "AI Tender Review Assistant" — on, and every run reports Succeeded, but it does nothing. The trigger fires, a Condition matches neither of its two cases, and the run exits in about 60ms. A healthy-looking run history that performs no work.
+  DIRECTION: do not buy AI Builder credits. Let Power Automate do the mechanical half — watch the folder, create the list row, fill in dates, names, paths and status — and do the reading and judgement in Claude against that list. Treat the Tender Tracker as manual until the AIStatus fix is made.
+- COPILOT AGENTS (updated 23 Sep 2026). Run manually by the coordinator. Built in Microsoft 365 Copilot Agent Builder, because Mairead has Copilot only.
+    Prequalification Agent — unchanged.
+    ESTIMATE BUILDER AGENT — BUILT in Copilot 23 Sep 2026, IN TESTING.
+      Instructions: item 10c. Reads the scope of works, drawings, spec,
+      markups and Efficaxone take-off; maps each take-off line to a work
+      package and item; records how much waste Efficaxone already built in
+      and whether quantities are rolls, packs or lengths; lists scope gaps,
+      pricing needed, manual Items, commonly missed items, RFIs and
+      suggested loadings with drawing references. It never calculates. Its
+      table is laid out for V8; while V8 is paused, test it on its written
+      findings. First test: Estia Salisbury, against the problems listed in
+      item 13(e). Kept separate from the Review Agent so the review is
+      independent of the build.
+    ESTIMATE REVIEW AGENT — the gate before submission, so Travis sees only
+      escalated questions rather than every estimate. Instructions: item 10b.
+      Reads the tender's own folder (no separate pack) and the Pricing Full
+      Breakdown report (T1). Knowledge sources should be: Pricing Settings,
+      Estimating Rules of Thumb, Commercial Rules & Delegation, Approval
+      Authorities, Client Grades (published), the Nexvia master, the Tender
+      Tracker, and the Tenders & Estimates library. Code interpreter ON; web
+      search OFF. Whole sites pull in Superseded folders with old figures, so
+      prefer named folders and files; the instructions tell it to ignore
+      Superseded folders either way. Before relying on it: the Brain copy of
+      Commercial Rules must hold the v2.1 wording (item 11), and the
+      duplicate QA reference copies should be cleared from personal OneDrive.
+      Rollout: test on three past tenders (one known mispriced, one broken
+      on purpose), run it alongside Travis on the next five to ten, record
+      each disagreement in Planner, then switch over.
+  Claude is the second opinion for Sofia on large or borderline tenders
+  (above the size guide, or escalated to both approvers).
+- External take-off: Efficaxone for PROCEED tenders unless otherwise assigned.
+- Naming traps in Nexvia: "Contract Management" only adds fields to purchase order templates; "Workflow" is a project checklist with no automation; "Breakdown" means three different things. See the Diagnosis and Fix document.

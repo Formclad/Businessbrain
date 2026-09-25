@@ -1,0 +1,272 @@
+FORMCLAD – PROJECT DELIVERY, CONTRACT TO CLOSE-OUT – CURRENT
+Version 1.1 | 23 September 2026
+Owner: Sofia (General Manager) for the commercial side; Travis (Director) for the site side.
+
+WHY THIS EXISTS
+The Brain already covers the commercial ends of a job: contract review
+(Subcontract Agreements), Nexvia setup (Nexvia Setup Procedure), variations,
+claims and close-out. Nothing covered the middle — handover, measuring,
+ordering, bookings, scheduling, and who talks to the builder about what.
+This document is that middle, and the spine that links the others in order.
+Where another document holds the detail, this one points to it rather than
+repeating it.
+
+
+=====================================================================
+WHO DOES WHAT
+=====================================================================
+
+Formclad has no full-time project manager. The role is split BY TYPE OF
+WORK, not by job, matching the Approval Authorities:
+
+  SOFIA – COMMERCIAL PM. Contract, Nexvia setup, purchase orders, pricing
+    and submitting variations, claims, retention, job result.
+    Works Formclad Mondays and Fridays (Thursday pay only).
+
+  TRAVIS – SITE PM. Scope, programme, measuring sign-off, order quantities,
+    crew allocation and the labour board, quality, identifying and agreeing
+    variations on site. Moves between jobs.
+
+  SITE SUPERVISOR (leading hand on each job). Travis's eyes and hands on
+    site when he is elsewhere. See DELEGATION below.
+
+  MAIREAD – handover pack from the estimate.
+  MARIANNE – POs, bills, claim issue and receipt tracking.
+
+THE RULE THAT MAKES THE SPLIT WORK: anything that cannot wait until Monday
+or Friday sits with Travis or the site supervisor, never with Sofia.
+
+
+=====================================================================
+BUILDER CONTACT – TWO CHANNELS, ONE INBOX
+=====================================================================
+
+Builders run two channels themselves: a contracts administrator or project
+manager in the office, and a site manager or supervisor on site. Formclad
+mirrors that. Each channel has one Formclad owner, so the builder is never
+answered by two people saying different things.
+
+  OFFICE CHANNEL – Sofia.
+    Contract, programme DOCUMENT, drawings and revisions, prequalification,
+    insurances, portal access, variations (pricing and submission), claims,
+    payment, retention.
+
+  SITE CHANNEL – Travis (site supervisor day to day).
+    Start dates, access, set-out, deliveries, crane days, hold points,
+    daily coordination, defects walk.
+
+  WHO SENDS THE PROGRAMME REQUEST. Whoever already holds the contract
+  thread — normally Sofia, because the programme is part of contract
+  review: you cannot check programme dates, LDs or EOT exposure without it.
+  Ask in the same reply as the contract acknowledgement, cc Travis.
+  Once work is near, Travis takes over the LIVE programme with the site
+  manager (look-aheads, date changes). The document comes via Sofia; the
+  day-to-day dates come via Travis.
+
+  CC RULE. Every builder email on a job cc's the other PM and
+  admin@formclad.com.au, so nothing lives only in one person's inbox and
+  nothing waits for Sofia's Monday. Anything with a clock on it (variation
+  notice, EOT notice, defect notice) is answered by whoever sees it first.
+
+  Record the builder's two contacts in the contract summary and the
+  Builder Profile.
+
+
+=====================================================================
+DELEGATION – WHAT THE SITE SUPERVISOR CAN DO
+=====================================================================
+
+Principle: the supervisor DOES and RECORDS; Travis DECIDES and COMMITS.
+Anything that changes money, scope or dates with the builder stays with
+Travis.
+
+  SUPERVISOR CAN DO                         TRAVIS KEEPS
+  Check-measure and record it               Signs off the order list
+  Daily hours check in the Nexvia app       Weekly % complete per package
+  Pre-start / toolbox, SWMS sign-on         Writes / approves the SWMS
+  Check deliveries against the order        Decides replacement / back order
+  Photos, site diary, ITP and install       Final quality sign-off
+    checks in the app
+  Spot a variation: photo it, note who      Agrees the variation with the
+    directed it, tell Travis SAME DAY         builder; confirms in writing
+  Day-to-day coordination with the          Commits to programme dates,
+    builder's site supervisor                 access or sequence changes
+  Report shortages, damage, delays          Escalation triggers (Part A)
+
+Supervisor must NEVER: agree to extra work or a price, accept a changed
+start date, or sign builder paperwork that changes scope.
+
+The supervisor needs: Nexvia app access with checklists and audits, the
+job's drawings (current revision), the order list, the SWMS, the builder
+site contact's number, and the HOURS BUDGET PER PACKAGE. Crews who know
+the target usually hit it.
+
+
+=====================================================================
+THE SEQUENCE
+=====================================================================
+
+1. CONTRACT ARRIVES (day 0)
+   [ ] Receiver saves it to 01 - Commercial, "UNSIGNED [date]". (S or T)
+   [ ] Reply to acknowledge. In the same email ask for: the programme,
+       current drawings (issued-for-construction revision), builder site
+       contact, induction and portal requirements. (Sofia, cc Travis)
+   [ ] Review against the Subcontract Agreements checklist. (Sofia)
+   [ ] Check programme dates and access against what was priced. (Travis)
+   [ ] Anything not matching the quote qualifications: raise in writing
+       BEFORE signing. (Sofia)
+   [ ] Sign, save SIGNED copy, fill the one-page contract summary, diarise
+       claim date and notice periods. (Sofia)
+   [ ] PENCIL the job onto the labour board from the builder's programme
+       and the crew-days calculation (see SCHEDULING). (Travis)
+
+2. JOB SETUP (Sofia's next Monday)
+   [ ] Convert tender to project; Nexvia Setup Procedure B1–B7.
+   [ ] Contract sum, terms, retention into Nexvia; upload agreement.
+   [ ] Project folder with 05 - Close-Out.
+   [ ] Builder Profile checked: claim method and cut-off.
+   [ ] Prequal documents sent if asked (insurances, licence, SWMS).
+
+3. HANDOVER MEETING (30 min – Travis, Sofia, Mairead; supervisor if known)
+   [ ] Walk the estimate package by package: hours, materials, wastage,
+       crane/EWP/scaffold allowances, exclusions, long-lead items.
+   [ ] Convert hours per package into crew-days (see SCHEDULING).
+   [ ] Name the site supervisor for the job.
+   OUTPUT: Travis and the supervisor know the hours budget and the
+   crew-days per package. Nothing is ordered before this meeting
+   (Part A: 100% handover).
+
+4. BEFORE SITE (2–6 weeks out)
+   [ ] Compare IFC drawings with the tendered revision. Differences are
+       possible variations — flag now. (Travis)
+   [ ] Colour, profile and product confirmed with the builder in
+       writing. (Travis, via site channel or Sofia if contractual)
+   [ ] Shop drawings / flashing profiles submitted and approved if
+       required. (Travis)
+   [ ] ORDER IN TWO STAGES:
+       Stage 1 – LONG-LEAD items ordered early from drawings (special
+         colours, profiles, insulation, anything weeks out).
+       Stage 2 – CUT-TO-LENGTH sheets and flashings ordered only after
+         the check-measure.
+   [ ] Check-measure on site once purlins are up. (Supervisor or Travis;
+       Travis signs off the order list)
+   [ ] Large quantities quoted, not price-booked. (Sofia)
+   [ ] POs raised at budgeted amount, coded to the work package. (Sofia /
+       Marianne) Order placed with a delivery date.
+   [ ] Crane, EWP, scaffold, edge protection booked; crane paperwork into
+       the builder's portal. (Travis)
+   [ ] SWMS on Master Builders SA; crew inductions booked. (Travis)
+   [ ] Start date agreed with the builder's site manager; crew allocated.
+       (Travis)
+   [ ] PRE-START MEETING on site with the builder's site manager: access,
+       set-out, deliveries, laydown, crane days, hold points. (Travis +
+       supervisor)
+   [ ] FIRM the job on the labour board. (Travis)
+
+5. ON SITE – see SCHEDULING AND WEEKLY CONTROL below.
+
+6. MONTHLY CLAIM (see Getting Paid)
+   By the 18th – variations priced and approved.
+   By the 20th – Travis gives % complete per package (the same figures
+     as the Friday check).
+   By the 23rd – Sofia: Budget Checked, Import Claim Data (Project
+     Breakdown).
+   By the 25th – issued, or earlier if the builder's cut-off is earlier.
+   Marianne tracks payment.
+
+7. CLOSE-OUT – start two weeks before finishing (see Job Close-Out).
+
+
+=====================================================================
+SCHEDULING AND WEEKLY CONTROL
+=====================================================================
+
+WHAT WE DO AND DO NOT SCHEDULE
+With five field staff, the question that matters each week is WHO IS
+WHERE, not what hour a single task starts. So:
+  YES – one labour board across all jobs.
+  YES – crew-days per work package, worked out from the quoted hours.
+  NO  – a detailed per-job Gantt chart in Nexvia or anywhere else. It
+        takes hours to build and is out of date by the first rain day.
+        The builder's programme and two-week look-ahead do that job.
+Revisit this if the field team grows well beyond five or jobs start
+overlapping heavily.
+
+CREW-DAYS FROM QUOTED HOURS
+  Quoted hours for the package ÷ (crew size × about 7 productive hours)
+  = days on site.
+  Example: 168 hours of Roof Covering with a crew of 3 → about 8 days.
+  Add crane days, builder hold points and access set-up. That is the
+  job's duration and it goes on the labour board.
+  Use productive hours, not paid hours — the same basis the pricing uses.
+
+THE LABOUR BOARD
+  Rows: the five field employees (and Travis when on tools).
+  Columns: the next 4–6 weeks.
+  Cells: the job each person is on. Also mark leave, crane days,
+  inductions and deliveries.
+  Where it lives: a whiteboard or one shared sheet in SharePoint.
+    Check first whether Nexvia has a scheduling or calendar feature (ask
+    Tosin). If it does, use it rather than adding another tool. Do not
+    buy a separate scheduling product.
+  When a job goes on:
+    Pencilled – when the contract and programme arrive (step 1).
+    Firmed – at the pre-start meeting (step 4).
+    Reviewed – every Monday against each builder's two-week look-ahead.
+  Owner: Travis. The board is what shows two jobs landing in the same
+  week before it happens, not after.
+
+THE WEEK ON A LIVE JOB
+  MONDAY (Travis)
+    [ ] Update the labour board from each builder's look-ahead.
+    [ ] Check orders and deliveries needed for the next two weeks.
+    [ ] Confirm each supervisor knows this week's packages and their
+        hours target.
+  DAILY (Supervisor)
+    [ ] Pre-start / toolbox; SWMS sign-on.
+    [ ] Crew log hours in the Nexvia app against the right work package
+        before the cut-off; supervisor checks nothing is unassigned.
+    [ ] Deliveries checked on arrival; shortages and damage reported.
+    [ ] Photos, diary, ITP and installation checks in the app.
+    [ ] Variations flagged to Travis the same day (see Variations).
+  FRIDAY (Travis, then Sofia)
+    [ ] THE HOURS CHECK, per work package:
+          % complete        – how far through is it?
+          hours used        – from the app
+          hours remaining   – Travis's honest estimate to finish
+        If hours used is well ahead of % complete (for example 60% of
+        hours gone at 40% done), that is the warning. Over 10% forecast
+        overrun is a Part A escalation trigger.
+    [ ] Sofia pulls the reports and asks Claude for the weekly review
+        (see Weekly Routine). Anything site-related goes back to Travis
+        as a specific question.
+  MONTHLY
+    The Friday % complete figures ARE the claim percentages. One set of
+    numbers, not two.
+
+WHY THIS MATTERS
+An overrun caught in week two can still be fixed — more crew, a
+different sequence, a variation claim, a conversation with the builder.
+Caught at claim time, it is just a loss.
+
+
+=====================================================================
+WHAT GOOD LOOKS LIKE
+=====================================================================
+- The builder always knows who to call about what, and gets one answer.
+- Nothing time-critical waits for Sofia's next Formclad day.
+- Every field employee's next four weeks are visible on one board.
+- Every live package has % complete, hours used and hours remaining
+  updated each Friday.
+- No sheet is ordered off drawings alone.
+- No variation is built on a verbal instruction.
+- Any of us can open the project folder and see where the job is.
+
+
+CHANGE LOG
+23 Sep 2026 – v1.1. Added SCHEDULING AND WEEKLY CONTROL: crew-days from
+quoted hours, the labour board, and the Monday / daily / Friday rhythm
+with the weekly hours check. Labour board steps added to the sequence.
+23 Sep 2026 – v1.0. Created to cover handover, measuring, ordering,
+bookings, builder contact and supervisor delegation between the
+contract and close-out documents.

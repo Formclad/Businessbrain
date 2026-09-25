@@ -1,0 +1,556 @@
+FORMCLAD – NEXVIA: WHAT IS WRONG AND HOW TO FIX IT – CURRENT
+Version 1.2 | 19 September 2026
+Owner: Sofia (General Manager)
+
+Built from: the Formclad Nexvia admin settings (read 19 September 2026), the
+V7.3 estimate import master, the Nexvia public knowledge base, and the
+Formclad-Nexvia correspondence and meeting records from February to September 2026.
+
+
+THE SHORT VERSION
+
+Nexvia is not misconfigured. It is half-configured, and the half that is
+missing is the half only Formclad can supply.
+
+Everything a vendor can do alone has been done: Xero is connected and live,
+the chart of accounts is loaded, tax rates are set, a labour rate card exists.
+Everything that required Formclad to decide how its own work breaks down has
+not been done: cost categories, cost codes, services, item groups and material
+cost categories are all empty.
+
+There are two root causes, and between them they produce nearly every symptom.
+
+  ONE - the cost structure was never built. Cost categories, cost codes and
+  material cost categories are empty, so bills have nothing to land on. There
+  are also no purchase orders, so bills have no PO line to match against
+  either. Hence Miscellaneous.
+
+  TWO - estimates are built flat, with no fixtures. Extent of Works is
+  generated from top-level fixtures, so with none there is nothing to generate
+  and labour has nowhere to sit. Hence Unassigned.
+
+And the two are connected: where "Cost to Complete - Use Extents" is on, the
+missing extents also empty the breakdown list that bills must be coded to. See
+THE THREE MACHINES.
+
+Everything else follows. The breakdown offers nothing but "default" because
+nothing is tagged. Every project is structured differently because the V7.3
+master contains two contradictory standards. The progress claim shows two
+levels because the wrong import mode is selected. Profit per job cannot be
+trusted because half the costs are unallocated and the labour rate exists in
+three conflicting versions.
+
+These are not eight problems. They are two, plus their consequences.
+
+The fix is roughly two days: one day of decisions, one day of entry. It is not
+ongoing work, and nothing else worth doing is possible until it happens -
+including any AI automation of the administration.
+
+
+WHAT YOU ASKED FOR IN FEBRUARY, AND WHERE IT LANDED
+
+The discovery meeting on 19 February 2026 recorded three priorities, in order:
+
+  1. Fix the financial workflow between BuildEx, Xero and Nexvia - retention,
+     RCTI, progress claims. Specifically the ability to edit a progress claim
+     after sync and push the update to Xero. Marianne flagged that the
+     BuildEx-Xero sync produces variances needing manual reconciliation.
+
+  2. See job profitability properly - profit per job, and profit per hour
+     worked - instead of the 40% global markup plus hours-based rate.
+
+  3. Replace Deputy, and get supervisors using the mobile app for site
+     reporting.
+
+Implementation was scoped at 8-12 weeks, which put completion around May.
+
+As at 19 September, none of the three has landed. The bill import was still
+failing on 17 September. Profit per job cannot be trusted while labour and
+bills sit unallocated. Timesheet approvals still arrive from buildlaunch, not
+Nexvia.
+
+The implementation progress report dated 30 August contains nothing at all -
+no tasks completed, none overdue, none upcoming. The project plan is not being
+driven.
+
+Recommended: ask Tosin directly whether Formclad is still in an implementation
+phase, and what remains on the plan. Do this before spending money on anything
+new.
+
+
+THE THREE MACHINES
+
+The single most useful thing to understand about Nexvia is that three
+different systems look similar, are easily confused, and do not overlap at
+all. Most of the confusion to date comes from using one to try to fix another.
+
+  EXTENT OF WORKS - labour only.
+  A list of work items with a name, a quantity and allocated hours. When crew
+  log time they pick an extent and a labour type, and the hours land against
+  it. That is all it does. It has no effect on bills, costs or what the client
+  sees.
+
+  BREAKDOWN - client presentation only.
+  A set of custom headings. Estimate lines are pulled under those headings by
+  Group ID. It sits on Commercial Tenders and is deliberately independent of
+  the assembly tree. That independence is the point of it.
+
+  BUDGET COST CODING - where bills land.
+  Cost categories, cost codes and material cost categories. Separate again.
+
+Extents do not affect claims. Breakdowns do not affect labour tracking.
+
+BUT NOTE: "breakdown" means three different things in Nexvia, which is a large
+part of why this has been so hard to reason about.
+
+  1. The TENDER BREAKDOWN - client quote headings, populated by Group ID.
+  2. The COST TO COMPLETE BREAKDOWN - what each cost is assigned to. This is
+     the one being chosen when importing a bill.
+  3. The EXTENT OF WORKS BREAKDOWN - budget versus actual per extent.
+
+And the three machines are connected at one point. When "Cost to Complete -
+Use Extents" is ticked on a project, the Cost to Complete breakdown options
+BECOME the extents. Our Lady has that setting on and has no extents, so the
+list is empty - which is exactly the reported symptom of "the breakdown
+doesn't exist, it just says miscellaneous or default".
+
+So the bills problem and the labour problem are not two independent failures.
+No fixtures in the estimate means no extents on the project, which means the
+crew's hours have nowhere to land AND bills have nothing to be coded against.
+One cause, two symptoms, two different screens.
+
+  TO CONFIRM: that the empty extent list is what empties the bill breakdown
+  dropdown. It fits every symptom and every document, but worth eyeballing on
+  a live bill before building a plan on it.
+
+
+WHY LABOUR GOES TO UNASSIGNED
+
+The crew can only book time against an extent that exists. If a project has no
+Extent of Works, every hour falls into Unassigned and has to be placed by hand.
+
+Our Lady Queen of Peace (J001217) shows it plainly: 53 hours allocated against
+the Site labour group with zero used, and 157.5 hours sitting in Unassigned at
+$11,303.88. Cost to Complete then reports "Not Allocated $11,303.88" and the
+budget summary reads minus 22.65% margin. The job is not necessarily losing
+money. The hours have nowhere to sit. (Some of those hours are test entries
+and should be removed before that project's numbers are used for anything.)
+
+Extents are created per project, not globally. The step is being skipped at
+conversion - and when it has been tried, it produced something not worth
+keeping. That is a real finding, not a failure of nerve, and it has a cause.
+
+  ACTIVATION CONVERTS TOP-LEVEL FIXTURES INTO EXTENTS.
+
+  Not assemblies. Fixtures. This single fact governs everything below, and it
+  is confirmed in Nexvia's own documentation: "The Extent of Work is based on
+  the top-level Fixtures in the Assemblies. In each Fixture (i.e. Extent of
+  Work) is the labour that has been estimated to produce the Fixture."
+
+  Fixture = Extent of Work. One to one.
+
+  IMPORTANT: only the TOP level counts. The activation dialog "only lists the
+  top-most level of Fixtures and does not list fixtures that are within other
+  Fixtures". A nested fixture never becomes an extent. The standard therefore
+  needs exactly ONE level of fixtures - the five work packages, no deeper.
+
+  Also note: the default Allocated Percent is set under Settings > Subsidiary
+  in the Admin Portal and can only be changed by Nexvia. Ask Tosin what
+  Formclad's is set to before running this on a live job, since it decides how
+  many of the quoted hours are allocated by default.
+
+  Formclad estimates have been built flat - Assembly = work package, no
+  fixtures - following the older standard in V7.3. With no fixtures to convert,
+  there is nothing to split by and the hours collapse into a single lump per
+  assembly. Our Lady's Budget > Hours holds exactly one row, "Roofing Labour -
+  Site", 53 hours, for the whole job.
+
+  So the choice on offer was a single meaningless bucket, or the "Create Group"
+  / "Create All" option, which consolidates each labour type across the whole
+  job into one extent and deletes the individual rows. Nexvia's own wording:
+  it "allows a Labour Type to be removed from the individual Extents and added
+  as an Extent". That produces extents called "Roofing Labour" and "Cladding
+  Labour" - which tells you nothing, because labour type is already a separate
+  field on the time entry.
+
+  Neither option is worth having. The feature is not the problem. The estimate
+  structure feeding it is.
+
+  DO NOT USE "Create All" or "Create Group". Build fixtures in the estimate and
+  let the fixtures become the extents.
+
+  Fix, per job, about ten minutes - once estimates carry fixtures:
+    1. Convert the tender to a project.
+    2. Budget > Hours > "Import Labour Materials" to create the budgeted hours
+       rows from the assembly labour.
+    3. Check the rates on those rows (see THE LABOUR RATE PROBLEM below -
+       do not skip this).
+    4. Budget > Assembly > Options > "Activate Extent of Work". Leave the
+       fixture rows as they are. Check the allocated percentages, adjust hours
+       if needed, then "Create Extent of Works".
+    5. Confirm on the project Modify screen that Mobile Time Tracking,
+       Production Time Tracking, Enable Cost to Complete and "Cost to Complete
+       - Use Extents" are ticked.
+    6. Open the app on one job and confirm the crew see the work packages -
+       Roof Covering, Roof Plumbing and so on - not a list of labour types.
+
+  WARNING: "Create Extent of Works" can only be run ONCE per project. Later
+  edits go through Admin portal > project > Extent of Works tab. The 'Extent of
+  Works' permission must be set on the user card.
+
+  TO CONFIRM: the exact behaviour when an assembly has no fixtures is inferred
+  from the documentation and from Our Lady's single budget row. Worth verifying
+  on a live project before relying on it.
+
+  Build the extent grid once on the next job and save it as a template.
+  Templates carry labour types, allocated hours, quoted hours and quantities,
+  and import into any project. After that, setup is import, adjust hours, done.
+
+  Existing jobs with unassigned hours - Xavier College, 8 Barrelder Ave,
+  Colonist Hotel, Goodwood Rd and others - need the Admin portal route, since
+  activation from the assembly is one-shot. Worth doing on active jobs so
+  claims can be supported. Jobs near completion probably are not worth it.
+
+
+WHY BILLS GO TO MISCELLANEOUS
+
+Two causes stacked on top of each other, which is why it has felt unfixable.
+
+  First: there is nothing to code a bill to. Cost Categories, Cost Codes and
+  Material Cost Categories are all empty. Nexvia's own description of the last
+  of these is "material cost categories for actual matching when using a
+  breakdown" - the exact mechanism that is failing, and the table is blank.
+  Where "Use Extents" is on, the list is the extents - which do not exist
+  either.
+
+  Second: there are no purchase orders to match against. Supplier bills are
+  designed to match PO lines on receipt. Formclad does not raise POs, so there
+  is no line to match and every bill needs manual coding - into a structure
+  that does not exist.
+
+The February plan was to introduce POs for supervisors. It was never done.
+
+On the bulk import failures specifically: Nexvia's chart of accounts holds
+twelve accounts, and all of them are job costs -
+
+  200      Sales (Income)
+  210      Service Income (Income)
+  305.1    Consultant Fees - Project-specific
+  310      Cost of Goods Sold
+  311      Labour Hire
+  312      Hire of Plant & Equipment
+  315      Materials & Supplies
+  352      Freight & Delivery - Job-specific
+  475      Subcontractors
+  477      Wages & Salaries - Direct
+  480      Safety Costs - Dry
+  860      Rounding
+
+Xero holds the full chart, including every overhead. When the bulk import runs
+across all Xero bills, anything coded to an overhead account hits an account
+Nexvia has never had and fails. Account 454 is one of those.
+
+  Do NOT fix this by adding 454 to Nexvia. That would pull overheads into job
+  costing and destroy the profit-per-job figure this is all meant to produce.
+  Fix it upstream: filter the Xero export so only job-coded bills come across,
+  and add to Nexvia only those accounts that genuinely are job costs and are
+  genuinely missing.
+
+This has been running since at least 7 May, when a session was held titled
+"Bill Imports & Xero Chart of Accounts".
+
+
+WHY THE PROGRESS CLAIM SHOWS TWO LEVELS
+
+This is an import mode, not a hierarchy problem.
+
+When a progress claim is built, Accounts > Client Progress Claims > "Import
+Budget Data" offers a dropdown of import modes:
+
+  Project Breakdown             top-level headings only
+  Project Breakdown (Expanded)  headings plus every line
+  Project Budget                consolidated budget sections
+  Assemblies                    each assembly, with fixtures and items as
+                                separate claim lines
+
+Formclad is using Assemblies. That mode is designed to break fixtures and
+items out as individual claim lines - which is why Roof Plumbing arrives with
+Custom Orb underneath it.
+
+  Fix: build a Breakdown with the headings Formclad actually claims against -
+  Roof Covering & Insulation, Roof Ancillaries, Roof Plumbing, Wall Cladding,
+  Wall Ancillaries - and use Project Breakdown mode. One level, every job,
+  whatever the estimate looks like underneath.
+
+  Selecting Project Breakdown opens a SECOND dropdown, "Select a breakdown".
+  Formclad's will read "Default" and be empty, because the tender breakdown was
+  never built. That is the "it just says default" symptom. The preview also
+  carries a line called "Unassigned Costs" - the catch-all for anything with no
+  Group ID, which on current jobs would hold nearly everything.
+
+THE RED ALERT ICON. If a red icon appears beside "Total Budget Ex" after
+import, it means the figure does not match the current Running Sale price as at
+the last budget check. Two fixes: run a Budget Check in the Budget Summary, or
+adjust the budget figures directly. So a claim that will not reconcile is
+usually reporting that the budget has not been checked since something moved -
+not that the claim is broken.
+
+AFTER IMPORT, use "Lock Totals" to stop the figures being edited underneath
+you. The action is logged and reversible. It needs the Lock/Unlock Client
+Progress Claims permission on the user card.
+
+TRAP: changing the client on Summary > Modify WIPES the entire Client Progress
+Claim section, because the section is client-specific. Budget data can be
+re-imported afterwards, but any manual claim work is gone. Finish the claim
+work before touching the client.
+
+ACCESS: Client Progress Claims requires being the Project Manager for the
+project, a member of the Accounts Management team, or being added manually via
+the Access tab.
+
+On the maths not reconciling: a Group ID assigned to a parent Assembly or
+Fixture row is NOT inherited by the fixtures, materials or hours inside it.
+Services and Items inherit. Assemblies do not. Any line not individually
+tagged sits outside the breakdown and the totals will not add up.
+
+Tosin said exactly this on 17 August - every item in the assembly needs
+tagging, fixtures, materials and labour. It was filed as a note about a report.
+It is the answer to the claim problem.
+
+
+WHY EVERY PROJECT IS SET UP DIFFERENTLY
+
+The V7.3 master contains two contradictory hierarchy standards in the same
+workbook.
+
+  The Notes sheet and the Copilot prompt say: Assembly = whole job, building
+  or stage. Fixture = commercial work package (Roof Covering & Insulation,
+  Roof Ancillaries, Roof Plumbing, Wall Cladding, Wall Ancillaries).
+
+  The Import Standard sheet says: Assembly = commercial work package, items sit
+  directly under Assemblies by default, Fixtures are optional and should not be
+  created casually - and lists Roof Covering & Insulation as an Assembly.
+
+These produce completely different trees. The sheet labelled legacy also calls
+itself the current source of truth. The Copilot prompt references an "Import
+Standard V7" sheet.
+
+Whichever sheet is followed on the day determines the shape of the job, and
+since the assembly tree feeds the breakdown, the extents and the claim, that
+choice propagates into everything downstream.
+
+  These two are NOT equally valid. The V7 structure is the correct one, and
+  the reason is Extent of Works:
+
+    Activation converts top-level FIXTURES into extents. Under the V7
+    structure, the fixtures are Roof Covering & Insulation, Roof Ancillaries,
+    Roof Plumbing, Wall Cladding and Wall Ancillaries - which become exactly
+    the extent list the crew should be choosing from, and exactly the level
+    Formclad claims at. Under the flat structure there are no fixtures, so
+    there is nothing to convert and labour has nowhere to go.
+
+  The flat standard also looks attractive because it seems to fix the
+  two-level progress claim. It does not - that is an import mode, handled
+  above - and it breaks labour tracking as the price of a problem it was never
+  solving.
+
+  Fix: make V7 authoritative. Assembly = the building or stage. Fixtures = the
+  five standard work packages, at one level only. Delete the older Import
+  Standard sheet from the master rather than leaving it in as "legacy",
+  because it is currently being followed. Reissue as V8 with one standard in
+  it and a line explaining why fixtures are mandatory.
+
+  Resolve this before the next tender is priced, not after. Every estimate
+  built flat between now and then is another project that cannot track labour
+  and cannot code its bills.
+
+
+THE LABOUR RATE PROBLEM
+
+There are three rate cards for the same labour types, and they disagree.
+
+  Roofing Labour, cost per hour / charge-out:
+    V7.3 master (Labour_Factors)     $84.00 / $110.00
+    Our Lady project budget row      $84.00 / $115.00
+    Nexvia Labour Type settings      $80.00 / $120.00
+
+The V7.3 Commercial Settings sheet records $84.00 as CURRENT,
+management-confirmed 4 September 2026. Formclad Pricing Settings say $80.00.
+
+This is why $84 becomes $80 on import. It is not a bug. V7.3's own
+specification states that where Type = Labour, the unit cost is taken from the
+matched Labour Type - so Nexvia substitutes its own figure and the
+spreadsheet's is discarded. Marianne reported the symptom in July.
+
+  Fix: decide the productive field labour cost once - $80 or $84 - and the
+  charge-out for each labour type once. Then update, in this order:
+    1. Nexvia Labour Type settings (these win on import)
+    2. V7.3 Labour_Factors and Commercial Settings
+    3. Formclad Pricing Settings in the Brain
+    4. Any existing project budget rows still carrying old rates
+
+  Until this is done, no profit-per-job or ROR figure from Nexvia can be
+  trusted, because the cost side is wrong by up to 5%.
+
+The full Nexvia labour type table as at 19 September 2026:
+
+  Travel, Admin/Accounts, Contracts Admin      $60.00 cost / $90.00  charge
+  Apprentice, Trade Assistant                  $70.40       / $110.00
+  Cladding, Roofing, Site Labour - General     $80.00       / $120.00
+  Inspections & Reports, Set Out / Measure     $84.00       / $125.00
+  Leading Hand / Supervisor, Away / Remote     $84.00       / $130.00
+  Project Management                           $98.60       / $135.00
+  Double Time - Labour                         $168.00      / $200.00
+
+Note also: the Rates table (used for payroll export) is empty. Normal time,
+time and a half and double time are all $0.00, with one active rate called
+"Default" at zero and "Supervisor" deleted. This may be legitimate if it is
+only used for casual staff, but it is worth confirming, since payroll export
+was one of the February priorities.
+
+
+WHAT IS EMPTY, AND WHAT IS NOT
+
+  Empty:
+    Cost Categories
+    Material Cost Categories
+    Cost Codes
+    Services
+    Item Groups
+    Extent of Works (global template list)
+    Rates (all values $0.00)
+
+  Set up and working:
+    Xero - connected to "Formclad 2026", active, payroll active, job number
+      and name exported to reference and narration
+    Chart of Accounts - 12 entries, all job costs
+    Tax Rates - GST 10%, FRE 0%, GNR, N-T
+    Ext of Work Types (Labour Types) - 14 types with cost and charge-out
+    Labour Groups - Office, Site
+
+  Available but not connected:
+    Payapps - inactive, never connected (token expiry 01/01/1970). Note this
+      integration syncs against purchase order lines, so it is built for the
+      party awarding the contract. It will not push Formclad's claims up to a
+      builder's Payapps. It could in principle be used for Formclad's own
+      subcontractors.
+    PayHero, Lentune Import, Mozaik Import - not assessed.
+
+  Named misleadingly - three to know about:
+    "Contract Management" does not manage contracts. It adds custom variable
+      fields to purchase order templates. No head contracts, subcontracts,
+      variations, retentions or claims.
+    "Workflow" does not automate anything. It is a project checklist -
+      sections (Award, Project, Handover), tickable items, critical flags,
+      progress bars. It can be pushed to the Client Portal, which is a
+      reasonable way to show a builder progress without writing an email, but
+      it has no triggers, notifications or document generation.
+    "Breakdown" means three different things - see THE THREE MACHINES above.
+
+
+THE FIX, IN ORDER
+
+Everything below depends on the thing above it. Doing them out of order wastes
+the work.
+
+  1. Settle the labour rate. One cost, one charge-out per type, updated in
+     Nexvia first. Half a day, mostly decision.
+
+  2. Resolve the V7.3 hierarchy contradiction. Make V7 authoritative -
+     Assembly = building or stage, Fixtures = the five standard work packages
+     at one level. Delete the older flat standard from the master. Reissue as
+     V8. Half a day, and the single highest-value item on this list, because
+     every estimate priced flat between now and then is another project that
+     can neither track labour nor code its bills.
+
+  3. Build the cost structure. Cost categories, cost codes and material cost
+     categories that match how Formclad actually buys and builds. Then a
+     services and item library so estimates are assembled from components
+     rather than from scratch. One day of decisions with Travis, one of entry.
+
+  4. Build the Breakdown headings and switch progress claims to Project
+     Breakdown mode. Half a day. Fixes the two-level claim and the maths.
+
+  5. Run the extent setup on the next won job, save it as a template, then
+     back-fill active jobs through the Admin portal. Ten minutes per job after
+     the first.
+
+  6. Introduce purchase orders, starting with supervisors and a dollar
+     threshold. This is what makes committed costs and Cost to Complete work.
+     Ongoing change, not a one-off task.
+
+  7. Fix the Xero bill export filter so only job-coded bills come across.
+
+Only after 1-5 is the data good enough to automate anything against.
+
+
+ON AUTOMATING THE ADMINISTRATION
+
+Nexvia will not do this. Its Workflow module is a checklist, not an automation
+engine, and there is nothing else in the product that generates or chases
+administration. The automation has to come from outside - the Brain, reading
+Nexvia's data - which is what was already being reached for.
+
+The ambition is right and the order matters. Anything automated - by Claude,
+by a Copilot agent, by a Power Automate flow - reads the same data a person
+does. While labour is unassigned and bills are miscellaneous, automation
+produces confident, well-formatted, wrong answers faster than anyone can check
+them, and the errors are harder to spot because they look finished.
+
+Once the structure above exists, the automation becomes straightforward,
+because the questions have real answers to read: what did this job cost against
+budget, which labour type is over, what is committed but not yet invoiced,
+what should this month's claim be.
+
+The structure is the prerequisite, not a competing priority.
+
+
+WHAT HAS NOT BEEN CHECKED
+
+  - The remaining four sheets of V7.3, including the "Import Standard V7"
+    sheet referenced by the Copilot prompt, which may already resolve the
+    hierarchy contradiction.
+  - A real converted project's budget screen before anyone has touched it.
+  - A live bill, to confirm the empty breakdown dropdown is the empty extent
+    list.
+  - The six mobile licences and who holds them.
+  - PayHero, Lentune and Mozaik integrations.
+  - Retentions - reported as supporting automated calculation and release
+    reminders, and worth turning on, but not yet examined.
+  - The Dropbox folder of early implementation session recordings shared by
+    Christa in March.
+  - Whether the Extent of Works fix written up on 18 September was ever
+    actioned.
+
+
+CHANGE LOG
+
+19 Sep 2026 - v1.2. Claim import modes confirmed from the screen rather than
+the overview page. Added the second "Select a breakdown" dropdown and the
+Unassigned Costs line, the red alert icon and what it actually means, Lock
+Totals, the client-change trap that wipes the claim section, and the access
+requirements.
+
+19 Sep 2026 - v1.1. Fixture = Extent of Work confirmed from Nexvia's own
+documentation rather than inferred. Added the top-level-only rule for
+fixtures, the Allocated Percent constraint, the three meanings of "breakdown",
+and the Use Extents link that ties the bills problem and the labour problem to
+a single cause. Added Workflow to the misleadingly-named list.
+
+19 Sep 2026 - v1.0. Written from a live read of the Nexvia admin settings, the
+V7.3 master, the Nexvia knowledge base and the implementation correspondence
+February to September 2026.
+
+Two corrections this version makes to earlier Brain documents:
+
+  - "Formclad - Nexvia Project Setup, Extent of Works - CURRENT" v2.0 (18 Sep)
+    instructs the use of "Create All" to group extents by labour type at step
+    4. Do not do this. It deletes the fixture rows and produces extents named
+    after labour types, which duplicates a field already captured on the time
+    entry. That document has been corrected to v3.0.
+
+  - The labour rate note treating $110 / $115 / $120 as one contested figure is
+    correct and should stand. An earlier reading of the Nexvia labour type
+    table alone suggested these were simply different labour types. They are
+    not: they are three rate cards for the same labour type, in the V7.3
+    master, the project budget row and the Nexvia settings respectively.

@@ -1,0 +1,39 @@
+FORMCLAD – CLIENT GRADES (PUBLISHED) – CURRENT
+Published 18 September 2026 | Next review due: six-monthly, or after any significant project or event
+
+This file is the readable copy of the client grades for anyone working in SharePoint or Copilot. Ratings are recorded in the client ratings tool by the Commercial Approver and Operations Approver; this file is republished after each review round. If this file and the tool disagree, the tool is newer — ask for it to be republished.
+
+How to use a grade is in "Formclad – SOP Client Ratings – CURRENT". Criteria definitions are in "Formclad – Client Rating Rubric – CURRENT".
+A = 42+ (prioritise). B = 32–41 (tender when workload allows). C = 31 or below (avoid unless there is a specific reason; price the risk honestly). Provisional = graded on tender-stage criteria only, because no job has been completed.
+
+
+GRADE      CLIENT                          SCORE    NOTE
+A          Chappell Builders               48.00    Job had just started when rated.
+A          Gilmore Construction            46.25    14-day payment terms. Staging extends completion; lots of variations.
+A          Sarah Constructions             44.50    Only a small job completed; needs more data.
+A          BluBuilt                        42.75    First job great; second let down by site coordination.
+A          DonPro Building                 42.00    Newer builder, small jobs, fast payment, good relationship. Weak on systems.
+B          Claridge Construction           41.25    Domestic builder, not well aligned. Low margin, slow starts, too much hip and valley.
+B          Cook Build                      40.00    Projects were still in progress when rated.
+B          Partek                          39.75    Poor variation terms.
+B          SRM Enterprises                 38.00    Possibly a one-off development.
+C          Adelaide Custom Gates           31.00    Job and payment delayed by months; doesn't answer phone or email.
+C (review) Fora Construction               29.25    Three criteria were scored zero for "no data" rather than poor performance. Rescore on the criteria that had data before this grade is used. Live tender: Weeks Group HQ.
+
+NOT YET RATED (rate provisionally before the next tender decision)
+           SHAPE Australia (SA)                     Estia Salisbury, Castle Plaza, Modular by SHAPE Whyalla. No work awarded to date.
+           BADGE Constructions (SA)                 Junction Morphettville MPS01 & MPS04 (ECI), Castle Plaza.
+           Minuzzo                                  Bellevue Heights Primary School Redevelopment.
+           Mossop                                   Pt Lincoln Government Office facade upgrade.
+           Horizon Construction Services            St Francis of Assisi Gym, Renmark.
+           G-Force Building & Consulting            Magarey House heritage works.
+           Mykra                                    Kadina Fire Station, KFC Saint Shopping Centre. Requests pricing regularly; nothing awarded to date. Watch submitted-versus-awarded at the next review.
+
+All grades above are from the original March 2025 rating round and are due for review.
+
+
+FOR THE PREQUALIFICATION AGENT AND ANYONE PRICING
+- Check the client's grade before recommending PROCEED or NO BID, alongside scope, materials, storeys and distance.
+- An unrated client is not the same as a poor one. Flag it for a provisional rating rather than assuming.
+- A grade never overrides the labour return and margin gates in Pricing Settings. A grade-A builder with a job below the minimum return still needs commercial review.
+- For a C client, include a risk allowance for slow payment, variation disputes and coordination problems rather than absorbing it.

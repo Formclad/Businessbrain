@@ -1,0 +1,138 @@
+FORMCLAD – SUBCONTRACT AGREEMENT SWEEP – 18 SEPTEMBER 2026
+Revised 22 September 2026 after acting on it. A one-off audit of where subcontract agreements are, what is missing, and what needs action. Process is in "Formclad – Subcontract Agreements – CURRENT".
+
+WHAT CHANGED ON 22 SEP. The sweep was worked through end to end and the
+original audit turned out to OVERSTATE the problem in places and understate it
+in one. Sections A to D are now closed except where marked. Each entry carries
+its outcome. The remaining value of this document is section E and the entity
+problem.
+
+A LESSON WORTH KEEPING. The original audit recorded where copies were SEEN,
+not whether the project copy already existed. Three times the "stray" was the
+only thing that needed removing; once the canonical copy was already sitting in
+the destination under a different name; and twice a supposed duplicate was a
+ZERO-BYTE file. Before moving or deleting anything, open the destination first
+and check the file size.
+
+
+A. FILED CORRECTLY (project folder, 01 - Commercial)
+- Q1133 Goodwood Medical/ELC — Sarah Constructions, Major Works Subcontract Agreement. See entity note below.
+- Q1114 RM Williams — Chappell subcontract acceptance letter CB25012.4.23 (19 Nov 2025).
+- Q1062 Mortlock Park — Chappell subcontract 8400 (20 Aug 2025), old entity ABN.
+- Archived: Adelaide Chin Christian Church (Horizon), Le Fevre (deed of release and final payment certificate).
+
+B. IN THE RIGHT PROJECT, WRONG FOLDER
+- J001217 Our Lady Queen of Peace — Cook Build subcontract 8625 (25 May 2026), new entity ABN 84 671 176 748. Was filed under "02 - Drawings & Technical" as "JobCC260006-Sub8625..PDF".
+  DONE 22 Sep — moved to 01 - Commercial > Contracts & Scope and renamed
+  "Cook Build Subcontract 8625 – OLQP – 25 May 2026.pdf".
+
+C. ONLY IN PERSONAL FOLDERS — SAVE TO THE PROJECT
+  REWORKED 22 SEP. Two of these three were wrong.
+
+- Fora Building subcontract no. 463, Iron Mountain (21 Mar 2025) — recorded as
+  being on Sofia's Desktop only. NOT CORRECT: already filed at Archived Jobs >
+  Iron Mountain > Job25-5093-Sub463.PDF.pdf (315 KB). The Desktop copy was a
+  duplicate.
+  DONE 22 Sep — Desktop copy deleted (recycle bin). Project copy untouched.
+
+- Goodwood Road subcontract — recorded as a second copy in Mairead's Teams chat
+  files. NOT A GAP: section A already lists it as filed correctly in Q1133, so
+  Mairead's is a duplicate. This entry contradicted section A.
+  NO ACTION on the project copy. Mairead's copy is in her own OneDrive.
+
+- Le Fevre PPS subcontract acceptance CB24007.4.23 (4 Mar 2025) — recorded as
+  being in Sofia's Attachments. CORRECT: it existed nowhere else.
+  DONE 22 Sep — filed to Archived Jobs > Le Fevre as "Chappell Subcontract
+  Acceptance CB24007.4.23 – Le Fevre PPS – 4 Mar 2025.pdf" (1.16 MB).
+  Attachments copy deleted (recycle bin).
+
+D. FILED OUTSIDE THE PROJECT STRUCTURE
+- ZJ Building independent contractor agreement — recorded as three copies, home
+  undecided. WHAT WAS ACTUALLY THERE: the ZJ client folder already held the
+  signed agreement (293,662 bytes) under the unhelpful name "Formclad_ ZJB
+  Subcontractor Trade Agreement_Signed.pdf". The two files beside it that
+  looked like copies were ZERO BYTES — failed uploads from 20 Jun 2025, forty
+  seconds apart, not documents at all. A fourth, byte-identical signed copy sat
+  in Management Docs > J1051 Woods, SUMMERTOWN.
+  DONE 22 Sep — THE HOME IS THE ZJ CLIENT FOLDER: AdminHub > Clients NonProject
+  > Clients > ZJ, file renamed "ZJ Building – Independent Contractor Agreement
+  – SIGNED 2025-06-20.pdf". The two zero-byte files and the J1051 copy deleted
+  (recycle bin).
+  NOT REVIEWED, still in that folder: "Formclad_ of ZJB Subcontractor Trade
+  Agreement.docx" (39 KB), probably the Word original, and "Formclad_New
+  subcontractor onboarding induction letter.pdf". Decide whether to keep them.
+
+- Golden Grove Tavern subcontract (17 Apr 2025) — was in Management Docs >
+  J1113 Grenfell Rd, SURREY DOWNS (GG BEER).
+  DONE 22 Sep — copied to Projects > Q1113 - GG Tavern Beer Garden >
+  01 - Commercial > Contracts & Scope as "Golden Grove Tavern Subcontract
+  Agreement – GG Beer Garden – 17 Apr 2025.pdf"; Management Docs copy deleted
+  (recycle bin).
+
+- Chappell Subcontract Deed of Novation — Clients NonProject/Clients/Chappels.
+  Relates to the entity change; see below. LEFT WHERE IT IS deliberately — it
+  is a party-level instrument covering the trust-to-company change rather than
+  one project's contract, so the Chappell client folder is arguably its right
+  home. Revisit when the entity work is done.
+
+E. STILL MISSING — THE REAL GAP
+- SACRED HEART COLLEGE GIRLS BOARDING HOUSE — Chappell subcontract
+  CB26005.4.23. CONFIRMED 22 Sep to exist and to be complete. DocuSign envelope
+  bd473464-ec1a-8ded-8311-567b5aeb54d4, sent by Sarah Hack of Chappell on
+  21 July 2026, signed by Travis with Sofia as witness, COMPLETED 27 July 2026
+  (not 25 July as originally recorded — the 25th was the witness invitation).
+  The document is 46 pages plus the completion certificate.
+  STILL NOT IN SHAREPOINT. It could not be retrieved automatically: the
+  envelope was sent from Chappell's DocuSign account, and no completion email
+  carrying the PDF arrived in Sofia's mailbox — only the witness invitation, so
+  the completed copy most likely went to Travis as the signer.
+  TO DO: download it from DocuSign (or get it from Travis) and file to
+  Projects > Q1217 - Sacred Heart College - Girls Boarding House >
+  01 - Commercial > Contracts & Scope. The job is live and being claimed, with
+  a July RCTI already issued, so this is the most exposed item in this document.
+
+- PROSPECT RETAIL HUB (Chappell CB-26-007) — CORRECTED 22 Sep. This is NOT a
+  filing gap. The pre-agreement documents were requested on 17 September 2026
+  and the agreement HAS NOT BEEN SIGNED YET, so there is nothing to file. It
+  belongs on the to-do list as a live pre-agreement to respond to, not as a
+  missing document. Chappell's own note is that pre-agreement documents hold up
+  the award, so responding promptly matters.
+
+F. TENDER-STAGE DRAFTS (correctly in tender folders, no action)
+Renmark Hotel (Mossop), Xavier College Evanston (Mossop), TTG Croquet (Mossop), Semaphore Foreshore (Mossop V7), CESA Head Office (Mossop V7), Seaford Village (H. Troon), Uniting SA Eleanora Court (Kennett example).
+
+
+ENTITY PROBLEM — NEEDS ATTENTION
+Several live agreements are in the old trust name and ABN 36 633 906 403: Goodwood Road (Sarah Constructions), Mortlock Park (Chappell), Le Fevre, Fora Iron Mountain.
+On 2 July 2026 Marianne flagged that Goodwood invoices were being paid through the old entity because the subcontract was in the trust's name, and that there were inconsistencies across the official documents. A Chappell deed of novation exists, which suggests the approach is being handled builder by builder rather than as a program of work.
+Action: list every live contract still in the trust name, and for each decide novation, a new agreement, or a written variation of the party details. Until that is done, payments can keep landing in the wrong entity, which creates reconciliation and tax problems.
+STILL OUTSTANDING as at 22 Sep. Tracked in Planner.
+
+
+ALSO SURFACED
+- Our Lady Queen of Peace handover manuals: requested by Cook Build on 8 September 2026, COMPLETED AND ISSUED 18 September 2026. Save a copy of the issued pack in the project folder, and use it as the starting point for a standard handover pack. Final claim and retention release usually follow the handover, so check both are now moving.
+- Claim methods differ by builder: Sarah Constructions through PayApps with RCTIs, Chappell issues RCTIs and requires their own progress claim form, Cook Build takes progress claim and invoice. Worth recording per builder in the contract summary.
+
+
+FOLDER NAMING — CHANGED 22 SEP 2026
+"05 - Handover" was renamed to "05 - Close-Out" on the eight projects with
+recent activity: J001217 Our Lady Queen of Peace, Q1217 Sacred Heart,
+J001221 Onesteel Cavan, J001222 Mt Barker Homemaker, J001224 Xavier College
+Gawler Belt, J001226 PAE Semaphore South, J1171 Barrelder Ave, J1191 Colonades
+Hotel. Five still carry the old name because it was not clear whether they are
+live: Q1050 Rogers Ct, Q1100 Granite Grove, Q1113 GG Tavern, Q1120 Mt Osmond,
+Q1174 Dryden Rd. Rename those as you touch them.
+
+
+WHAT IS LEFT IN THIS DOCUMENT
+1. Get the Sacred Heart subcontract out of DocuSign (or from Travis) and file
+   it. Highest value item here. (E)
+2. Respond to the Prospect Retail Hub pre-agreement documents — an unsigned
+   agreement to progress, not a document to find. (E)
+3. Build the list of live contracts still in the old entity and work through it
+   with the accountant.
+4. Fill in a contract summary for each live job, so payment terms and retention
+   stop living inside the contracts.
+5. Rename the remaining five "05 - Handover" folders once their status is known.
+6. Decide on the two unreviewed files in the ZJ folder. (D)
+All of these are tracked in the Planner plan "Formclad Business Brain — Build".

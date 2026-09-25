@@ -1,0 +1,60 @@
+FORMCLAD – SUBCONTRACT AGREEMENTS – CURRENT
+Version 1.0 | 18 September 2026
+Owner: Commercial Approver (General Manager)
+
+THE PROBLEM
+Builders email subcontract agreements to Sofia or Travis. They are often not saved to the project folder or uploaded to Nexvia. The consequences show up later: nobody can check the payment terms when a claim is late, the retention percentage and release dates are unknown at close-out, notice periods for delays and variations are missed, and back charges arrive with no reference to what was agreed. A signed contract that exists only in an inbox is a contract nobody can use.
+
+THE RULE
+No subcontract agreement is signed until it has been reviewed, and no agreement is filed only in email. One destination, every time: the project folder, Nexvia, and a one-page summary of the terms that matter.
+
+
+1. WHEN AN AGREEMENT ARRIVES
+Whoever receives it (Sofia or Travis) does one thing immediately: save the file to the project or tender folder under 01 - Commercial, named "[Builder] – [Project] – Subcontract Agreement – UNSIGNED [date]". Thirty seconds, before anything else.
+If the job does not have a folder yet, save it to the tender folder.
+
+2. REVIEW BEFORE SIGNING (Commercial Approver)
+Check and record these terms — they are what the rest of the business runs on:
+[ ] Contract sum and what is included.
+[ ] Payment terms: claim date each month, certification period, payment period, method (Nexvia email, PayApps, RCTI).
+[ ] Retention: percentage, cap, release on practical completion, release at end of defects liability.
+[ ] Defects liability period length.
+[ ] Variation clause: how a variation is instructed, the notice period for claiming it, and whether verbal instructions count.
+[ ] Delay and extension of time: notice period and what has to be included.
+[ ] Liquidated damages: rate and cap.
+[ ] Security or bank guarantee requirements.
+[ ] Set-off and back-charge rights.
+[ ] Insurance requirements and whether our cover meets them.
+[ ] Warranty period required, against our 12-month workmanship guarantee.
+[ ] Programme dates and any access assumptions we priced.
+[ ] Scope attached matches what we quoted, including our stated inclusions, exclusions and qualifications.
+Anything unusual or one-sided goes to both approvers before signing. Where our quote qualifications are not carried into the contract, say so in writing before signing, not after.
+
+3. SIGNING
+Signed by the Commercial Approver, or by Travis where the terms have already been reviewed and agreed.
+Save the signed copy in the same folder as "…– Subcontract Agreement – SIGNED [date]".
+
+4. INTO NEXVIA
+[ ] Upload the signed agreement to the project's documentation.
+[ ] Enter the contract sum, payment terms and retention in the project so claims and the retention register are built from the real terms.
+[ ] Record the claim date each month for this builder.
+
+5. THE CONTRACT SUMMARY (one page per job)
+Fill this in once and it answers most questions for the rest of the job without anyone reopening the contract:
+  Project | Builder | Contract sum | Claim date | Certification days | Payment days | Payment method
+  Retention % | Retention cap | Release at PC | Release at end of DLP | DLP length
+  Variation notice period | EOT notice period | LDs rate and cap | Security required
+  Insurance requirements | Key exclusions and qualifications carried into the contract | Anything unusual
+Save it beside the agreement and reference it in the close-out checklist.
+
+6. WHAT GOOD LOOKS LIKE
+Any of us can answer, in under a minute and without opening an inbox: what is the claim date, what are the payment terms, how much retention is held, when is it released, and how long do we have to notify a variation.
+
+
+CURRENT STATE TO FIX
+- Agreements sitting in Sofia's and Travis's email that were never saved. Worth a sweep: check email against the project folders and file anything missing.
+- Existing live jobs with no agreement on file, or no terms recorded in Nexvia.
+- At least one signed subcontract acceptance (Le Fevre PPS, Chappell Builders) is filed in a personal OneDrive Attachments folder rather than a project folder.
+
+CHANGE LOG
+18 Sep 2026 – v1.0. Created after subcontract agreements were identified as arriving by email and often not being saved or entered in Nexvia.

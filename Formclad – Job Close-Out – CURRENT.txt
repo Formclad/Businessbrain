@@ -1,0 +1,71 @@
+FORMCLAD – JOB CLOSE-OUT – CURRENT
+Version 1.0 | 18 September 2026
+Owner: Operations Approver (Director) for the site and documentation; Commercial Approver (General Manager) for the money.
+
+WHY
+The end of a job is where money is left behind: a final claim not made, a variation never priced, retention that nobody asks for, or a defect that reopens a finished job. It is also the only moment when what actually happened is still fresh enough to improve the next estimate. Close-out should start before practical completion, not after everyone has moved on.
+
+Trigger: when the job is roughly two weeks from finishing on site. Not after.
+
+
+1. BEFORE PRACTICAL COMPLETION
+[ ] Walk the job with the builder's supervisor and agree the defect list in writing. A list you agreed beats a list you receive.
+[ ] Finish outstanding work and rectify defects; photograph completed work before access equipment leaves site.
+[ ] Confirm the final clean is done — no swarf or debris left on sheeting (it rusts, and it comes back as a defect months later).
+[ ] Check every variation is identified, priced, submitted and approved. Anything unapproved goes to both approvers now, not at claim time.
+[ ] Confirm all site instructions, directions and delay notices are recorded.
+[ ] Book removal of access equipment, edge protection, waste and surplus material. Return unused stock and credit it to the job.
+
+2. DOCUMENTATION FOR HANDOVER
+[ ] ITP signed off (the Goodwood Rd roof plumbing ITP is the current reference).
+[ ] Installation checks and site audits completed in the Nexvia app.
+[ ] O&M manual compiled and issued. Use the O&M Manuals folder in AdminHub > Operations & Systems, and the product data in Material Tech Data.
+[ ] Warranties issued: Formclad's 12-month workmanship guarantee plus material warranties from the suppliers.
+[ ] As-installed information, product data sheets and maintenance requirements included.
+[ ] Copy of everything issued saved in the project folder before it goes.
+Note: the builder often will not certify the final claim or release retention until this pack is complete. Treat it as a payment step, not paperwork.
+
+3. FINAL CLAIM AND MONEY
+[ ] Final claim raised, including all approved variations.
+[ ] Check for unbilled work: approved variations not yet claimed, uncertified claims, back charges disputed or accepted.
+[ ] Confirm the claim method for this builder (Nexvia and email, PayApps, or RCTI).
+[ ] Record the retention in the retention register in Nexvia: amount held, practical completion date, defects liability period end, and both release dates.
+[ ] Diarise the retention release dates. Retention is money already earned; it only comes back if someone asks.
+[ ] Confirm the defects liability period start and end in writing.
+
+4. JOB RESULT (within two weeks, while it is fresh)
+[ ] Quoted labour hours versus actual, and where the difference came from.
+[ ] Quoted labour return per hour versus achieved.
+[ ] Quoted gross margin versus achieved.
+[ ] Material wastage used versus the allowance (simple sheets +5%, complex +10–15%, flashings +10%, fasteners +10%).
+[ ] Whether the labour difficulty factors applied at tender matched site reality.
+[ ] Two sentences from Travis: what we would price differently, and what we would build differently.
+[ ] Add the row to the job results register.
+[ ] Feed anything that recurs into the Nexvia estimate master and the QA checklist.
+
+5. THE BUILDER
+[ ] Review the client rating: programming, coordination, communication, payment history, contract and variation behaviour, profitability. Update the ratings tool and republish the grades file.
+[ ] Note anything that should change how we price or qualify their next job.
+[ ] If the job went well, ask about upcoming work while the relationship is warm.
+
+6. FILING AND SYSTEMS
+[ ] Project folder complete: contract, drawings, variations, claims, safety and quality records, handover pack, photographs.
+[ ] Move the project folder to Archived Jobs.
+[ ] Close the project in Nexvia once the final claim and retention arrangements are recorded, so it stops appearing in live job reporting.
+[ ] Photographs worth using: add good ones to the marketing set. The capability statement needs project spotlights and gallery images, and finished jobs are where they come from.
+
+7. DEFECTS LIABILITY PERIOD
+[ ] Diarise the DLP end date.
+[ ] Record any defect callback against the job so its true cost is visible.
+[ ] Claim the final retention release when due.
+
+
+WHO DOES WHAT
+Travis: site completion, defect agreement, handover documentation, the two sentences on what to price or build differently.
+Sofia: final claim, retention register and release dates, client rating, job result, archive.
+Mairead: feeding the result back into estimating assumptions.
+Marianne: claim issue, receipt tracking, retention follow-up.
+
+
+CHANGE LOG
+18 Sep 2026 – v1.0. Created; no close-out process previously existed.

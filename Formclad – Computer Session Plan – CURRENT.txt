@@ -1,0 +1,65 @@
+FORMCLAD – COMPUTER SESSION PLAN
+Version 1.0 | 18 September 2026
+The things that need a computer, in the order that gets the most value from one sitting. Allow about 90 minutes for all of it, or pick off items 1 to 3 in 30 minutes.
+
+Before starting: install Claude in Chrome, so Claude can see the screens and drive them with you watching.
+
+
+1. PROJECT FOLDER AUTOMATION (about 20 minutes)
+Goal: every new job folder is created with the standard structure already in it, including 05 - Close-Out and its checklist.
+
+Option A — SharePoint document sets (preferred: nothing to maintain, nothing to break)
+  a. Site settings > Site collection features > enable "Document Sets" if not already on.
+  b. Site settings > Site content types > create a content type, "Formclad Project", based on Document Set.
+  c. In its Document Set settings, add the default folders: 01 - Commercial, 02 - Drawings & Technical, 03 - Correspondence (as per current structure), 04 - Safety & Quality, 05 - Close-Out with its six subfolders.
+  d. Add the default content: the close-out checklist, and any other template documents that should start in every job.
+  e. Projects library > Library settings > allow management of content types > add "Formclad Project".
+  f. Test: create one, confirm the structure appears.
+Every new project is then created from that content type and arrives complete.
+
+Option B — Power Automate (fallback if content types are restricted)
+  a. Build a MANUAL trigger flow ("Create project folders"), not an automatic one. Input: job number and name.
+  b. Action: create the folder, then copy the contents of Projects > Filing System into it.
+  c. Manual triggers avoid the runaway-trigger problem behind the 116 failures in the Tender Tracker flow.
+
+Later, worth exploring: whether Nexvia can trigger this when a tender is converted to a project, so one action creates both the Nexvia project and the SharePoint folders.
+
+
+2. THE FAILING FLOWS (about 15 minutes)
+  a. Open "Formclad - Create Tender Tracker From Folder" run history. Look at: what triggers it, which step is red, and what the error says. 116 failures in a week means it is firing on every file rather than once per tender folder.
+  b. Open "Formclad - AI Prequalification". An earlier notice said "Missing Copilot Credit or AI Builder credit capacity" — that is a licensing limit, not a broken flow, so it will keep failing until credits are added or the AI step is replaced.
+  c. Screenshot each failed step, or let Claude read them through Chrome.
+
+
+3. NEXVIA: BUDGET AND EXTENT OF WORKS (about 20 minutes)
+Do this on ONE job that is just starting, not a live claiming job — activating extents changes what the progress claim reads from, which is not something to test mid-job.
+  a. Check which labour types exist: Hours screen > Edit Labour Types. The crew's app options come from these, so the target is Roofing Labour and Cladding Labour (plus establishment/access if useful).
+  b. On the test job: Budget > Hours > Import Labour Materials, then correct the rates ($80 cost; charge-out to be confirmed — $110 in the master, $115 on the project, $120 in an older reference).
+  c. Budget > Assembly > Options > Activate Extent of Work > Create All > check allocated per cent > Create Extent of Works. Remember this can only be run once per project.
+  d. Have someone open the app and confirm they see the short list.
+  e. Save the result as an Extent of Works template for reuse.
+  f. Write the exact steps into "Formclad – Nexvia Project Setup" so anyone can repeat them.
+Also: read the Nexvia wiki through Chrome on how extents interact with progress claims, before changing anything on a job with claims running.
+
+
+4. CLIENT GRADES IN THE TENDER TRACKER (about 10 minutes)
+  a. Create a simple Clients list in SharePoint: name, grade, notes.
+  b. Add a lookup column on the Tender Tracker pointing at it.
+  c. The grade then appears automatically when Mairead selects the builder — no update task for her, no flow to break.
+
+
+5. THE THINGS ONLY A COMPUTER MAKES EASY (about 20 minutes)
+  a. Retrieve the Sacred Heart subcontract (CB26005.4.23) from DocuSign and file it in the project's 01 - Commercial.
+  b. Action the Prospect Retail Hub pre-agreement documents for Chappell.
+  c. Paste the SOP V2.2 and Commercial Rules v2 replacement wording into their Word documents, and update the version numbers.
+  d. Fix the Nexvia estimate master: $84 to $80, ROR figures, and the Notes sheet that still says "V7.1 revision".
+  e. Fix the O&M manual issued for Our Lady Queen of Peace: the ABN reads "84 36 633 906 403" (new prefix merged with the old number) and the title still says "Stage X".
+  f. Fix the letterhead, which carries the same merged ABN, and move it into SharePoint.
+  g. Save the reports for the financial settings update into the directors' Financial Reports folder.
+
+
+NOT IN THIS SESSION, BUT CLOSE BEHIND
+- List every live contract still in the old trust entity and decide novation, replacement or variation for each. Marianne flagged Goodwood payments landing in the old entity on 2 July.
+- Confirm insurance certificates of currency are now in the company name.
+- Rename 05 - Handover to 05 - Close-Out on live jobs as you touch them.
+- Employee ticket and licence register.

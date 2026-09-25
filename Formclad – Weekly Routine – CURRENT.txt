@@ -1,0 +1,70 @@
+FORMCLAD – WEEKLY ROUTINE – CURRENT
+Version 2.0 | 18 September 2026
+Owner: Sofia (General Manager). Sofia works on Formclad Mondays and Fridays; Thursday is pay day only.
+
+Why this shape: Thursday is timesheets and pays, so the data is complete by Friday. Friday is the review — what happened, what needs attention. Monday is the setup and follow-through — new jobs, and acting on what Friday found.
+
+The problem this fixes: most projects have no budget set up in Nexvia, so actual hours and costs have nothing to compare against. Every report then looks meaningless, which is why the habit never formed.
+
+
+THURSDAY (pay day, no change)
+Timesheets and pays as usual. Nothing added.
+
+
+FRIDAY — THE REVIEW (about 15 minutes)
+
+Step 1 – Export two reports (about 2 minutes)
+  • Data Extraction Report (WIP values across all projects) — the money view.
+  • Time Entries Report (time across all projects) — the hours view.
+  • Save both into 00_Business Brain > Job Costing Exports, named "YYYY-MM-DD – report name".
+  • Once budgets are set up, add the Project Budget Actuals Report.
+
+Step 2 – Ask Claude (about 1 minute of your time)
+  • Message: "Run the weekly job costing review."
+  • Claude returns: jobs with no budget set up, jobs where hours are running ahead of progress, forecast margin by job, anything crossing a Part A escalation trigger, and the two or three jobs worth Travis's attention.
+
+Step 3 – Act (about 10 minutes)
+  • Anything site-related goes to Travis as a specific question, not a report, so he has the weekend and Monday to work with it.
+  • Margin, variations, claims and cash are your call as Commercial Approver.
+  • Note anything that needs doing Monday.
+
+
+MONDAY — SETUP AND FOLLOW-THROUGH (about 15 minutes)
+
+Step 1 – New jobs (about 5 minutes per job)
+  • Any tender converted to a project since last Monday: set up the budget and the Extent of Works while the job is fresh. Steps are in "Formclad – Nexvia Project Setup, Extent of Works".
+  • Create the project folder structure, including 05 - Close-Out.
+
+Step 2 – Follow through on Friday (about 5 minutes)
+  • Chase whatever Friday flagged.
+  • Check anything Travis came back on.
+
+Step 3 – The week ahead (about 5 minutes)
+  • Claims due: month-end claims are raised around the 25th, so from about the 18th check that variations are priced and approved and progress percentages are agreed.
+  • Any job approaching completion: start the close-out checklist two weeks out, not after.
+  • Retention release dates falling due.
+
+
+MONTHLY (first management meeting)
+  • Financial settings update from the month's reports.
+  • Brain review, 15 minutes, six questions.
+  • Job results for anything completed, into the results register.
+
+
+WHAT CLAUDE DOES
+  • Friday: reads the exports and returns the exceptions.
+  • Fortnightly: lists any job still without a budget, so nothing slips to claim time.
+  • At close-out: adds the job result to the register.
+  • On request: prepares the Brain review before the management meeting.
+Claude cannot run on a schedule — each run starts with a message from you. Once the exports are in the folder, everything after that is Claude's.
+
+
+STILL TO CONFIRM
+  • The exact Nexvia budget and extent of works setup steps, to be done once with Claude driving the browser, then written down.
+  • Whether the Data Extraction Report carries percent complete and billings to date. If it does, over- and under-billing can be tracked too, which feeds the cash forecast.
+
+
+CHANGE LOG
+18 Sep 2026 – v2.0. Rebuilt around Sofia's actual working days: Friday review, Monday setup and follow-through. Thursday left as pay day only.
+18 Sep 2026 – v1.1. Corrected: tenders convert to projects in one click; the budget setup is the separate step that slips.
+18 Sep 2026 – v1.0. Job costing attached to the weekly timesheet session.

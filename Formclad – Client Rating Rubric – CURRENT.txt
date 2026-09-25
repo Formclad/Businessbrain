@@ -1,0 +1,62 @@
+FORMCLAD – CLIENT RATING RUBRIC – CURRENT
+Version 1.0 in the Business Brain | Source: "Client Rating Matrix_Formclad 2025" (Google Sheet, last updated March 2025)
+Note: the original lives in a personal Google Drive account. This is the Formclad copy; ratings should be maintained here from now on.
+
+PURPOSE
+Rate the builders and clients we work for, so tender selection is based on evidence rather than memory. Feeds the prequalification decision and the tender pipeline.
+
+
+GRADING
+Each criterion is scored 1 to 4 (1 Poor, 2 Fair, 3 Good, 4 Excellent) across 14 criteria. Scores are totalled out of 52.
+  A (Excellent)  42–52   80%+    Highly valued. Prioritise work with them. Consistently meet or exceed expectations and align with our brand values and project styles.
+  B (Good)       32–41   60–79%  Generally reliable. Keep building the relationship; take the work when the workload allows.
+  C (Poor)       0–31    under 60%  Significant issues and risk. Avoid unless there is a strong reason, and proceed with extreme caution.
+
+Provisional grades: a new client with no completed jobs starts at a provisional C; where there is some data but not enough, a provisional B. Review provisional grades monthly for the first three months.
+
+When to review: at least every six months; after each significant project (with a team debrief); and after any significant event such as a major payment delay, contract dispute or safety violation.
+
+
+THE 14 CRITERIA (4 points / 3 / 2 / 1)
+1. Tendering & pricing — accepts fair pricing and values quality, signs and starts quickly / generally accepts pricing, minor delays / always chases lowest price, noticeable delays / demands unreasonable discounts, stalls the job.
+2. Pre-project negotiation — professional, fair, efficient / reasonable with minor issues / difficult, significant compromises / unreasonable and adversarial.
+3. Contract & variation terms — clear and mutually agreeable / mostly fair / unclear or one-sided, frequent disputes / unacceptable, constant disputes.
+4. Scope of works & expectations — realistic and well defined / mostly realistic / unrealistic, frequent changes / completely unrealistic, constantly shifting.
+5. Project programming — timely and collaborative / generally timely, minor delays / delays and little collaboration / significant delays, no collaboration.
+6. Financial stability — established and strong / generally stable / newer or some instability / significant financial concerns.
+7. Safety & compliance — proactive, adheres to all requirements / generally compliant / some issues, needs reminders / significant violations.
+8. Technology & systems — efficient use of project tools (HammerTech, ITPs) / generally uses them / inconsistent, needs help / refuses to use required systems.
+9. Communication — clear, prompt, respectful / generally good / inconsistent or unclear / poor, unresponsive or disrespectful.
+10. On-site coordination — well organised, easy access / generally good / some access or coordination issues / poor, significant delays.
+11. Payment history — always on time or early / mostly on time / frequent delays needing reminders / consistently late, disputes or non-payment.
+12. Repeat business potential & brand alignment — strong fit with small commercial and custom architectural work, likely repeat and referrals / good fit / possible under conditions / unlikely, misaligned.
+13. Overall profitability — consistently meets or exceeds margin targets / generally meets / sometimes falls below / consistently low or no profit.
+14. Scope & expectations, programming and the remaining criteria are scored on the same 1–4 basis.
+
+
+CURRENT RATINGS (as at March 2025 — due for review)
+  Chappell Builders        A  48.00  Job just started at the time of rating.
+  Gilmore Construction     A  46.25  14-day payment terms. Staging extends completion; many variations.
+  Sarah Constructions      A  44.50  Only a small job completed; needs more data.
+  BluBuilt                 A  42.75  First job great; second let down by site coordination.
+  DonPro Building          A  42.00  Newer builder, small jobs, fast payment, good relationship. Weak on technology and systems.
+  Claridge Construction    B  41.25  Domestic builder, not well aligned to our target work. Generally low margin, slow starts, too much hip and valley.
+  Cook Build               B  40.00  Projects in progress at time of rating.
+  Partek                   B  39.75  Poor variation terms.
+  SRM Enterprises          B  38.00  Possibly a one-off development. Weak brand alignment.
+  Adelaide Custom Gates    C  31.00  Job and payment delayed by months; doesn't answer phone or email.
+  Fora Construction        C  29.25  New commercial builder; job accepted but contract delayed a long time.
+
+
+HOW THIS SHOULD BE USED
+- Prequalification: the client's grade belongs in the prequalification decision alongside scope, materials, storeys and distance. An A client with a marginal job is a different decision from a C client with the same job.
+- Pricing and risk: a C client's payment and variation history is a real cost. It belongs in the risk allowance rather than being absorbed as optimism.
+- Job results: once the job results register is running, actual labour return and margin by client replaces judgement on criteria 13 (profitability) with evidence.
+- Growth: the marketing strategy targets architects and premium builders. The A-graded builders here are the relationships worth deepening.
+
+
+TO DO
+- Review and update: the ratings are about 18 months old and several say "job not finished yet". Several builders currently in the tender pipeline are not rated at all, including SHAPE, BADGE, Minuzzo, Mossop, Horizon, G-Force and Mykra.
+- Note: Fora Construction is graded C, and there is a live tender with them (Weeks Group HQ). Worth a conscious decision rather than an accidental one.
+- Decide where the master lives. The original is in a personal Google Drive; business IP should sit in SharePoint.
+- Add the client grade as a field in the Tender Tracker so it shows at prequalification time.

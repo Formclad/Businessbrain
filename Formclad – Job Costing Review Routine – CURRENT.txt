@@ -1,0 +1,76 @@
+FORMCLAD – JOB COSTING REVIEW ROUTINE – CURRENT
+Version 1.1 23 September 2026
+
+Why this exists
+Estimating only improves if finished jobs tell us what really happened. Without it, every tender is priced from assumptions that are never tested, and margin slippage is found at the end instead of while there is still time to act. Job costing moved to Nexvia, but the habit has not been rebuilt since the spreadsheet trackers were dropped. This routine is deliberately small: three numbers per job, once a week, plus a short review when a job finishes.
+
+Rule: start with two or three active jobs, not all of them. A habit that runs every week on three jobs beats a full review that happens once.
+
+Nexvia report names and menu paths: see NEXVIA REPORTING in the Business Brain Index (R1 to R4 weekly, R5 to R8 monthly).
+
+
+1. WEEKLY REVIEW (about 20 minutes, Operations Approver, with Finance Administration preparing)
+
+For each active job, three numbers:
+  a) Labour hours booked to date against budgeted hours, and hours remaining against work remaining.
+  b) Committed cost (purchase orders raised plus bills received) against the material and subcontractor budget.
+  c) Forecast final margin, after updating the cost to complete.
+
+Then one question per job: is the work left achievable in the hours left? If not, what changes — sequence, crew, scope, a variation, or the forecast?
+
+Escalate when a Part A trigger is met:
+  • Forecast gross margin falls 3 percentage points or more.
+  • Forecast final cost exceeds budget by 5% or $10,000, whichever is lower.
+  • Labour hours exceed, or are forecast to exceed, budget by 10%.
+  • Unapproved variations exceed $5,000 or 2% of contract value, whichever is lower.
+  • Procurement or coding issue affecting margin by more than $5,000.
+
+Record the action and owner, not just the number. A review that produces no action was a reporting exercise.
+
+
+2. WHEN A JOB FINISHES (about 30 minutes, within two weeks of practical completion)
+
+Capture the result while people still remember the job:
+  • Quoted labour hours versus actual labour hours for each work package, and where the difference came from.
+  • Quoted ROR versus achieved ROR per labour hour.
+  • Quoted gross margin versus achieved gross margin.
+  • Material actually used against the allowances in "Formclad – Estimating Rules of Thumb – CURRENT", section 6.
+  • Whether the difficulty loadings applied at tender matched site reality (Rules of Thumb, section 4).
+  • Variations: raised, approved, unbilled, and any not claimed.
+  • Two sentences: what we would price differently next time, and what we would build differently.
+
+Feed each result back into the estimating assumptions: production rates and allowances in Rules of Thumb (and Labour_Factors in the Nexvia master at the same time), and the preliminaries and access items that are routinely under-priced.
+
+
+3. THE JOB RESULTS REGISTER
+
+Keep one row per completed job, so patterns become visible across jobs rather than being argued from memory:
+  Job number and name | Client or builder | Contract value | Quoted hours | Actual hours | Quoted ROR | Achieved ROR |
+  Quoted GM% | Achieved GM% | Main cause of variance | Pricing change made as a result
+
+After six to eight jobs, the register answers questions no single job can: which builders cost more to work for, which job types consistently run over, whether the production rates and loadings are set correctly, and whether the ROR target is being achieved in practice or only on paper.
+
+To become a SharePoint list in the Business Brain (see the Index rule on documents versus lists). One row per job, filled in at close-out.
+
+
+4. MAKING IT STICK
+
+  • Fix the slot: same day and time each week, attached to the existing weekly management meeting rather than a new meeting.
+  • Prepared, not improvised: Finance Administration pulls the figures beforehand; the meeting is for decisions.
+  • Three numbers per job, not a full report. Detail only where a trigger is met.
+  • Two or three jobs to start, adding more once the routine is running.
+  • Review the register monthly, and adjust one estimating assumption at a time, so cause and effect stay visible.
+  • If Nexvia makes a step unclear, write down what was confusing and fix the process rather than skipping the step. Recurring confusion is a system problem to raise with the Commercial Approver, not a reason to abandon the review.
+
+
+5. WHAT THIS FEEDS
+
+  • Pricing Settings: actual productive hours and actual labour cost replace the planning assumptions used to set break-even and the ROR ratings.
+  • Estimating Rules of Thumb: a production rate that is out by more than 10% over three or more jobs is changed there, tagged CONFIRMED, and changed in Labour_Factors in the Nexvia master at the same time.
+  • The Estimate Review Agent and Estimate Review QA Checklist: recurring failure modes.
+  • Tender selection: which clients, builders and job types actually earn their labour hours.
+
+
+CHANGE LOG
+23 Sep 2026 – Version 1.1. Wastage, labour rate and loading references now point to "Formclad – Estimating Rules of Thumb – CURRENT" instead of repeating the SOP baselines. Report names now in the Index under NEXVIA REPORTING. Close-out compares hours per work package.
+18 Sep 2026 – Version 1.0. Created to rebuild the job costing habit after the move from the spreadsheet trackers to Nexvia. Escalation triggers taken from Business Plan Part A; wastage and difficulty baselines from the SOP.

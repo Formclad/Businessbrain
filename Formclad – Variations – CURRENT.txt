@@ -1,0 +1,53 @@
+FORMCLAD – VARIATIONS – CURRENT
+Version 1.0 | 19 September 2026
+Owner: Operations Approver (Director) for identifying and pricing; Commercial Approver (General Manager) for terms and claiming.
+
+WHY
+Variations are where a profitable job turns unprofitable, quietly. Work gets done, then priced late, then claimed later still, and sometimes not at all. On Our Lady Queen of Peace, $5,667 of variations sat on the cost side long enough to make the job read as a 22.65% loss. The work was real; the recording was late.
+The other risk is contractual: most subcontracts require notice within a set number of days. Miss the notice period and the entitlement can be lost regardless of merit.
+
+
+THE FIVE STAGES
+Each variation moves through: identified → priced → submitted → approved → claimed.
+It is recorded in Nexvia at stage 1, not stage 4. That single change is the point of this document.
+
+1. IDENTIFIED (same day, whoever sees it)
+A variation exists when work is directed, drawn or required beyond the contracted scope, or when conditions differ from what was priced.
+  [ ] Record it in Nexvia with a short description and the date.
+  [ ] Note who directed it and how (email, site instruction, drawing revision, verbal).
+  [ ] Photograph the affected area before the work is done, where practical.
+  [ ] Verbal directions: confirm in writing the same day. Most contracts do not recognise a verbal instruction, and memory is not evidence.
+  [ ] Check the contract's notice period and diarise the deadline (see the contract summary for that job).
+
+2. PRICED (within the notice period, and before the work proceeds where possible)
+  [ ] Price it the way a tender is priced: materials, labour hours, access, risk.
+  [ ] Apply the same labour return test as the main job — a variation priced below the minimum guide is worth as little as a job priced below it.
+  [ ] Small variations still get priced properly. A stack of underpriced small variations does more damage than one underpriced big one.
+
+3. SUBMITTED
+  [ ] Issue in the builder's required format (see the builder profile).
+  [ ] Record the submission date.
+  [ ] Where work must proceed before approval, say so in writing: what is being done, on whose direction, and that it is a variation.
+
+4. APPROVED OR REJECTED
+  [ ] Record the outcome and date.
+  [ ] Approved: check it is added to the contract sale value in Nexvia, not just the cost side. This is what stopped the Our Lady margin reading correctly.
+  [ ] Rejected: decide whether to dispute or absorb it, and record the decision and the reason.
+  [ ] Unapproved variations over $5,000 or 2% of contract value, whichever is lower, go to both approvers (Part A escalation trigger).
+
+5. CLAIMED
+  [ ] Include approved variations in the next progress claim.
+  [ ] Check at every claim, and at close-out, for approved variations not yet claimed.
+
+
+THE WEEKLY AND MONTHLY RHYTHM
+Friday review: any variation identified but not priced, priced but not submitted, submitted but not approved, or approved but not claimed — each is an exception worth a question.
+Claims (around the 25th): variations should be priced and approved by about the 18th, not written up on the day.
+Close-out: no job closes with unpriced or unclaimed variations.
+
+
+WHAT GOOD LOOKS LIKE
+Nothing is built on a verbal instruction without written confirmation. Nobody is writing up variations on claim day. Forecast margin is right all month, not just at month end. And no job finishes with work in it that was never charged for.
+
+CHANGE LOG
+19 Sep 2026 – v1.0. Created after variations were identified as being entered at claim time rather than when they happen.

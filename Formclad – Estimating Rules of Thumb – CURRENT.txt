@@ -1,0 +1,275 @@
+FORMCLAD – ESTIMATING RULES OF THUMB – CURRENT
+Version 1.1 | 23 September 2026
+Decided by: Sofia (Commercial Approver), from four research sources and Formclad's existing Labour_Factors
+Open to override by: Travis (Operations Approver) on any labour or buildability figure
+Used by: the Estimate Review Agent, the Estimate Builder, and Labour_Factors in the Nexvia master
+
+WHAT THIS IS
+The knowledge an experienced Formclad estimator carries in their head, written down so estimates can be built and checked the same way every time: enough hours, enough material, nothing commonly missed.
+
+HOW THE FIGURES WERE CHOSEN
+Four research sources disagreed, in places by two to three times. One figure was picked for each item using these rules, in order:
+  1. Keep Formclad's own figure where one exists and nothing shows it is wrong (the 0.17 hr/m2 sheeting rate is used on every tender).
+  2. Prefer Australian manufacturer and NCC guidance over generic or international labour tables.
+  3. Where sources still differ, take the middle, leaning cautious: under-allowing hours or material costs more than over-allowing.
+  4. Keep the figures consistent with each other, so the line rates add up to believable whole-job totals.
+
+TAGS
+  CONFIRMED  Formclad's own established figure.
+  WORKING    Decided 23 Sep 2026. Use it. Replace it when actual job results say otherwise.
+Every figure here is a benchmark to check against, not a guarantee. The Job Results Register is what turns WORKING into proven.
+
+Base conditions for every labour rate: 3–20 degree pitch, single storey, clear access, material craned to the working area.
+Money figures (labour cost, ROR, margin, crane minimum) live in "Formclad – Pricing Settings – CURRENT" only. The $80/hr labour cost already includes normal productivity loss, so the hours below are not inflated for breaks.
+
+
+=====================================================================
+1. SHEETING LABOUR (hours per m2 of measured area)
+=====================================================================
+
+ROOF
+  Corrugated (Custom Orb type)                  0.17   CONFIRMED
+  Trimdek / Spandek type exposed-fix            0.17   CONFIRMED
+  Klip-Lok 700 / concealed-fix deck             0.17   WORKING
+  Nailstrip                                     0.30   WORKING
+  Snaplock                                      0.30   WORKING
+  Standing seam, long straight runs             0.45   WORKING
+  Standing seam, steep (>25 deg) or broken      0.65   WORKING
+  Polycarbonate / translucent sheeting          0.17   CONFIRMED (as used)
+
+WALL (sheeting only; top hats, trims and corners are separate lines)
+  Corrugated                                    0.20   WORKING
+  Trimdek / exposed-fix                         0.20   WORKING
+  Klip-Lok / concealed-fix                      0.22   WORKING
+  Nailstrip                                     0.35   WORKING
+  Snaplock                                      0.35   WORKING
+  Interlocking panel / express joint            0.45   WORKING
+  Standing seam                                 0.55   WORKING (0.70 for zinc, copper or detail-heavy)
+  Flat lock / shingle                           0.75   WORKING
+  Cassette                                      0.80   WORKING (manual estimate for complex facades)
+
+  In crew terms: 0.17 hr/m2 is about 106 m2 a day for a crew of 3 at 6 productive hours.
+
+
+=====================================================================
+2. OTHER LABOUR RATES
+=====================================================================
+
+ROOF LAYERS
+  Insulation blanket (Anticon type)             0.05 hr/m2   WORKING (replaces 0.08)
+  Sarking / membrane on its own                 0.04 hr/m2   WORKING (replaces 0.05)
+  Blanket and sarking laid together             0.06 hr/m2 combined   WORKING
+  Safety mesh                                   0.05 hr/m2   WORKING (replaces 0.10)
+  Insulation spacers / thermal break            0.05 hr/m2   CONFIRMED (per m2 of ROOF area, not lm of spacer)
+  Rigid PIR board                               0.09 hr/m2   WORKING
+
+  Why the change: at the old rates, sheeting + insulation + mesh + sarking came to 0.40 hr/m2 before a single flashing, which no source supports. At these rates a simple complete roof lands near 0.30–0.35 hr/m2, which every source agrees with.
+
+FLASHINGS AND CAPPINGS
+  Ridge / apron capping                         0.25 hr/m    WORKING
+  Barge capping                                 0.28 hr/m    WORKING (architectural barge 0.40)
+  Hip capping                                   0.35 hr/m    WORKING
+  Other flashings under 500 mm girth            0.35 hr/m    CONFIRMED
+  Flashings over 500 mm girth                   0.45 hr/m    CONFIRMED
+  Parapet capping up to 500 mm girth            0.35 hr/m    WORKING
+  Parapet capping 500–800 mm girth              0.45 hr/m    WORKING
+  Roof turn up / turn down                      0.17 hr/m    CONFIRMED
+  Metal fascia                                  0.28 hr/m    WORKING
+  Timber fascia                                 0.25 hr/m    CONFIRMED
+
+ROOF PLUMBING
+  Eaves gutter                                  0.50 hr/m    CONFIRMED
+  Valley gutter                                 0.50 hr/m    INTERIM (eaves gutter rate; no rule set – Travis to confirm)
+  Box gutter up to 800 mm girth                 0.55 hr/m    WORKING
+  Box gutter 1000–1200 mm girth                 0.70 hr/m    WORKING
+  Box gutter overflow only                      0.75 hr/ea   WORKING
+  Sump with overflow, prefabricated             1.25 hr/ea   WORKING
+  Sump with overflow, site-fabricated           2.25 hr/ea   WORKING
+  Rainhead                                      1.50 hr/ea   WORKING (replaces 0.70)
+  Stop end                                      0.70 hr/ea   CONFIRMED
+  Downpipe                                      0.28 hr/m    CONFIRMED
+  Gutter ball guard                             0.10 hr/ea   CONFIRMED
+  Gutter mesh cover                             0.10 hr/m    CONFIRMED
+
+PENETRATIONS AND OTHER
+  Simple pipe penetration (Dektite)             0.35 hr/ea   CONFIRMED
+  Penetration with soaker tray or trimming      1.00 hr/ea   WORKING
+  Skylight                                      2.00 hr/ea   CONFIRMED
+  35 mm top hats / 25 mm furring                0.10 hr/m    CONFIRMED
+  150 mm steel stud                             0.30 hr/m    CONFIRMED
+  50 mm shadowlines                             0.05 hr/m    CONFIRMED
+  6 mm plywood backing                          0.12 hr/m2   CONFIRMED
+
+STRIP-OUT (re-roofs; asbestos is never self-performed – subcontract and exclude)
+  Screw-fixed sheeting, incl. lowering and loading   0.18 hr/m2   WORKING
+  Concealed-fix sheeting                             0.22 hr/m2   WORKING
+  Rusted sheets or fasteners                         +0.05 hr/m2  WORKING
+
+SAFETY
+  Edge protection, install and dismantle        0.20 hr/m    WORKING
+  Roof anchor point                             0.75 hr/ea   WORKING (engineering and certification separate)
+  Static line                                   1.75 hr per run or intermediate post   WORKING
+
+
+=====================================================================
+3. PRELIMINARIES AND SITE LABOUR (every job, as their own lines)
+=====================================================================
+
+  Set-out and measure       4 hr simple  |  8 hr normal  |  14 hr complex architectural   WORKING
+  Site setup and pack-up    0.5 hr per person per day on site; 0.75 on Tier 1 sites     WORKING
+  Site induction            0.75 hr per person, once per job                            WORKING
+  Material handling         % of installation hours:
+                              crane to working points +8%
+                              single landing, hand-distributed +15%
+                              poor access or passed up from scaffold +25%              WORKING
+  Final clean and handover  under 500 m2: 4 hr  |  500–1,500 m2: 8 hr  |  over 1,500 m2: 16 hr   WORKING
+
+
+=====================================================================
+4. DIFFICULTY LOADINGS
+=====================================================================
+
+LOADINGS MULTIPLY. Rate × 1.15 × 1.25, not rate × 1.40.   WORKING
+  Each problem works on a job that is already less efficient, and multiplying is the cautious choice.
+
+CAP: once the combined factor passes 1.60, stop loading and send the labour to the Operations Approver for a manual estimate.   WORKING
+
+  Pitch over 20 degrees                         × 1.15   CONFIRMED
+  Second storey or high reach                   × 1.15   CONFIRMED
+  Cramped or internal box gutters               × 1.20   CONFIRMED
+  Spring-curved on site                         × 1.15   WORKING
+  Tight, segmented or pre-curved sheeting       × 1.40   WORKING (or manual estimate)
+  Complex roof (many planes, hips, valleys, short runs)   × 1.25   WORKING (very complex × 1.40)
+  Occupied building (school, live retail, operating plant)  × 1.15   WORKING
+  Restricted hours (night, early, shutdown windows)  × 1.20   WORKING – wage penalties costed separately
+  Regional job                                  × 1.00   WORKING – travel, accommodation, freight and mobilisation priced as Items
+  Remote or logistically difficult regional     × 1.10   WORKING
+
+  Example: 0.17 × 1.15 (occupied) × 1.25 (complex) = 0.244 hr/m2.
+
+SMALL JOBS
+  Under 100 m2, do not rely on m2 rates alone. Minimum 24 labour-hours (a crew of 3 for a day) wherever setup, induction, edge protection or lifting is needed.   WORKING
+
+
+=====================================================================
+5. WHOLE-JOB SANITY CHECKS
+=====================================================================
+
+These depend heavily on roof shape (a roof with lots of perimeter, hips and turn-ups has far more hours per m2), so they are a warning light, not a verdict. The line-by-line check is the real test.
+
+  Total labour hours per m2 of roof
+    Simple new roof                        0.28–0.40   (flag as LIGHT below 0.25)
+    Re-roof including strip-out            0.50–0.75   (flag as LIGHT below 0.45)
+  Total labour hours per m2 of wall cladding, including trims and subframe
+    Standard exposed-fix                   0.30–0.40   (flag as LIGHT below 0.25)
+    Architectural                          0.45–0.80+  (flag as LIGHT below 0.40)
+  Above the range: comment on it, and name the lines driving it. Do not flag as a fault.
+
+  Crew and programme
+    Standard crew 3; 4 on large sheet-handling jobs; 2 on small or detail work.
+    Productive hours for the programme check: 6.0 per person per day.
+    Crew-days = total hours ÷ (crew × 6.0). Must fit the builder's programme; if not, the hours or the programme are a risk to price.
+
+  Material : labour cost (information only – the ROR test matters more)
+    New roofing about 1.5:1 to 2:1  |  re-roofing about 0.7:1 to 0.8:1  |  standard cladding about 1.5:1  |  architectural cladding about 0.5:1 to 1.5:1
+
+  Past Formclad estimates: compare with two or three of similar type and size. Once the Job Results Register has entries, compare with actual results instead.
+
+
+=====================================================================
+6. MATERIAL RULES
+=====================================================================
+
+WASTAGE AND ALLOWANCES
+  Simple roof sheets                  measured area × 1.05     CONFIRMED
+  Complex or triangular roof sheets   × 1.10 to 1.15           CONFIRMED
+  Flashings and cappings              lineal metres × 1.10     CONFIRMED
+  Fasteners and clips                 × 1.10                   CONFIRMED
+  Sarking / membrane                  area × 1.10 (150 mm laps)   WORKING
+  Insulation blanket                  area × 1.05, then round UP to whole rolls   WORKING
+  Safety mesh                         area × 1.15, then round up to whole rolls   WORKING
+  Rigid board                         area × 1.05              WORKING
+  Wall sheets                         measured area × 1.05     WORKING (roof sheet rule applied to walls)
+  Gutters, downpipes, fascia          lineal metres × 1.10     WORKING (flashing rule applied)
+  Labour is always calculated on the NET measured quantity; allowances apply to material only. Efficaxone quantities usually already include waste – work back to net before applying these.
+  A quantity exactly equal to the measured area means no allowance has been made.
+
+COVER WIDTHS (Lysaght current data; check the specified product)
+  Custom Orb / corrugated 762 mm  |  Trimdek / Trimclad 762 mm  |  Spandek / Metrospan 700 mm
+  Klip-Lok 700 / Kingklip 700 700 mm  |  Klip-Lok 406 406 mm  |  Longline 305 305 mm
+  Nailstrip, Snaplock, standing seam, interlocking, cassette, flat lock: use the nominated system's module – never a generic width.
+
+SHEET LENGTHS
+  Default is single lengths ordered to size. No automatic end-lap allowance. Where a roof needs an end lap or expansion joint (transport length, roof length, thermal movement), price it as its own item using the manufacturer's detail – especially on concealed-fix.
+
+FLASHINGS
+  Estimating stock length 6.0 m.
+  Laps: roof 150 mm (250 mm exposed); vertical wall 100 mm (150 mm exposed).
+
+FIXINGS AND CONSUMABLES
+  Exposed-fix roof screws      5 per m2 + 10%   (an allowance, not the fixing specification)
+  Concealed-fix roof           clips × fasteners per clip + 10% (about 1 clip per m2); do not use 5 per m2
+  Face-fixed wall cladding     7 per m2 + 10%
+  Rivets                       5 per lineal metre of flashing
+  Sealant                      1 × 300 ml cartridge per 8 lineal metres of flashing
+  Check that the quantity makes sense against the pack size: a 2,000 m2 roof needs about 11,000 screws.
+
+GUTTERS AND DOWNPIPES
+  Eaves gutter brackets        1.0 m centres, plus one at every stop end and corner (NCC maximum is 1.2 m; 1.0 m is Formclad's cautious default)
+  Box gutter support           continuous, or boards/brackets at 600–750 mm
+  Downpipe clips               1.2 m centres, at least 2 per drop
+
+BOX GUTTER OVERFLOWS – MANDATORY CHECK
+  Allow at least one overflow per box-gutter outlet, sump or rainhead as a placeholder.
+  Every tender with box gutters carries this flag until answered: "Confirm box gutter overflow quantity and capacity against the hydraulic design and AS/NZS 3500.3."
+  Box gutters over 15–20 m: expect two outlets, each with its own overflow.
+
+IF THE ESTIMATE HAS NO LINE FOR THESE, ASK WHY
+  Fasteners, clips, rivets, sealants, tapes
+  Ridge, hip, barge and apron flashings where the roof shape needs them
+  Valley gutters where there are valleys
+  Stop ends, turn ups, turn downs
+  Downpipe offsets, pops, clips
+  An overflow for every box gutter outlet
+  Sarking or membrane where the spec calls for it
+  Safety mesh on new roofs
+
+
+=====================================================================
+7. COMMONLY MISSED ITEMS
+=====================================================================
+
+Each must be priced, excluded in the quote letter, or confirmed as not needed.
+
+  Access and safety: crane or lifting; EWP or boom lift; scaffold or edge protection (or confirmation the builder provides it); anchor points or static lines; traffic management or footpath permits.
+  Site and logistics: freight and delivery (and whether already in the supplier price); rubbish removal and disposal; strip-out; temporary weatherproofing on re-roofs; travel and accommodation; induction time; CBD parking or loading restrictions.
+  Technical: shop drawings, engineering or design responsibility (box gutter sizing, wind certification); samples, mock-ups, warranties; after-hours or weekend work; making good to other trades; asbestos identified, excluded or subcontracted.
+  Commercial: retention and security; liquidated damages; number of visits and return trips (each extra visit costs setup time).
+  Pricing: any unit cost of $0 or $1, or any line described as "assume" or "TBC", is a placeholder until replaced.
+
+
+=====================================================================
+8. NOT USED BY THE AGENT – FOR THE DIRECTORS TO CONFIRM
+=====================================================================
+
+Money figures belong in Pricing Settings once approved. Until then the agent only checks that these appear as Items where the job needs them.
+  Vehicle allowance $0.85–1.10 per km
+  Accommodation and living-away allowance $180–240 per person per day
+  Regional freight surcharge +10–25% on local freight
+  Night or weekend penalty multiplier 1.5× to 2.0× the base rate
+
+
+=====================================================================
+9. HOW THIS DOCUMENT IMPROVES
+=====================================================================
+
+  • Travis can override any WORKING figure at any time. Change it here and in Labour_Factors together, and log it below.
+  • Every finished job: the Job Costing Review Routine compares quoted with actual hours. A rate that is out by more than 10% over three or more jobs gets changed and becomes CONFIRMED.
+  • Every time Travis corrects an estimate the agent passed, add what he saw here.
+  • Change one figure at a time so cause and effect stay visible.
+
+
+CHANGE LOG
+23 Sep 2026 – v1.1. Added for the V8 workbook: valley gutter interim rate 0.50 hr/m; wall sheet allowance ×1.05; gutters, downpipes and fascia ×1.10; spacers rated per m2 of roof; labour always on net quantity.
+23 Sep 2026 – v1.0. One working figure decided for every item from four research sources, using the four rules above. Changes to existing Labour_Factors: insulation 0.08 → 0.05, sarking 0.05 → 0.04, safety mesh 0.10 → 0.05, rainhead 0.70 → 1.50; small flashings split into ridge/apron 0.25, barge 0.28, hip 0.35. Loadings multiply, capped at 1.60. Box gutter overflow check made mandatory.
+23 Sep 2026 – v0.2 / v0.1. Drafts.

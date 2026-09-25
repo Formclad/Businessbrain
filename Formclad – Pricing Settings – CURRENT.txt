@@ -1,0 +1,54 @@
+FORMCLAD – PRICING SETTINGS – CURRENT
+The company figures used when pricing and reviewing estimates.
+The labour return calculator reads these figures automatically. Where any other document gives different figures, this file wins.
+
+As at: 17 September 2026 (wording updated 23 September 2026 – figures unchanged)
+Status: Approved by the directors
+Set by: the directors, reviewed monthly
+
+
+1. FIGURES IN USE
+
+All-in field labour cost           $80.00 per productive hour   Includes super, leave, allowances, long service leave, productivity and return to work
+Break-even                         $141.56 per productive hour  What an hour must return before the business makes anything
+
+Labour return (ROR) ratings
+  Red               below $155     Poor return. Reprice, or proceed only with an approved reason (both approvers).
+  Amber             $155–165       Thin return. Commercial Approver review required before submission.
+  Acceptable        $165–175       Meets minimum. Review with margin and risk.
+  Green             $175–195       Target range.
+  Strong            $195–225       Very good return.
+  Excellent         $225 and up    High return per labour hour.
+
+Gross margin                       Target 30–32%, review floor 28%. Below the floor needs commercial review; it is not an automatic no-bid.
+Largest single job                 About $225,000 (10% of planned annual revenue)
+Minimum crane/lifting allowance    $1,500 per crane day where there is no quote and fork access is not guaranteed
+
+Nexvia tender defaults (set 23 Sep 2026)
+  Default Waste     0%. Wastage is allowed once, in the take-off or estimate workbook, following "Formclad – Estimating Rules of Thumb – CURRENT". Nexvia must not add it again.
+  Default Margin    Currently 25% in Nexvia – below the 28% review floor. Set margins where the cost lives to reach the target; do not rely on the default, and never use "Apply to All". Whether the default should change is for the directors.
+
+
+2. HOW LABOUR RETURN IS CALCULATED
+
+ROR per budgeted labour hour = (quote total ex GST − materials − subcontractors − equipment/hire − other direct non-labour costs) ÷ budgeted labour hours.
+
+Gross margin = (quote total ex GST − all direct costs including labour) ÷ quote total ex GST.
+
+Material-heavy work gives a lower gross margin for the same labour return, so gross margin is a check alongside ROR rather than a stand-alone test.
+
+
+3. HOW THESE FIGURES ARE SET AND UPDATED
+
+The directors set these figures from the company's cost base, capacity and financial targets, and review them monthly against actual results. The underlying calculations are held confidentially by the directors.
+
+When they change, the directors update this file, the labour return calculator and the Business Brain index together, so everyone is working from the same numbers.
+
+Applying these figures to an estimate — ratings, the submission gate and delegation — is covered in "Formclad – Estimate Review Commercial Rules & Delegation – CURRENT". Who approves what is in "Formclad – Approval Authorities – CURRENT". Estimating rates and allowances are in "Formclad – Estimating Rules of Thumb – CURRENT".
+
+
+4. CHANGE LOG
+
+23 Sep 2026 – Wording only: Amber and Red now name the Commercial Approver and both approvers (per Approval Authorities) instead of "Director". Nexvia tender defaults recorded: Default Waste set to 0%; Default Margin 25% noted as below the review floor.
+17 Sep 2026 – Ratings updated to $155/165/175/195/225; break-even $141.56.
+17 Sep 2026 – Labour cost set at $80 per productive hour (was $75 in the business plan, $84 in the estimating master). Ratings first derived from the company cost base.

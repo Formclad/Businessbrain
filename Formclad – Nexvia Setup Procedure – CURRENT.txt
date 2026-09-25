@@ -1,0 +1,344 @@
+FORMCLAD – NEXVIA SETUP PROCEDURE, TENDER TO CLAIM – CURRENT
+Version 6.1 | 23 September 2026
+Owner: Sofia (General Manager)
+
+The method for every job from here on. Not a fix for existing jobs.
+Supersedes v5.0 and all earlier Extent of Works / Project Setup notes.
+
+v6.0 is written from Sofia's tested sequence of 21 September. Three things
+changed from v5.0 and they are marked CHANGED where they appear. v6.1 adds
+the Default Waste and margin checks, marked NEW.
+
+
+=====================================================================
+THE STRUCTURE, IN SIX LINES
+=====================================================================
+
+  Assembly    = the job, building or stage. Usually one per job.
+  Fixtures    = the work packages. One level. Never cost types.
+  Materials   = sit inside their work-package fixture.
+  Labour      = ONE "Installation Labour" line inside each fixture.
+  Hours tab   = EMPTY at tender. Always.
+  Breakdown   = the claim spine, imported from the Group IDs.
+
+Standard work packages:
+  Roof Covering · Roof Plumbing · Roof Ancillaries · Cladding · Cladding
+  Ancillaries
+
+A roof-only job runs three of them. Hire, freight and subcontractors are
+Items, not fixtures.
+
+
+=====================================================================
+THE ONE THING PEOPLE WILL GET WRONG
+=====================================================================
+
+"Installation Labour" is a LINE INSIDE a fixture.
+It is NEVER a fixture of its own.
+
+This is one word apart from the mistake that broke PAE. There, Installation
+Labour and Delivery & Handling were built as fixtures under every assembly,
+and activating extents produced twelve rows — four of them called
+Installation Labour — which is what the crew would have had to choose from.
+
+Right:   Roof Plumbing (fixture)
+           └ materials
+           └ Installation Labour  ← a line
+Wrong:   Roof Plumbing (fixture)
+         Installation Labour (fixture)   ← this is the disease
+
+If in doubt: fixtures are named after WORK. Lines are named after COST.
+
+
+=====================================================================
+FIX THE DEFAULTS FIRST – ADMIN, ONE TIME
+=====================================================================
+
+Admin > Settings > Business Details / Subdomain. Still outstanding as at
+21 September.
+
+  UNTICK  Projects – Default 'Use Extent of Works in Cost to Complete'
+          Currently ON. Every new project is born with it ticked and no
+          extents behind it, which empties the bill coding dropdown and
+          sends hours to Unassigned.
+
+  TICK    Enable Commercial Quote by Default
+          Currently OFF. Every new tender is born without breakdowns.
+
+  TICK    Enable Commercial Project by Default, to match.
+
+  ASK     Nexvia whether the tender Default Waste (3%) can be set to 0%     NEW
+          at company level, so new tenders are born at 0%. Until then it
+          is set per tender at A2.
+
+These change DEFAULTS only. Existing jobs keep what they were born with.
+
+Also once:
+  LABOUR TYPES. Reduce the site list to Roofing Labour and Cladding Labour
+  at $80.00 cost. Deactivate the rest rather than deleting. Project budgets
+  snapshot rates at creation, so live jobs keep their old figures and must
+  be corrected individually.
+
+  V8 IMPORT TEMPLATE. Reissue V7.3 with one hierarchy standard: Assembly =
+  the job or building, Fixtures = the work packages. Delete the conflicting
+  sheet rather than marking it legacy, because it is currently being
+  followed. Labour must import as a line inside its fixture, not as a row
+  on the Hours tab. (V8 built 23 Sep 2026; paused for simplification before
+  sign-off. V7.3 remains in use until then.)
+
+
+=====================================================================
+PART A – TENDER  (Mairead)
+=====================================================================
+
+A1. Efficaxone take-off arrives. Reconcile into the import workbook as now.
+
+A2. TICK "ENABLE BREAKDOWNS?" – Tender > Modify, right column, below
+    Assistant Estimator. Do this FIRST, before building the estimate,
+    because it adds the Group IDs column to the grids you are about to
+    fill in.
+
+    (The Nexvia manual calls this "Commercial Tender". The screen does not.)
+
+    SET DEFAULT WASTE TO 0% – Estimate tab, top of screen, beside Default   NEW
+    Margin. Wastage is allowed once, in the take-off and workbook, following
+    Estimating Rules of Thumb. Efficaxone quantities usually include it
+    already; Nexvia's default would add it again.
+
+    Verify: open one imported material line and confirm it carries no waste.
+
+A3. BUILD THE ASSEMBLY. One assembly named for the job or building.
+    Fixtures are the work packages. Under each fixture:
+
+      - the materials for that package
+      - ONE line named "Installation Labour"
+
+    Assign each fixture its Breakdown Group ID as you go — B-2 Sheeting,
+    B-3 Plumbing, and so on. Group IDs do not inherit from a parent row.
+
+A4. LEAVE THE HOURS TAB COMPLETELY EMPTY.                        CHANGED
+    Hours entered there are budgeted a second time on top of the labour
+    lines inside the fixtures. The project's Budget > Hours will still
+    show figures once converted — those arrive from the fixture lines and
+    are correct. It is only the TENDER Hours tab that stays empty.
+
+    Verify: Estimate > Summary. Hours and costs match the quoted scope,
+    with no duplicated labour.
+
+A5. ITEMS. Hire, crane, EWP, scaffold, freight, subcontractors. These do
+    not import from the assembly file and are entered by hand. Give each
+    one a Group ID too, or it lands in Unassigned Costs at A6. Keep the
+    same item names on every job so bills code consistently.
+
+A6. IMPORT THE BREAKDOWN.                                        CHANGED
+    Estimate > BREAKDOWN > Import Breakdown. It builds itself from the
+    Group IDs assigned at A3 and A5. There is no need to create the
+    headings by hand and tag them afterwards, which is what v5.0 said.
+
+    Verify: total sales value equals the quoted contract amount, and
+    nothing is sitting in an unassigned row. If the two differ, something
+    was never given a Group ID.
+
+    Do NOT press "Apply to All" next to Default Margin. It overwrites every
+    row's margin and wipes the real figures. Set margins where the cost
+    lives.
+
+A7. Commercial review. Whole-job margin against Pricing Settings —
+    30–32% target, 28% review floor. The tender Default Margin is 25%,     NEW
+    which is below the floor: do not leave lines on the default.
+
+A8. Export the Pricing Full Breakdown report into the tender folder,       NEW
+    dated, and run the Estimate Review Agent before submission.
+
+
+=====================================================================
+PART B – JOB WON  (target: 10 minutes)
+=====================================================================
+
+B1. Convert the tender to a project.
+
+B2. Summary > Modify. Confirm:
+       Enable Cost to Complete             TICKED
+       Cost to Complete – Use Extents?     NOT TICKED
+       Mobile Time Tracking                TICKED
+       Production Time Tracking            TICKED
+    Save.
+
+    Verify: Budget > Cost to Complete shows your trade Breakdown scopes,
+    not a list of individual extents.
+
+B3. Budget > Hours. Confirm the hours came across from the fixture labour
+    lines and the rate reads $80.00. This is the last easy moment to
+    correct the rate.
+
+B4. ACTIVATE EXTENTS, THEN STRIP THEM BACK.                      CHANGED
+    Budget > ASSEMBLY > Options > Activate Extent of Work.
+
+    Select and DELETE every row that is not an Installation Labour line,
+    so only the clean labour lines remain. v5.0 said to leave the rows as
+    they are; that was wrong and produces extents the crew has to wade
+    through.
+
+    Do NOT press Create Group or Create All. Those strip out the work
+    packages and replace them with labour-type lumps.
+
+    Then Create Extent of Works.
+
+    Verify: Project Tools > Extent of Works shows one extent per work
+    package on this job — Sheeting, Plumbing, Penetrations and so on —
+    each carrying its quoted hours.
+
+    This runs ONCE per project. Later edits go through Admin portal >
+    project > Extent of Works.
+
+B5. Budget > Items. Confirm the hire and freight rows are there.
+
+B6. Open the app on the job. The crew should see one entry per work
+    package.
+
+B7. Set the project status. It should not read "Pending" once work starts.
+
+
+=====================================================================
+PART C – RUNNING THE JOB
+=====================================================================
+
+C1. Installers log daily hours in the Nexvia mobile app by selecting the
+    specific Extent — "Roof Plumbing – Installation Labour". The labour
+    type follows from the extent. Nothing needs assigning by hand.
+
+    Verify: Budget > Cost to Complete. Actual cost burns down the matching
+    Breakdown row, and Not Allocated reads $0.00.
+
+C2. Raise purchase orders against the assembly or item group. Bills then
+    match the PO line and inherit the coding instead of arriving uncoded.
+
+C3. Bills without a PO get coded on receipt, not in a monthly batch.
+
+C4. Variations entered when they happen, assigned to a breakdown heading.
+
+
+=====================================================================
+PART D – CLAIMING
+=====================================================================
+
+D1. Budget > Summary > BUDGET CHECKED first, every time. A claim raised
+    against a stale budget carries a red alert and will not reconcile.
+
+D2. Accounts > Client Progress Claims > Import Claim Data.
+    Mode: PROJECT BREAKDOWN, then choose the breakdown imported at A6.
+
+    Why not the others:
+      Project Budget              one "Eow Total" line for the whole job
+      Assembly Only               fixtures only — hire items never appear
+      Project Budget + Assemblies items appear, but so does a separate
+                                  Hours total alongside the fixture labour.
+                                  On PAE both read $2,760.12 — claim both
+                                  and labour is billed twice.
+
+D3. Check the preview, tick the confirmation, Update claim data.
+
+D4. Percentage complete per line. Variations claim separately.
+
+D5. LOCK TOTALS.
+
+D6. Never change the client on Summary > Modify after claiming. It wipes
+    the entire Client Progress Claim section.
+
+
+=====================================================================
+WHAT IS PROVEN AND WHAT IS NOT
+=====================================================================
+
+Proven on the live system:
+
+  Fixture = Extent of Work, one to one, top level only. Nested fixtures
+  never become extents.
+
+  No extent means no labour type. Tested on PAE: a project with no extents
+  offers the crew no labour type dropdown at all, and every hour lands in
+  Unassigned. This is why Our Lady has 157.5 hours unallocated.
+
+  Cost-type fixtures break both. PAE's V4 structure produced twelve
+  extents, four called Installation Labour.
+
+  Assembly Costs exclude fixture labour, so Cost to Complete does not
+  double count.
+
+  The breakdown reports margin, it does not add it. On Weeks Group HQ,
+  B-4 Roofing Hire Items shows $12,751.42 — exactly the sum of its item
+  figures. The blended percentage is a weighted average.
+
+  Group IDs tag at fixture level. Seven tags covered the whole of Weeks
+  Group HQ.
+
+Not yet proven — check on the first job run this way:
+
+  Extents existing while "Use Extents" is OFF. The reasoning is that
+  extents give the crew something to book against, which assigns the
+  labour type, while the CTC setting decides whether COST reporting runs
+  through extents instead of assemblies. C1's verify step is the test:
+  book one hour, confirm it lands against its labour type, and confirm
+  Not Allocated reads $0.00.
+
+  If it does not work, the fallback is to leave Use Extents ON and set
+  exclusions to hide assembly costs. Since fixtures are the work packages,
+  that still reports cost per work package by a different route.
+
+  Whether a tender's Default Waste setting applies to lines that are
+  imported, or only to lines added by hand. A2's verify step is the test.
+
+
+=====================================================================
+ONE DECISION STILL OPEN
+=====================================================================
+
+The work packages have two sets of names in circulation. Friday's standard
+was Roof Covering, Roof Plumbing, Roof Ancillaries, Cladding, Cladding
+Ancillaries. The tested sequence used Sheeting, Plumbing and Penetrations,
+and live tenders built on V7.3 (e.g. Estia Salisbury) use Roof Covering &
+Insulation, Roof Ancillaries and Roof Plumbing.
+
+They describe the same work. Pick one set and use it on every job, because
+consistent naming is what lets bills code themselves and lets one job's
+figures be compared with another's. Until it is settled, this document
+keeps Friday's five.
+
+
+=====================================================================
+WHAT THIS GIVES YOU
+=====================================================================
+
+  Cost per work package        materials and labour under the same names
+  Labour with no hand-sorting  the crew's extent selection does it
+  Bills coded on arrival       consistent assemblies and item groups
+  Claims that reconcile        same headings on the budget and the claim
+  Estimating feedback          actual hours against Labour_Factors
+  A job that looks like every other job, which is what makes any of it
+  automatable
+
+A light version is defensible on small jobs — extents only, no breakdown,
+simple claim. Write the threshold down rather than deciding job by job.
+
+
+=====================================================================
+CHANGE LOG
+=====================================================================
+
+23 Sep 2026 – v6.1. Default Waste set to 0% per tender at A2 (and asked of
+Nexvia at company level); margin check at A7 against the 25% Default
+Margin; A8 added (export Pricing Full Breakdown, run the Estimate Review
+Agent). V8 status noted. Estia's V7.3 fixture names added to the open
+naming decision.
+
+21 Sep 2026 – v6.0. Rewritten from Sofia's tested sequence. Three changes:
+the tender Hours tab is now explicitly left empty (A4); the breakdown is
+built with Import Breakdown from the Group IDs rather than by hand (A6);
+and non-labour rows are deleted at extent activation rather than left in
+place (B4). Verification steps added at each stage. The Installation
+Labour line-versus-fixture trap given its own section.
+
+19 Sep 2026 – v5.0. Written after live testing. Labour moved back inside
+the work-package fixtures. Two admin defaults added.
+
+19 Sep 2026 – v4.0 to v1.0. Superseded.

@@ -1,0 +1,80 @@
+FORMCLAD – BUILDER PROFILES – CURRENT
+Version 1.1 | 23 September 2026
+How each builder works with us: claim method, cut-off, portals, contacts and quirks. Fill the gaps as they come up; a profile built over three months is worth more than one guessed in a day.
+Grades are in "Formclad – Client Grades (published)". This file is the practical detail, not the assessment.
+
+WHY: at claim time nobody should have to remember whether a builder takes a PayApps claim, issues an RCTI, or wants their own form. Getting it wrong delays payment by a month.
+
+EARLYTRADE — what it is, since several builders use it
+Earlytrade is an early-payment platform. The builder (through Earlytrade) offers to pay a certified claim early in exchange for a small discount. Formclad has taken these offers before. Accepting one is signed through Synr, Earlytrade's signing platform, with a "Deed of Consistency" per claim.
+Two things to know:
+- Accepting an offer is a Commercial Approver decision: the discount is a cost against the claim, weighed against the cash benefit of being paid early.
+- When reconciling RCTIs and remittances, subtract any Earlytrade payments already received. Otherwise the job looks underpaid (this caused confusion on Chappell's Goolwa job in 2025).
+
+
+CHAPPELL BUILDERS — Grade A (48.00)
+Claims:
+- Cut-off: the 25th of each month. Chappell's contract administrator sends a reminder around the 24th and will chase a late claim.
+- Submit to CBaccounts@chappell.com.au, with the contract administrator cc'd (currently Sarah Hack, Sarah.Hack@chappell.com.au).
+- Use Chappell's own template: "Subcontractor Progress & Variation Claim – Template.xlsx" (attached to their monthly reminder email). A first claim on a new project needs the template completed and sent for review before the 25th.
+- SIGNED ITPs MUST BE ATTACHED TO EVERY CLAIM. Chappell will not approve a claim without them. Complete and sign ITPs as the work progresses, not at claim time.
+- Variations not approved before the claim are not processed that month. Send unapproved variations for review ahead of the claim, urgently.
+- Chappell then issues an RCTI, and may ask for a claim to be revised (August 2026: asked to adjust for an outstanding Stage 2 skylight at Sacred Heart).
+- Uses Earlytrade — Chappell has made early-payment offers through Earlytrade (e.g. $80k, Oct 2025; $45k, Feb 2026). See EARLYTRADE above.
+Contacts: Sarah Hack, Contract Administrator (claims) | Marvin Villalta, Construction Manager (Prospect Retail Hub) | Billy Tsoubarakis, Project Coordinator (RCTIs, Goolwa 2025) | Ben Doley. Each project also has its own mailbox in the CB-[year]-[number]@chappell.com.au format.
+Contract references: CB[year][number].4.23 format (e.g. CB26005.4.23 Sacred Heart, CB25012.4.23 RM Williams, CB24007.4.23 Le Fevre).
+Signing: uses DocuSign, and asks for a witness.
+Live/recent: Sacred Heart College Girls Boarding House (CB-26-005), RM Williams, Mortlock Park, Le Fevre PPS, Prospect Retail Hub (CB-26-007; signed SoW returned 22 Sep 2026; Site Instruction SI-00007 moves gridlines — scope impact to confirm), SAAS Goolwa Ambulance Station (CB-25-006, 2025).
+Entity: a deed of novation exists for the trust-to-company change.
+Notes: pre-agreement documents are requested before the subcontract issues — respond promptly, it holds up the award.
+[TO CONFIRM] payment terms, retention %, site portal.
+
+COOK BUILD — Grade B (40.00)
+Claims: progress claim and invoice.
+Live: Our Lady Queen of Peace (subcontract 8625, 25 May 2026, new entity).
+Handover: requested O&M manuals 8 Sep 2026; issued 18 Sep 2026.
+Contact: Josh G.
+[TO CONFIRM] claim cut-off, payment terms, retention %, portal.
+
+SARAH CONSTRUCTIONS — Grade A (44.50)
+ABN 81 007 608 880.
+Claims: PayApps, with RCTIs.
+Live: 394 Goodwood Road Medical Centre & ELC — awarded 11 Dec 2025, $351,566.54 + GST.
+Contact: Robert Maiolo.
+Entity: the Goodwood subcontract is in the old trust name; Marianne flagged on 2 Jul 2026 that payments were landing in the old entity. Needs novation or variation.
+[TO CONFIRM] claim cut-off, payment terms, retention %.
+
+FORA CONSTRUCTION — Grade C (29.25, under review)
+Live tender: Weeks Group HQ.
+History: Iron Mountain subcontract no. 463 (21 Mar 2025); contract took a long time to come through after acceptance.
+Note: the C grade includes three criteria scored zero for "no data" rather than poor performance. Rescore before using the grade.
+
+MYKRA — not yet rated
+Tenders: Kadina Fire Station, KFC Saint Shopping Centre.
+Pattern: requests pricing regularly; nothing awarded to date. Track quotes issued versus awarded at the six-monthly review.
+
+SHAPE AUSTRALIA (SA) — not yet rated
+Tenders: Estia Salisbury, Castle Plaza, Modular by SHAPE Whyalla Secondary College. No award to date.
+[TO CONFIRM] prequalification requirements — national builders usually have a supplier portal and their own compliance pack.
+
+BADGE CONSTRUCTIONS (SA) — not yet rated
+Tenders: Junction Morphettville MPS01 and MPS04 (ECI), Castle Plaza, Trinity College Roseworthy.
+Uses Earlytrade — early payments taken on claims PC01, PC04 and PC06 (late 2025 to Jan 2026), signed through Synr. See EARLYTRADE above.
+[TO CONFIRM] prequalification and portal requirements.
+
+OTHERS IN THE PIPELINE — not yet rated
+Minuzzo (Bellevue Heights PS), Mossop (Pt Lincoln Government Office; several tender-stage subcontract drafts on file), Horizon Construction Services (St Francis of Assisi Gym Renmark; Adelaide Chin Christian Church completed), G-Force Building & Consulting (Magarey House heritage works), Kennett Builders (Seaton Lot 1002), McMahon Services (Maitland CFS/SES), Fletch (Dominican School Stage 3B), Cook Building (St Francis Xavier Stage 4).
+
+EARLIER CLIENTS (rated Mar 2025, no current work)
+Gilmore Construction — A (46.25), 14-day payment terms, staging extends completion, many variations.
+BluBuilt — A (42.75). DonPro Building — A (42.00), weak on systems.
+Claridge Construction — B (41.25), domestic, low margin. Partek — B (39.75), poor variation terms.
+SRM Enterprises — B (38.00). Adelaide Custom Gates — C (31.00), long payment delays, unresponsive.
+
+
+WHAT TO CAPTURE FOR EACH BUILDER AS IT COMES UP
+Claim cut-off date | claim method (PayApps / RCTI / own form / progress claim and invoice) | claim documents required (ITPs, statutory declarations) | certification days | payment days | retention % and release terms | early payment platform (Earlytrade) | site portal (HammerTech or similar) | induction requirements | prequalification portal and what it asks for | key contacts (contracts, site, accounts) | anything that has gone wrong before.
+
+CHANGE LOG
+23 Sep 2026 – v1.1. Chappell: claim cut-off, submission address, template, ITP requirement, variation rule, contacts, Earlytrade. Badge: Earlytrade. Added an EARLYTRADE explainer and two new capture fields.
+19 Sep 2026 – v1.0. Created from contracts, awards and correspondence on file.

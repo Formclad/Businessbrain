@@ -1,0 +1,79 @@
+FORMCLAD – APPROVAL AUTHORITIES – CURRENT
+Who approves what, and what the older documents mean by "Director"
+
+As at: 18 September 2026
+Set by: Travis Harding and Sofia Calado
+Review: annually, or whenever roles or the company structure change
+
+
+1. WHY THIS DOCUMENT EXISTS
+
+Formclad restructured from a family trust to a company. Titles changed; the people making the decisions did not. Several documents (the Tender & Estimating SOP, the Estimate Review Commercial Rules & Delegation, the business plan) use "Director" as the approval authority. This document defines the authorities by what they cover rather than by title, so approvals stay valid when titles change.
+
+
+2. THE AUTHORITIES
+
+COMMERCIAL APPROVER — Sofia Calado, General Manager
+Covers: pricing policy and pricing settings, submission approvals on commercial grounds, margin and labour return exceptions, payment and cash decisions, contract terms and unusual commercial risk, credit and debtor decisions, supplier and subcontractor commercial terms, statutory, accountant and ATO matters, and process and systems ownership.
+
+OPERATIONS APPROVER — Travis Harding, Director
+Covers: buildability, scope and construction method, labour hours and productivity assumptions, programme and sequencing, site leadership and safety, procurement validation, variations arising on site, and client and builder decisions requiring construction judgement.
+
+TENDER & ESTIMATING COORDINATOR — Mairead
+Covers: everything delegated in the SOP: tender intake, prequalification outcomes, take-off coordination, supplier pricing, estimate preparation, and submission where the delegation conditions are met.
+
+FINANCE ADMINISTRATION — Marianne
+Covers: preparation, records and registers. Prepares information and exceptions for decision; does not approve payments, write-offs or credits.
+
+BOTH APPROVERS TOGETHER
+Some decisions need both a commercial and an operational view: taking on a project above the single-job size guide, any project that changes team capacity or requires new fixed cost, contract amendments that shift risk materially, and any decision to proceed below the reprice line.
+
+
+3. READING THE OLDER DOCUMENTS
+
+Where an existing document says:
+  "Director review required" (on price, margin, ROR, contract terms, credit or cash) → Commercial Approver.
+  "Director review required" (on scope, buildability, labour hours, programme, site or procurement) → Operations Approver.
+  "Director commercial review" → Commercial Approver.
+  "Escalate to Travis, copy Sofia" → unchanged; that is Operations Approver, copy Commercial Approver.
+  "Directors" (plural, for example in the capability statement) → Travis Harding, Director, and Sofia Calado, General Manager.
+
+This mapping applies until each document is updated in its own words. It does not change any threshold; it only names who holds the authority.
+
+
+4. THRESHOLDS AND WHO HOLDS THEM
+Dollar figures come from "Formclad – Pricing Settings – CURRENT" and change when the directors update it.
+
+Tender submission where all delegation conditions are met       Tender & Estimating Coordinator
+Labour return below the minimum guide ($165/hr)                 Commercial Approver
+Labour return below the reprice line ($155/hr)                  Both approvers
+Whole-job gross margin below the review floor (28%)             Commercial Approver
+Estimate Review confidence LOW                                  Commercial Approver
+Unresolved scope, technical or buildability issue               Operations Approver
+Project above the single-job size guide (about $225,000)        Both approvers
+Contract amendments, unusual terms, retention or security       Commercial Approver
+Forecast gross margin falls 3 percentage points or more         Operations Approver, copy Commercial Approver if financially material
+Forecast final cost over budget by 5% or $10,000 (lower of)     Operations Approver
+Labour hours 10% or more over budget                            Operations Approver
+Unapproved variations over $5,000 or 2% of contract (lower of)  Both approvers
+Procurement or coding issue affecting margin by over $5,000     Operations Approver, copy Commercial Approver
+Payment priorities, or any risk to wages or statutory payments  Commercial Approver
+Finance difference over $1,000, or unresolved for 5 days        Commercial Approver
+New fixed cost, recruitment, or capacity change                 Both approvers
+
+
+5. STILL TO SETTLE
+
+Project management is currently split informally, and Travis is spending more time on the tools. The delivery-side tasks (programme, procurement follow-up, site coordination, variation tracking, claim timing, close-out) need to be listed and allocated between Travis, Sofia and Mairead. Until that is done, project management sits with the Operations Approver by default.
+
+
+6. WHERE TITLES APPEAR EXTERNALLY
+
+Travis Harding – Director
+Sofia Calado – General Manager
+Use these on capability statements, prequalification forms, tender submissions and email signatures. Prequalification forms that ask who holds financial authority should name the General Manager.
+
+
+7. CHANGE LOG
+
+18 Sep 2026 – Created after the restructure from family trust to company. Sofia's title set as General Manager. Approval authorities defined as Commercial Approver and Operations Approver so that approvals do not depend on the word "Director".

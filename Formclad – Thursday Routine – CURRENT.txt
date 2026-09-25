@@ -1,0 +1,81 @@
+FORMCLAD – THURSDAY ROUTINE – CURRENT
+Version 1.2 | 24 September 2026
+Owner: Sofia (General Manager), during the weekly timesheet session
+
+Why Thursday: timesheets are already done every Thursday in Nexvia. Adding job costing to an existing habit works; a separate meeting does not. Total added time: about 15 minutes.
+
+The problem this fixes: most projects have no budget loaded in Nexvia, so actual hours and costs have nothing to be compared against. Every report then looks meaningless, which is why the habit never formed.
+
+How a won tender becomes a project: the tender is converted to a project in Nexvia with one click, which carries the tender across. The budget is then set up as a separate step. That second step is the one that slips, because it has never had a fixed time or a single owner, and by the time it matters it is claim time and too late.
+
+
+WHERE EVERY EXPORT GOES
+  AdminHub > 00 Business Brain > Nexvia Exports
+  https://formclad.sharepoint.com/sites/AdminHub/00%20Business%20Brain/Nexvia%20Exports
+  Name each file "YYYY-MM-DD – report name", e.g. "2026-09-24 – Time Entries.xlsx".
+  One folder for all four reports, so Claude reads them in one place.
+
+
+THE THURSDAY 15 MINUTES
+
+Step 1 – Timesheets
+  Check the week's hours before payroll, using two reports:
+  • Time Entries Report (Staff app > Accounts > Reports), filtered to the pay week. Look for a blank Extent of Work (hours going to Unassigned), the wrong labour type, missing days and double entries. Save a filter for blank extents so this becomes one click.
+  • Job Weekly Hours List (Admin portal > Jobs > Weekly Hours > This Week). Cross-check each person's week and spot any job burning hours faster than expected.
+  Export both to Nexvia Exports.
+  Note: Nexvia's payroll Rates table is empty (normal, time and a half and double time all $0), so penalty-rate pay is checked in Xero, not Nexvia.
+
+Step 2 – Set up any missing budgets (about 5 minutes per job)
+  • Check the job list for projects showing 0 budget hours.
+  • Set up the budget for each one. [TO CONFIRM: the exact steps, once done together with Claude driving the browser.]
+  • Only hours and material costs are needed to make the reports useful. A rough budget set up today beats a perfect one set up never.
+  • Do it even on jobs already well advanced. A late budget still gives the close-out review something to compare.
+
+Step 3 – Export the job costing reports (about 2 minutes)
+  • Data Extraction Report (WIP values across all projects) — the money view.
+  • Project Budget Actuals Report (budget against actual per project) — once budgets are set up.
+  • The Time Entries Report from step 1 is the hours view; no need to export it twice.
+  • Save into Nexvia Exports, named as above.
+
+Step 4 – Ask Claude (about 1 minute of your time)
+  • Message: "Run the Thursday job costing review."
+  • Claude reads the exports and returns: unassigned or miscoded hours, jobs with no budget set up, jobs where hours are running ahead of progress, forecast margin by job, anything crossing a Part A escalation trigger, and the two or three jobs worth Travis's attention.
+
+Step 5 – Act (about 5 minutes)
+  • Anything flagged goes to Travis as a specific question, not a report.
+  • Anything commercial (margin, variations, claims) is your call as Commercial Approver.
+
+
+WHAT CLAUDE DOES
+
+  • Each Thursday: the review above, from the exports.
+  • Fortnightly: a list of any job still without a budget, so nothing quietly slips to claim time.
+  • At close-out: the job result (quoted versus actual hours, ROR and margin) added to the job results register.
+  • Whatever can be prepared ahead of the budget setup step, once that process is written down.
+
+
+WHO DOES WHAT
+
+  • Sofia: the Thursday 15 minutes, and commercial decisions arising.
+  • Mairead: the estimate-to-project handover in the SOP.
+  • Travis: answers the specific questions raised, and the close-out judgement on what to price or build differently.
+  • Claude: preparation, reading the exports, flagging exceptions, keeping the register.
+
+
+STILL TO CONFIRM
+
+  • The exact Nexvia budget setup steps after a tender is converted: what carries across automatically, what has to be entered, and where the hours come from. To be done once with Claude driving the browser, then written down here so anyone can repeat it.
+  • Whether the Data Extraction Report carries percent complete and billings to date. If it does, over- and under-billing can be tracked too, which feeds the 13-week cash forecast.
+  • Whether Time Entries can be reported against budgeted hours per job once budgets are set up.
+  • Whether timesheet approvals still come from buildlaunch rather than Nexvia. If so, that export is needed too until approvals move across.
+
+
+FIRST JOB TO LOOK AT
+
+Our Lady Queen of Peace (J001217) is the only project with both a budget and actuals: 53 budget hours against 158 actual, with the budget summary showing a negative 22.65% margin. Check first whether the $5,667 of variations has been added to the sale value — if not, part of that loss is an artefact of the setup rather than the job.
+
+
+CHANGE LOG
+24 Sep 2026 – v1.2. One export folder for everything: 00 Business Brain > Nexvia Exports (created 24 Sep; matches the Index). Step 1 now names the two timesheet reports and what to check. Payroll rates and buildlaunch notes added.
+18 Sep 2026 – v1.1. Corrected: won tenders are converted to projects in one click; the budget setup is the separate step that slips.
+18 Sep 2026 – v1.0. Job costing attached to the existing Thursday timesheet session.

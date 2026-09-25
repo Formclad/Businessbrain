@@ -1,0 +1,52 @@
+FORMCLAD – ENTITY CHANGE CHECKLIST – CURRENT
+Version 1.0 | 18 September 2026
+
+THE TWO ENTITIES
+Current (from 1 Jan 2026): T Harding & S Calado Pty Ltd T/as Formclad, ABN 84 671 176 748
+Former (to 31 Dec 2025): Harding & Calado Family Trust T/as Formclad, ABN 36 633 906 403
+Address and licence unchanged: 31 Rogana Crescent, Hallett Cove SA 5158. BLD 333524.
+
+THE RULE
+Historical records keep the old entity — invoices already issued, past financial statements, signed contracts from the trust period, old activity statements. Do not change them.
+Anything issued from now on must show the company. A document going to a builder, supplier, insurer or regulator with the wrong ABN can delay payment, fail prequalification, or invalidate cover.
+
+A search of SharePoint and OneDrive found about 180 documents carrying the old ABN. Most are correctly historical. The live ones are below.
+
+
+PRIORITY 1 – MONEY AND RISK
+[ ] Insurance certificates of currency. The copy on file is issued to Harding & Calado Family Trust, ABN 36 633 906 403. Confirm with the broker that all policies are now in the company name, and get fresh certificates. Builders ask for these at prequalification, and cover in the wrong entity is a serious exposure.
+[ ] Xero invoice and quote templates. Invoices and quotes on file (QUOTE1044, INV-0075, the J1062 invoice series) show the trust name, ABN and bank details. Check what Xero is issuing now.
+[ ] Nexvia: subsidiary name and details. The project Modify screen shows subsidiary "T Harding & S Calado PTY LTD T/as Formclad", which looks correct — confirm the ABN and bank details on documents Nexvia generates.
+[ ] Bank details shown on invoices and letterhead. Confirm which account current invoices should direct payment to.
+[ ] Builder and client records. Anyone still paying the trust needs updating: their accounts payable records, and any subcontract agreement being novated or re-signed.
+
+PRIORITY 2 – DOCUMENTS THAT GO TO OTHERS
+[ ] Letter Head Formclad.docx (Sofia's OneDrive). Shows the trust and a malformed ABN, "8436 633 906 403", which looks like the new prefix pasted onto the old number. Rebuild with the company details and move it into SharePoint.
+[ ] Roof Installation Methodology.docx (Operations & Systems). Old entity. The new master template carries the correct details.
+[ ] Capability statement. Check the entity and ABN on the contact page.
+[ ] Quote & Estimate Terms & Conditions v1 (02_Client & Estimate Management).
+[ ] FORM – Formclad Set-up Details.docx. The form used to set Formclad up as a new supplier with a builder — it carries the trust name and ABN, so every new builder is being onboarded against the wrong entity.
+[ ] Host Approval_Formclad.docx. Labour hire host approval; mixes the trust ABN with the Pty Ltd name.
+[ ] SWMS produced on the Master Builders SA platform. Check the company details held in that account.
+[ ] Email signatures.
+[ ] Website and social profiles, if they show an ABN.
+
+PRIORITY 3 – INTERNAL AND HR
+[ ] Trade Assistant Performance Guide.docx and other HR templates.
+[ ] Employment agreements and any contractor agreements being renewed.
+[ ] Purchase order and delivery docket templates, if any show the entity.
+
+LEAVE ALONE (historical, correctly in the old entity)
+- Financial statements and annual reports to 30 June 2025, and the 2024 statements.
+- Activity statements for trust periods.
+- Bank statements filed under "01 Old Entity – Harding & Calado Family Trust (to 31 Dec 2025)".
+- Invoices already issued and paid under the trust.
+- Signed agreements from the trust period, including the BuildLaunch client services agreement, unless they are being renewed or novated.
+
+
+NOTES
+- Supplier trade accounts may need updating too: an account still in the trust's name can complicate credit terms and bill matching.
+- When a document is updated, save the new version over the old one in SharePoint rather than keeping both.
+
+CHANGE LOG
+18 Sep 2026 – v1.0. Created after the restructure from family trust to company, when the methodology document was found still carrying the old entity.

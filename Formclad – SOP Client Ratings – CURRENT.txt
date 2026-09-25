@@ -1,0 +1,85 @@
+FORMCLAD – SOP: CLIENT RATINGS
+Version 1.1 | 18 September 2026
+Owner: Commercial Approver (General Manager)
+
+PURPOSE
+Decide which builders are worth our estimating hours and our crew's time, using evidence rather than memory. The rating feeds three decisions: whether to tender, how much risk to price, and which relationships to build.
+
+THE TOOL AND THE PUBLISHED GRADES
+Ratings are recorded in the client ratings tool (Claude artifact, Sofia only) and published to "Formclad – Client Grades (published) – CURRENT" in the Business Brain, which is what the rest of the team and Copilot read. Republish after each review round.
+Thirteen criteria, each scored 1 to 4 (half points allowed). A = 42+, B = 32–41, C = 31 or below, out of 52. Criteria are defined in "Formclad – Client Rating Rubric – CURRENT".
+
+
+1. WHO DOES WHAT
+
+Commercial Approver (Sofia) — owns the ratings and holds the tool. Scores contract terms, payment history, tendering and pricing behaviour, financial stability, profitability and brand fit. Decides grade changes and whether to keep tendering to a client. Republishes the grades file.
+Operations Approver (Travis) — supplies what shows up on site: programming, safety and compliance, on-site coordination, scope and expectations, and delivery communication. Sofia records his scores.
+Tender & Estimating Coordinator (Mairead) — reads the published grades file, checks grades at prequalification, records them in the Tender Tracker, and flags unrated builders and out-of-date notes.
+
+Where the office and the site see a builder differently, that difference belongs in the notes rather than being averaged away.
+
+
+2. WHEN TO RATE
+
+New builder, first tender invitation — create the record and score only what tendering shows: documentation quality, negotiation, contract terms, scope clarity, programming, financial stability, safety and systems, communication. Leave payment history, on-site coordination and profitability blank; the grade scales to what was scored and shows as provisional.
+After the first completed job — fill in the blanks and confirm or change the grade.
+After every significant project — review as part of the job debrief, alongside the job costing close-out.
+After a significant event — a major payment delay, contract dispute, safety incident or variation fight. Rate it while it is fresh.
+Every six months — review every active builder.
+New builders — review monthly for the first three months while provisional.
+
+
+3. HOW TO SCORE
+
+- Score what happened, not how it felt. The note carries the example; the number carries the pattern.
+- Leave blank anything you cannot judge yet. A blank is honest; a low score for "no data" wrongly drags a builder toward C.
+- Half points are fine where a builder sits between two descriptions.
+- One or two bad experiences do not make a C. Repeated behaviour does.
+- Always write the note. "3" tells the next person nothing; "pays at 45 days despite 30-day terms" tells them everything.
+
+
+4. TWO DECISIONS, NOT ONE (EstimateOne and multi-builder tenders)
+
+Most opportunities arrive through EstimateOne, where the same project is tendered by several builders. Keep the decisions separate:
+
+Decision 1 — is the PROJECT worth pricing? Scope, complexity, materials, storeys, distance, access, programme and capacity. This is the existing prequalification check and does not involve grades. If the project fails here, it is a no-bid regardless of who is asking.
+
+Decision 2 — WHICH BUILDERS do we quote it to, and on what terms? This is where grades apply. The take-off is done once, so quoting the same project to an additional builder costs comparatively little. The risk only arrives if that builder wins.
+  - A and B builders: quote as normal.
+  - C builders: quote only where there is a reason, and price the risk into that quote — slow payment, variation disputes and coordination problems cost real money. The base price is the same; the risk allowance and the terms differ.
+  - Unrated builders: give them a provisional rating before quoting. Two minutes.
+  - Where several builders are pricing the same project, note it. If an A builder and a C builder are both bidding, our best chance of a good job is the A builder winning, which is worth reflecting in how sharp each quote is.
+
+Record in the Tender Tracker at project level, with the builders quoted listed against it, so we can see both the project outcome and each builder's award rate.
+
+
+5. BUILDERS WHO ASK FOR PRICES BUT NEVER AWARD
+
+Estimating hours are a real cost, and a builder who requests pricing repeatedly without ever awarding is spending them. On multi-builder projects, count the quotes issued to that builder, not the projects.
+- Record every quote issued, and the outcome, in the Tender Tracker.
+- At the six-monthly review, look at quotes issued versus awarded per builder.
+- Rule of thumb: five or more quotes to one builder with no award, and no clear reason, is worth a conversation with them and a decision from the Commercial Approver on whether to keep quoting.
+- Options short of walking away: ask what the pricing gap has been, ask to be involved earlier, or quote only the jobs of theirs that suit us.
+- Record the decision in the notes, so nobody quietly restarts the pattern.
+
+
+6. USING THE GRADE
+
+  A — prioritise. Worth early involvement, and worth a sharper price where the return still clears the minimum.
+  B — quote when workload allows. Price normal risk.
+  C — avoid unless there is a specific reason; price the risk honestly.
+  Unrated — rate provisionally before deciding.
+
+A grade never overrides the labour return and margin gates in Pricing Settings. A grade-A builder with a job below the minimum return still needs commercial review.
+
+
+7. KEEPING IT HONEST
+
+- These are commercial records about named businesses. Keep them factual, specific and defensible. Write nothing you would not be comfortable explaining to that builder.
+- Grades are internal. Do not share the tool or the grades outside Formclad.
+- Once job costing is running, actual labour return and margin by builder replace judgement on profitability with evidence.
+
+
+CHANGE LOG
+18 Sep 2026 – v1.1. Separated the project decision from the builder decision for EstimateOne multi-builder tenders; quote counts, not project counts, drive the never-awards rule. Recorded that the tool is Sofia-only and the published grades file is what the team reads.
+18 Sep 2026 – v1.0. Written when the rubric was recovered and rebuilt as a shared tool.

@@ -1,0 +1,64 @@
+FORMCLAD – GETTING PAID: VARIATIONS, CLAIMS AND RETENTIONS – CURRENT
+Version 1.0 | 18 September 2026
+Owner: Commercial Approver (General Manager)
+
+This covers the stretch between doing the work and having the money: variations, progress claims, invoices, retentions and the supplier side that feeds them. It records how Formclad works today and what should change.
+
+
+1. HOW IT WORKS NOW
+
+Claims: raised around the 25th of each month in Nexvia, then emailed to the builder. Some builders use PayApps. Some (for example Chappell) issue RCTIs; others take a progress claim and invoice.
+Invoicing: Nexvia exports the invoice to Xero.
+Reminders: Xero's invoice reminders are switched off, because the Xero template does not match the Nexvia one. Most clients pay on time, so this is a small exposure rather than an urgent one.
+Variations: go through Travis. Often not entered into Nexvia until claim time.
+Retentions: not tracked in Nexvia, and not tracked anywhere else.
+Purchase orders: not used.
+Price books: held in a SharePoint folder. Many supplier accounts have no current price book, and the price books that exist are often out of date, so large quantities are always quoted.
+
+
+2. WHAT NEEDS TO CHANGE, IN ORDER
+
+a) Variations entered when they happen, not at claim time.
+Entering variations at claim time means: work already done that nobody has priced, a claim assembled under time pressure on the 25th, and a project margin that looks wrong all month (Our Lady Queen of Peace showed $5,667 of variations on the cost side, which made the job read as a loss).
+Rule: a variation is entered in Nexvia when it is identified, with its status — identified, priced, submitted, approved, rejected. Pricing follows within the agreed window, not at month end.
+Travis still decides scope and price. The change is where it is recorded, and when.
+
+b) A retention register.
+Retention is money already earned, sitting with the builder until someone asks for it. Because Nexvia does not track it, it needs its own register — a SharePoint list or one spreadsheet in the Brain, with: job, builder, contract value, retention percentage, amount held to date, practical completion date, defects liability period end, first release date, second release date, amount claimed, amount received, next action.
+Review it monthly alongside the claim run. A release date that passes unnoticed is the easiest money in the business to lose.
+
+c) A claim calendar, not a claim scramble.
+Working back from the 25th: variations priced and approved by around the 18th, progress percentages agreed with Travis by around the 20th, claims prepared by the 23rd, issued on the 25th. Each builder's own deadline overrides this — some cut off earlier.
+Record per builder: claim cut-off date, method (Nexvia email, PayApps, RCTI), payment terms, and who certifies.
+
+d) Purchase orders, eventually.
+Not used today. Worth adopting because committed costs are what make Cost to Complete and forecast margin honest — without POs, a cost only appears when the bill arrives, which is usually too late to act on. Start with major material orders and subcontractors rather than everything.
+
+e) Invoice reminders.
+Currently off because Xero's template does not match Nexvia's. Options: rebuild the Xero template to match, or leave reminders off and rely on the weekly aged receivables review in Part A. Most clients pay on time, so this can wait, but the decision should be recorded rather than left as a switched-off feature nobody remembers.
+
+
+3. SUPPLIERS AND PRICE BOOKS
+
+Current practice is sound: always quote large quantities, because price books are often wrong. Keep it.
+What is missing is a record of which supplier accounts exist, which have a current price book, and when each was last updated. Without that, every estimate starts by working out what pricing we actually hold.
+Suggested register (one row per supplier): supplier, account number, contact, what we buy from them, price book held (yes/no and date), payment terms, typical lead times, reliability notes.
+Lysaght, Metroll, Apex Roofing Supplies and Bunnings Trade are named in the capability statement, plus Fleurieu Cranes and access hire partners.
+
+
+4. WHAT THIS FEEDS
+
+- Cash: claim timing and retention releases are the two biggest levers on the 13-week forecast.
+- Job costing: variations entered on time keep forecast margin honest all month, not just at month end.
+- Estimating: supplier lead times and actual prices feed back into the next estimate.
+
+
+5. OPEN QUESTIONS
+- Which builders have claim cut-offs earlier than the 25th?
+- Which builders issue RCTIs, and which require PayApps?
+- Retention percentages and release terms per current contract.
+- Whether to rebuild the Xero reminder template or leave reminders off.
+
+
+CHANGE LOG
+18 Sep 2026 – v1.0. Written from how claims, variations and retentions are run today.

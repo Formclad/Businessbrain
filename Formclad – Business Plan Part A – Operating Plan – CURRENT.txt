@@ -1,0 +1,276 @@
+FORMCLAD BUSINESS PLAN 2026–2028
+PART A – OPERATING PLAN (shared with the team)
+
+Part A covers how Formclad works: positioning, the work we chase, roles, the tender and delivery process, cash and system rules, and each person's priorities.
+Part B – Financial & Owner Plan holds the revenue, margin, overhead, owner and profit targets. It is held by the directors. Together the two parts form the business plan; neither repeats the other.
+Pricing figures (labour cost, break-even, ROR ratings, gross margin) are in "Formclad – Pricing Settings – CURRENT" in the Business Brain.
+
+As at: 17 September 2026. Reviewed quarterly, refreshed annually.
+
+
+1. WHAT WE ARE BUILDING
+
+Formclad is a specialist architectural roofing, cladding and roof plumbing contractor in South Australia. We compete on technical capability, reliability, quality and disciplined delivery, not on being the cheapest.
+
+The next stage is controlled growth with a deliberately small structure: five field employees supported by Travis, Sofia, Mairead and Marianne. Profit improves by selecting the right work, pricing labour and risk correctly, controlling procurement, monitoring jobs while they are live, claiming all variations and retentions, collecting debtors promptly and reducing duplicated administration.
+
+Strategic rule: revenue is only valuable when it produces adequate contribution, is invoiced correctly and converts to cash. Profitable work and cash conversion come before turnover.
+
+Three-year outcomes
+- Profitability: reliable monthly results, adequate job contribution, fewer margin surprises.
+- Cash: enough available cash to fund wages, tax, super, suppliers and ordinary operations, tracked on a rolling 13-week forecast.
+- Delivery: a stable five-person field team without excess management or admin load.
+- Systems: one reliable workflow across estimating, Nexvia, EzzyBills, Xero and SharePoint.
+- Owners: Travis and Sofia focus on decisions and leadership; Mairead and Marianne prepare clear information and escalate defined exceptions.
+
+
+2. IDENTITY AND POSITIONING
+
+Purpose: deliver high-quality architectural roofing, cladding and roof plumbing with commercial discipline, creating durable buildings, trusted relationships and a financially strong business.
+
+Mission: be a preferred specialist contractor for technically demanding residential and small commercial projects through craftsmanship, accurate estimating, reliable communication, controlled delivery and strong financial management.
+
+Values
+- Quality first: work completed safely and to a standard the team is proud to put its name on.
+- Commercial responsibility: everyone protects labour hours, materials, programme and cash.
+- Genuine care: communicate honestly and resolve issues early.
+- Accountability: responsibilities, approvals and handovers are clear.
+- Continuous improvement: job results feed back into estimating and delivery.
+
+Market position: high-end architectural residential and selected small commercial work where technical expertise, finish quality and reliability are valued. Avoid poorly documented, excessively price-driven work, work outside our technical strengths, or work likely to create disproportionate variations, administration, delay or payment risk.
+
+
+3. SERVICES AND IDEAL WORK
+
+Core services: architectural metal roofing and wall cladding; roof plumbing, gutters, flashings and drainage; specialist materials and technically complex installations; selected repairs and remedial work with clear scope and margin; small commercial and premium residential projects in South Australia.
+
+Ideal project
+- Clear drawings, specifications, scope and contract conditions.
+- A client or builder with reliable payment history and a realistic programme.
+- Enough lead time for take-off, procurement and labour planning.
+- Technical skill valued and recoverable in the price.
+- Manageable retention, security, liquidated damages and warranty exposure.
+- A labour return per hour at or above the approved minimum for the risk and complexity.
+
+No-bid or director-review triggers
+- Incomplete documentation or unresolved scope gaps.
+- Unrealistic programme or material lead time.
+- Client payment concerns, excessive retention or unacceptable contract amendments.
+- Unpriced design responsibility, access constraints or coordination risk.
+- Work needing high turnover but generating weak contribution.
+- Projects beyond current supervision, cash or delivery capacity, or above the approved single-job size limit in Pricing Settings.
+
+
+4. TEAM AND ACCOUNTABILITY
+
+Travis – operations and commercial delivery: client relationships, final scope and price review, programme, site leadership, procurement validation, variations and project decisions. Output: profitable, buildable work delivered safely and on programme.
+Sofia – finance oversight and business control: cash decisions, approvals, pricing policy, financial review, accountant and ATO matters, process design, higher-risk decisions. Output: protected cash, reliable reporting, disciplined approvals.
+Mairead – estimating and pre-construction: tender triage, document control, estimate preparation, supplier pricing, tender tracker, handover information. Output: complete, timely, commercially reviewable tenders.
+Marianne – finance administration: AP/AR processing, reconciliations, document collection, debtor follow-up, registers, reporting preparation, exception escalation. Output: accurate records and concise exceptions for decision.
+Five field employees – safe, productive installation: quality installation, time capture, material care, site records, early issue reporting, reduced rework.
+
+Operating rhythm
+- Daily: site priorities, labour allocation, constraints, safety.
+- Weekly: pipeline, tender priorities, live-job labour and cost exceptions, variations, procurement, 13-week cash.
+- Monthly: financial results, cash conversion, debtors, tax provisions, forecast job margins, overhead review.
+- Quarterly: client mix, pricing rules, team capacity, systems, supplier performance, strategic risks.
+
+
+5. HOW WE PRICE
+
+We price and manage work using contribution and labour recovery, not revenue alone. The critical estimating metric is labour return per hour:
+
+(Quoted price ex GST − materials − subcontractors − equipment − other direct non-labour costs) ÷ budgeted labour hours
+
+Every estimate must show the expected labour return per hour, direct costs, gross profit, gross margin, overhead recovery, risk allowance and cash requirements. The approved minimum and target are in Pricing Settings; how they are applied, and who may submit, is in the Estimate Review Commercial Rules & Delegation.
+
+Pricing rules
+- Separate materials, subcontractors, plant, labour, preliminaries, overhead recovery, risk and profit.
+- Use productive labour hours, not paid hours, for hourly recovery.
+- Price supervision, mobilisation, travel, site meetings, shop drawings, access, cranage, protection, testing and close-out where applicable.
+- Include escalation or quote expiry for volatile material pricing and long lead times.
+- Never rely on future variations to make an underpriced base contract profitable.
+- Complete a director commercial review for contract risk or unusual terms before submission.
+
+
+6. SALES AND TENDER STRATEGY
+
+Target fewer, better-fit opportunities. Measure the pipeline by expected contribution, capacity fit and probability, not lead count.
+
+Tender workflow
+1. Capture every opportunity in the SharePoint Tender Tracker with due date, client, project, stage and next action.
+2. Prequalify: fit, documents, programme, contract, client, capacity, payment risk.
+3. Prepare take-off and supplier pricing; record assumptions, exclusions and clarifications.
+4. Build the estimate in Nexvia with labour hours and direct costs that transfer to the project budget.
+5. Review labour return per hour, gross margin, overhead contribution, cash exposure and contract risks.
+6. Submit a clear proposal and follow up actively; record the outcome and reasons won or lost.
+7. For won work, complete a formal handover to project budget, procurement and programme.
+
+Sales measures: qualified pipeline value and expected contribution; win rate by client and project type; average labour return per hour quoted and won; gross margin at tender, commencement and forecast completion; reasons won, lost and no-bid; value of unapproved variations and time to convert them.
+
+Pipeline rules
+- Keep enough qualified work to protect the field programme without lowering the pricing floor.
+- Report the pipeline as secured backlog, highly probable, qualified tenders and early opportunities.
+- Measure expected productive hours and contribution, not only tender value.
+- Avoid so much overlapping secured work that we rely on uncontrolled overtime, expensive subcontract labour or late delivery.
+- Watch client and project concentration so one builder or one large job does not determine the year.
+
+
+7. PROJECT DELIVERY AND JOB COSTING
+
+Every project needs a budget, labour-hour allowance, procurement plan, claim schedule and named responsibility before site work starts.
+
+Project controls: approved contract value and variations; budget versus actual materials, subcontractors, plant and labour hours; committed costs from purchase orders; cost to complete and forecast final gross margin; unapproved variations, delays, notices, retention and claim status; cash required before the next expected receipt.
+
+Nexvia coding: allocate major roofing sheets, coil, cladding, insulation, equipment and subcontractors to the correct project and package. Small consumables (silicone, blades, screws, fixings) may be coded to a project-level sundry category.
+
+Escalation triggers
+- Forecast gross margin falls 3 percentage points or more → Travis, copy Sofia if financially material. Validate remaining scope, cost to complete, recovery action and forecast.
+- Forecast final cost exceeds budget by 5% or $10,000, whichever is lower → Travis. Identify cause, commitment, programme effect and decision required.
+- Labour hours exceed or are forecast to exceed budget by 10% → Travis. Check productivity, scope change, rework, access and remaining hours.
+- Unapproved variations exceed $5,000 or 2% of contract value, whichever is lower → Travis and Sofia. Issue notices, price promptly, decide whether work proceeds.
+- Procurement or coding issue may affect programme, claim timing or margin by more than $5,000 → Travis, copy Sofia. Confirm supplier, amount, lead time and mitigation.
+
+Project-level standards
+- Labour return per hour at or above the approved floor; reprice, reduce risk, change scope or no-bid if a project cannot support it.
+- No uncontrolled reduction in forecast gross margin from the approved estimate.
+- Complete within approved budget hours and approved revised cost.
+- Identify, notify, price and submit variations promptly; no material unapproved balance.
+- Claim at the earliest contractual milestone with complete support.
+- 100% of won projects handed over before procurement or mobilisation.
+- Close out every job: final costs, labour, variations, retention and lessons, fed back into estimating.
+
+
+8. CASH AND DEBTOR CONTROL
+
+Profit does not automatically create cash. Manage the timing of claims, receipts, supplier payments, wages, super, GST, PAYG, ATO obligations, loan repayments, retentions and major procurement through a rolling 13-week cash forecast.
+
+Cash rules
+- Keep operating cash separately visible from funds needed for GST, PAYG, super and ATO obligations.
+- Raise progress and variation claims as soon as contractually permitted.
+- Do not order major materials without confirming project allocation, price, timing and cash impact.
+- Match supplier payment timing to contractual receipts where commercially possible.
+- Escalate immediately if wages or statutory payments may not be funded by their due dates.
+- Treat borrowing as a fix for a temporary timing gap only, never as a substitute for adequate pricing or margin.
+- Maintain at least four weeks of fixed operating outgoings available or credibly funded.
+
+Debtor control
+- Invoice accurately and on time with the required supporting documents.
+- Review aged receivables at least weekly.
+- Record promised payment dates and follow up broken promises immediately.
+- Escalate any debtor over 30 days overdue, or over 14 days where more than $10,000 is outstanding, disputed or subject to a broken promise.
+- Keep a retention register with eligibility dates and actions.
+- Identify unbilled work, uncertified claims and approved variations not yet invoiced.
+
+
+9. SYSTEMS
+
+Nexvia for estimating, project budgets, purchase orders, bills and job costing. Xero for accounting, payroll and statutory reporting. EzzyBills for invoice capture. SharePoint and Microsoft 365 for documents, registers, workflows and collaboration.
+
+Principle: automate the predictable; review the exceptions.
+
+Rules
+- Enter data once where practical; avoid parallel imports that create duplicate-bill risk.
+- Use purchase orders where they improve project allocation, committed-cost visibility, approvals or processing.
+- Use project-specific standing POs only for recurring minor purchases, with realistic limits.
+- Reconcile Nexvia, Xero and registers by exception.
+- Keep directors out of routine searching, coding and document collection.
+- Use SharePoint lists for tender tracking, retentions, variations and workflow status.
+- Keep one current version of every key document in the Business Brain; move old versions to Superseded.
+
+
+10. MANAGEMENT DASHBOARD
+
+Area – measure – frequency – owner
+Cash – available cash, 13-week low point, tax/super provision gap – weekly – Sofia and Marianne
+Receivables – total overdue, over 30 days, broken promises, unbilled claims – weekly – Marianne
+Pipeline – qualified opportunities, expected contribution, capacity fit – weekly – Travis and Mairead
+Estimating – labour return per hour, margin, win rate, no-bid reasons – monthly – Mairead and Travis
+Projects – budget versus actual labour, committed cost, forecast final margin – weekly – Travis
+Variations – submitted, approved, unapproved and unbilled values – weekly – Travis
+Profit – gross profit, overhead and net profit – monthly – Sofia
+Systems – unreconciled differences, duplicate risks, overdue approvals – weekly – Marianne
+
+
+11. IMPLEMENTATION
+
+First 30 days: confirm actual team, payroll cost, productive hours and monthly overhead; set the minimum labour return per hour and tender review checklist; build one 13-week cash forecast; prepare clean aged debtor, payable, retention and unapproved variation registers; confirm system ownership and remove duplicate invoice-entry pathways; select current projects for forecast margin reviews.
+
+Days 31–90: make estimate-to-project handover mandatory; review live-job labour and committed cost weekly; introduce monthly management accounts with concise commentary; analyse won and lost tenders and adjust the target-client list; implement project-specific purchasing and sensible blanket PO rules; document Marianne's and Mairead's recurring workflows and exception thresholds.
+
+Months 4–12: refine pricing from completed-job data; strengthen preferred builder, architect and supplier relationships; measure capacity before adding volume or employees; automate recurring SharePoint reminders and status workflows; review pricing settings in the annual budget; only add fixed cost when contribution and cash support it.
+
+
+12. KEY RISKS AND CONTROLS
+
+Underpriced labour or complexity → busy team, weak contribution. Control: labour return per hour, risk review, completed-job feedback.
+Poor scope or contract terms → disputes, unrecovered variations, delay exposure. Control: prequalification, clarifications, commercial review.
+Labour overruns or rework → margin loss, programme pressure. Control: budget hours, weekly forecast, early site escalation.
+Slow claims and debtors → cash stress, supplier pressure. Control: claim calendar, weekly ageing, escalation.
+Uncontrolled procurement → cost overruns, duplicate or uncoded bills. Control: POs, supplier checks, project allocation.
+Growth ahead of systems or cash → owner overload, instability. Control: capacity gates, cash forecast, staged recruitment.
+Weak data between systems → misleading job results, duplicated admin. Control: clear system of record, reconciliations.
+Tax and super under-provision → statutory risk, cash shock. Control: separate visibility, due-date calendar, funding escalation.
+
+
+13. ROLE PRIORITIES AND ACTIONS
+
+MAIREAD – ESTIMATING AND PRE-CONSTRUCTION
+
+1. Tender control. Maintain a complete, prioritised tender pipeline in the SharePoint Tender Tracker and tender folders. Record every opportunity; confirm due date, client, documents, stage and next action; identify missing information; rank by strategic fit, capacity and commercial quality; close or archive inactive opportunities. Update daily; issue the priority list before the weekly pipeline review. Complete when every active tender has an owner, due date, status, next action and document link. Report tenders due, missing documents, workload conflicts and decisions required. Escalate if a submission date is at risk, documents are materially incomplete, or a no-bid/director-review trigger is met.
+
+2. Estimate completeness. Prepare commercially reviewable estimates in Nexvia using supplier quote folders and the estimate checklist. Confirm scope; complete take-off; obtain and compare supplier and subcontractor prices; enter direct costs and labour hours; document assumptions, exclusions, alternates and quote expiry; calculate labour return per hour and gross margin. Due before internal tender review and submission. Complete when the estimate can be reviewed without directors searching for missing scope, prices or assumptions. Report proposed price, labour hours, labour return per hour, margin, major risks and unresolved items. Escalate if supplier pricing is missing, labour assumptions are uncertain, margin is below the approved floor, or unusual contract risk exists.
+
+3. Tender follow-up and learning. Track submissions, follow-ups, outcomes and reasons won or lost. Record submission date and value; schedule follow-up; update status; seek useful feedback; classify outcome and reason. Complete when no submitted tender is left without a next action or recorded outcome. Report overdue follow-ups, likely opportunities and recurring reasons won or lost. Escalate if a client requests a material scope or price change, or a commercial commitment is required.
+
+4. Estimate-to-project handover. Prepare the won-job handover pack from the Nexvia project, approved estimate and SharePoint project folder. Confirm contract value and scope; transfer labour hours and direct-cost budgets; identify long-lead procurement, exclusions, clarifications, programme assumptions and variation opportunities; provide source quotes and key correspondence. Due before procurement commitments or mobilisation. Complete when Travis can run the project from an approved, traceable budget. Escalate if awarded scope differs from the estimate, budget transfer is incomplete, or a long-lead item threatens programme or cash.
+
+MARIANNE – FINANCE ADMINISTRATION
+
+1. Cash and debtors. Prepare a clean aged receivables and promised-payment list from Xero and the SharePoint debtor register. Identify disputed, overdue, retention and unbilled items; record last contact and promised date; attach evidence; follow up routine items. Weekly, before the cash review. Complete when every overdue balance has a current status, next action and expected receipt date. Escalate if a debtor meets the overdue thresholds or breaks a payment promise.
+
+2. Cash forecast inputs. Update the 13-week cash inputs from Xero, payroll and the tax calendar: expected receipts, supplier payments, wages, super, GST/PAYG/ATO, loans and major project purchases; flag uncertain dates; reconcile opening cash. Weekly. Report the lowest forecast cash point, funding gaps and changed assumptions. Escalate if cash may not cover four weeks of fixed operating outgoings or any statutory or payroll due date.
+
+3. AP and reconciliation exceptions. Resolve routine finance exceptions across EzzyBills, Nexvia and Xero: duplicate, missing, uncoded, PO-mismatched and unreconciled items; gather supporting documents; resolve routine items; maintain an exception list. Weekly. Complete when routine items are cleared and decision items include evidence, amount and recommended action. Escalate if a difference exceeds $1,000, remains unresolved for five business days, meets the PO tolerance, or a duplicate is suspected.
+
+4. Claims, variations and retentions register. Record claims issued, certification, due dates, receipts, approved variations not invoiced, unapproved variations and retention release dates; match receipts to claims. Update as transactions occur; review weekly. Complete when all material project receipts are visible from work completed through to cash received. Escalate if a claim, variation or retention threatens cash, contractual rights or an agreed threshold.
+
+TRAVIS – OPERATIONS AND COMMERCIAL DELIVERY
+
+1. Profitable workload. Approve which work Formclad pursues and the operational assumptions used. Validate scope, labour hours, sequence, access, supervision, programme, procurement and construction risk; confirm capacity fit. Due before submission or commercial commitment. Complete when the opportunity has a clear pursue/no-bid decision and buildable assumptions. Escalate if the project creates unusual cash, contract or fixed-cost exposure needing Sofia's approval.
+
+2. Live-job margin protection. Review project labour, committed costs, variations and cost to complete in Nexvia weekly for active projects. Validate progress; compare labour hours and direct costs to budget; update remaining hours and costs; identify recovery actions; progress variations and notices. Complete when each active project has a credible forecast final margin and named actions. Escalate when a margin, cost, labour, variation or procurement threshold is crossed; copy Sofia when financially material.
+
+3. Team productivity and programme. Plan the five-person team against committed work: weekly labour allocation; access, material, drawing and coordination constraints; nominated site responsibility; rework and lost-time causes. Weekly, adjusted daily. Complete when every employee has a clear location, priority and constraint plan. Escalate if programme or labour pressure threatens safety, claim timing, margin or client commitments.
+
+4. Client and supplier decisions. Resolve operational matters needing construction or commercial judgement, using evidence assembled by Mairead or Marianne; decide scope, supplier, allocation, variation or client response; document the decision. Due by the project or claim deadline. Escalate if Sofia's approval is required for material cash, legal, contract or business risk.
+
+SOFIA – FINANCE OVERSIGHT AND BUSINESS CONTROL
+
+1. Cash protection. Decide cash priorities and funding responses from the prepared 13-week forecast. Review exceptions; protect wages and statutory obligations; approve payment priorities; challenge receipt assumptions; determine whether a gap is timing-related or structural. Weekly and immediately when a threshold is crossed. Escalate if accounting, lending, legal or ATO input is required.
+
+2. Profit and pricing governance. Approve pricing settings and material commercial exceptions using monthly management accounts and Nexvia reports. Review actual labour cost, productive hours and overhead; set or revise pricing floors; review jobs and tenders below policy; approve corrective actions. Monthly, and before exceptional tender commitments. Complete when pricing rules reflect current costs and exceptions are documented.
+
+3. Monthly business performance. Lead a concise monthly financial and operational review across cash, results, receivables, payables, tax provisions, project forecasts, pipeline and overhead; identify the few actions with the greatest financial effect. Complete when decisions, owners and due dates are recorded.
+
+4. Process and systems control. Ensure Nexvia, Xero, EzzyBills and SharePoint have clear purposes and owners; remove duplicate entry routes; define the source of truth; set approval and escalation rules; assign routine investigation to Marianne or Mairead before director review. Review quarterly and when recurring failures arise.
+
+FIELD TEAM – FIVE EMPLOYEES
+
+1. Safe, right-first-time installation. Complete allocated work safely and to the approved detail and quality standard, using site plans, drawings, SWMS and instructions. Confirm the day's scope; protect materials and completed work; follow approved details; raise uncertainty before proceeding; record defects or constraints promptly. Daily. Escalate if safety, design, access, weather, quality or coordination prevents correct work.
+
+2. Accurate time and site information. Allocate hours to the correct project and work; note delays, rework, variations and unusual tasks; provide photos or delivery records where required. Daily, before the cutoff. Complete when records support costing, claims and variations. Escalate if extra work is requested, labour is being lost, or the task materially differs from the plan.
+
+3. Productivity and material care. Plan the work area; minimise avoidable handling; check deliveries; separate damage and waste; report shortages early; keep an orderly work area. Daily. Escalate if replacement cost, delay or repeated waste may affect programme or margin.
+
+SHARED WEEKLY PRIORITIES
+1. Cash visibility – Marianne prepares, Sofia decides – 13-week cash review.
+2. Profitable pipeline – Mairead prepares, Travis approves – pipeline and tender review.
+3. Live-job margin – Travis validates, team supplies records – project exception review.
+4. Accurate systems – Marianne and Mairead – exception list.
+5. Delivery capacity – Travis and field team – weekly programme review.
+
+
+14. GOVERNANCE
+
+This plan is a management framework. Review it quarterly and refresh it annually using actual results, completed-job data, team capacity, market conditions and the owners' objectives. Change targets and thresholds when evidence shows a better setting. The core discipline stays the same: protect cash, price work profitably, recover labour and overhead, maintain useful job costing and prevent margin leakage.

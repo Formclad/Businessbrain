@@ -1,0 +1,52 @@
+FORMCLAD – MONTHLY BRAIN REVIEW – CURRENT
+Version 1.0 | 18 September 2026
+15 minutes, in the first management meeting of the month. Owner: Sofia.
+
+Purpose: keep the Brain true. A set of documents that no longer matches how the business works is worse than none, because people and AI tools both act on it.
+
+
+THE SIX QUESTIONS
+
+1. What changed this month that the Brain doesn't know?
+   New people, new rates, a new builder, a changed process, a decision made in a conversation. Anything answered once verbally is a candidate for the Brain.
+
+2. Where did a document disagree with what we actually did?
+   The most valuable question. If someone worked around a process, the process is wrong or the document is out of date. Fix whichever it is; don't leave the gap.
+
+3. Financial settings: approved?
+   Reports saved into Financial Reports, Claude proposes the updated figures, Sofia approves or adjusts. Changes flow to Pricing Settings, the calculator and the index.
+
+4. Client grades: anything to update?
+   Jobs finished this month, payment behaviour, builders newly quoted. Update the ratings tool and republish the grades file.
+
+5. Open items: what moved, what's stuck?
+   Work through the to-do list in the index. Anything untouched for three months either gets a date or gets deleted — a permanent to-do list is just noise.
+
+6. Version check: is anything drifting?
+   One CURRENT version of each document? Any work saved to a desktop, a personal OneDrive or a chat folder instead of SharePoint? Old versions in Superseded?
+
+
+QUARTERLY, ON TOP OF THE ABOVE
+- Business plan Part A and Part B reviewed against actual results.
+- Pricing assumptions checked against completed-job data: productive hours, labour cost, wastage allowances, difficulty factors.
+- Approval authorities and thresholds still right for the size the business is now.
+- Whether anything in the Brain is no longer used, and can go.
+
+ANNUALLY
+- Owner goals and the profit target.
+- Client ratings, all of them.
+- Capability statement and marketing alignment.
+- Insurances, licences, tickets and registrations.
+
+
+HOW TO RUN IT
+Ask Claude for a Brain review before the meeting. Claude lists what changed, what's outstanding, and anything that looks stale or contradictory, so the 15 minutes is spent deciding rather than searching.
+
+WHAT MAKES IT FAIL
+- Turning it into a reading session. It's six questions and a decision on each.
+- Letting the to-do list grow without ever cutting it.
+- Updating a document without updating the index, so the next person reads something that no longer points anywhere.
+
+
+CHANGE LOG
+18 Sep 2026 – v1.0. Created so the Brain has a maintenance habit rather than relying on someone noticing it has gone stale.

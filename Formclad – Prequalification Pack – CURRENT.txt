@@ -1,0 +1,43 @@
+FORMCLAD – PREQUALIFICATION PACK – CURRENT
+Version 1.0 | 19 September 2026
+What builders ask for before they will let us tender or award, where each item lives, and what needs updating.
+
+WHY: the same bundle is requested by every new builder and periodically by existing ones. Assembled from scratch each time it takes half a day; assembled from a current list it takes ten minutes. Builders we already work with hold our documents, so the real risk is expired versions sitting on their systems.
+
+
+THE PACK
+1. Company details — T Harding & S Calado Pty Ltd T/as Formclad, ABN 84 671 176 748, 31 Rogana Crescent Hallett Cove SA 5158.
+   NOTE: the set-up form currently used to register with new builders ("FORM – Formclad Set-up Details") carries the old trust name and ABN. Every builder onboarded with it has the wrong entity on file. Fix before the next registration.
+2. Building licence — BLD 333524. [Location: to confirm.]
+3. Insurances — certificates of currency for public liability, workers compensation (ReturnToWorkSA), and any required professional indemnity or plant cover.
+   NOTE: the certificate on file is issued to the trust. Confirm with the broker that policies are in the company name and obtain fresh certificates. This is the item most likely to fail a prequalification.
+4. Capability statement — in the Business Brain. Rewritten copy available; the current PDF still has placeholder text on the project spotlight page.
+5. Safety documentation — WHS policy and procedures (HazardCo based, currently in Sofia's OneDrive, should move to a WHS folder). SWMS are produced on the Master Builders SA platform.
+6. Installation methodology — master template in Operations & Systems, tailored per project.
+7. Quality system — ITP (roof plumbing ITP from Goodwood Rd is the working reference), installation checks and site audits through the Nexvia app.
+8. Referees and project experience — recent comparable projects with builder contacts. [To compile: Salisbury COLA, Iron Mountain, Glenelg Vet, Le Fevre, RM Williams, Mortlock Park, Goodwood Rd.]
+9. Financial capacity — sometimes requested for larger projects: turnover, bank or accountant reference.
+10. Workforce — employee numbers, trade qualifications, tickets and licences (EWP, working at heights, white cards, high-risk work licences).
+    NOTE: most tickets are not currently on file. This is a gap that a builder audit would find.
+11. Environmental and quality policy statements — [to confirm whether these exist].
+12. Company profile documents — Purpose, Mission & Values; marketing material.
+
+
+WHAT TO DO WITH IT
+- Keep one current copy of each item in a single folder, with an expiry date where relevant (insurances, licences, tickets).
+- Check expiry dates monthly as part of the Brain review; renewal dates for insurance and licences are the ones that catch people out.
+- When a document is updated, send the new version to builders who hold it, rather than waiting for them to ask.
+- Record in the builder profile what each builder's prequalification portal asks for, so the second registration is faster than the first.
+
+
+IMMEDIATE ACTIONS
+[ ] Fix the set-up form entity details.
+[ ] Confirm insurances are in the company name and obtain current certificates.
+[ ] Finish the capability statement (placeholder text, spotlight project, gallery).
+[ ] Build the ticket and licence register.
+[ ] Move the WHS manual from personal OneDrive into a WHS folder in SharePoint.
+[ ] Locate the licence certificate and file it with the pack.
+[ ] Compile the referee and project experience list.
+
+CHANGE LOG
+19 Sep 2026 – v1.0. Created; items located where possible, gaps flagged.

@@ -1,0 +1,76 @@
+FORMCLAD – SUPPLIER REGISTER – CURRENT
+Version 1.0 | 19 September 2026
+Who we buy from, on what terms, and how reliable their pricing is. Seeded from the capability statement, tender pricing and the material libraries; fill the gaps as orders are placed.
+
+WHY: every estimate starts with "what pricing do we actually hold for this?" A register answers that in seconds, and makes lead times visible before they become programme problems.
+
+PRICING RULE (current practice, keep it)
+Always obtain a quote for large quantities. Price books are often out of date, and several accounts have no current price book at all. Use price books for small quantities and for early budget pricing only, and note which is which in the estimate.
+
+
+MATERIAL SUPPLIERS
+Lysaght
+  What we buy: roof sheeting and cladding profiles, accessories. Delivery to site by their truck.
+  Price book held: [yes/no, date]. Account: [number]. Payment terms: [terms]. Typical lead time: [days].
+  Notes: named in the capability statement as a supply partner.
+
+Metroll
+  What we buy: [profiles and accessories].
+  Price book held: [yes/no, date]. Account: [number]. Terms: [terms]. Lead time: [days].
+
+Apex Roofing Supplies
+  What we buy: [fixings, accessories, flashings material].
+  Price book held: [yes/no, date]. Account: [number]. Terms: [terms]. Lead time: [days].
+
+Bunnings Trade
+  What we buy: consumables and small quantities.
+  Account: [number]. Terms: [terms].
+  Note: consumables (silicone, blades, screws, fixings) may be coded to a project-level sundry category rather than itemised.
+
+Stratco
+  Products seen in estimates: Stratco Superdek Colorbond roof covering (0.42mm).
+  Price book held: [yes/no, date]. Account: [number]. Terms: [terms]. Lead time: [days].
+
+Bradford
+  Products seen in estimates: Anticon blanket insulation (60mm R1.3).
+  Supplied through: [supplier]. Lead time: [days].
+
+Ashgrid / insulation spacer systems
+  Products seen in estimates: Ashgrid insulation spacers.
+  Supplied through: [supplier]. Lead time: [days].
+
+Safety mesh and fixings
+  Supplier: [name]. Terms: [terms]. Lead time: [days].
+
+
+ACCESS, LIFTING AND PLANT
+Fleurieu Cranes
+  What we use them for: craneage, one crane day per stage on typical jobs.
+  Minimum allowance when no quote is held and fork access is not guaranteed: $1,500 per crane day (Pricing Settings).
+  Documentation: crane paperwork must be uploaded to the builder's system (e.g. HammerTech) before lifting.
+  Terms: [terms]. Notice required: [days].
+
+EWP and scaffold hire
+  Suppliers: [names — access hire partners].
+  Typical equipment: 60ft straight stick boom lifts, scissor lifts.
+  Terms: [terms]. Notice required: [days]. Notes: [wet hire/dry hire, delivery charges].
+
+Temporary edge protection
+  Supplier: [name]. Terms: [terms]. Notice: [days].
+
+
+SUBCONTRACTORS
+[Name] — [trade] — ABN [ ] — insurances current to [date] — SWMS on file [yes/no] — rates [ ] — notes.
+ZJ Building — independent contractor agreement on file (currently filed in three places; decide the home).
+
+
+WHAT TO RECORD FOR EACH SUPPLIER
+Supplier | account number | key contact | what we buy | price book held and date | payment terms | typical lead time | minimum order or delivery charges | reliability notes (late deliveries, damaged stock, pricing accuracy) | entity on the account (several accounts may still be in the trust name).
+
+
+ENTITY CHECK
+Supplier accounts opened before January 2026 may still be in the name of Harding & Calado Family Trust. An account in the wrong entity complicates credit terms, bill matching and GST. Work through the list and update each one. See the Entity Change Checklist.
+
+
+CHANGE LOG
+19 Sep 2026 – v1.0. Created from the capability statement, estimate material lines and methodology documents.

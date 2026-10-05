@@ -40,6 +40,14 @@ Ranked by damage to the business if left.
    - Every project URL shows "Project name here", Lorem ipsum, "Tag one/two/three", "Full name", "March 2023" and a "www.relume.io" link.
    - No photos, summary or location appear, even though the CMS holds them. The Fleurieu ELC alone has 10 gallery images and an award write-up.
    - Fix: connect heading, summary, location, sector, main image and gallery to the CMS fields, and remove Client/Date/Website.
+   - **DONE 5 Oct (unpublished):**
+     - Heading, summary, location and main image now pull from the CMS.
+     - Placeholder tags, Date, Role and the relume.io link removed.
+     - Navbar, Footer and Global Styles added (the template had none).
+     - Closing "See a project like yours?" section added.
+   - **Still to do in the Designer:**
+     - Gallery: the API can't attach a list to a multi-image field.
+     - Hide the main image when a project has none.
 2. **Two of three live projects have no main image** (Kalara Reserve Clubrooms, Golden Grove Beer Garden), so their cards on /projects are blank.
 3. **Mortlock Park Clubrooms** is an empty draft. Finish it or delete it.
 4. **Dead buttons.** Unlinked "Learn", "Explore", "Discuss", "Request" and "Read" buttons:
@@ -49,7 +57,8 @@ Ranked by damage to the business if left.
    - all three "Read" buttons on Projects go to About
 
    Remove them or link them (proposals in Part B).
-5. **Two phone numbers.** The site uses 08 7085 7973 and the Capability Statement uses 0477 163 878. Builders will notice. Pick one, or show both labelled office and mobile.
+5. **Phone number: DECIDED 5 Oct.** 08 7085 7973 is the business number and stays on the site. 0477 163 878 is Travis's mobile.
+   - To do: update the Capability Statement contact lines (cover and page 10) to 08 7085 7973.
 6. **Footer lists "Maintenance & Repair".** This contradicts the positioning ("We do not chase general maintenance") and invites the leak calls you don't want.
 
 ### Before launch

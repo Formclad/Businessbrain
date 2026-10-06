@@ -10,7 +10,15 @@ Nothing in Part B has been changed on the site yet. Mark each line KEEP, CHANGE 
 
 Direction: Pentagram's authority with MASH's bluntness. Established, confident and mature, with one line per page that a reader might disagree with.
 
-**Core message (from Sofia, 6 Oct):** what clients value is that Formclad is *project first*. We work collaboratively with the builder, the architect and the other trades, and we want the whole project finished to a high standard, not just our scope. Every page should support this.
+**Core message (from Sofia, 6 Oct; corrected 7 Oct):** what clients value is that Formclad is *project first*. We want the whole project finished to a high standard, not just our scope.
+
+How to say it accurately:
+- We work **through the builder**: we keep the programme on track, plan around the other trades, and finish the job properly.
+- We do **not** coordinate the other trades directly. That's the builder's job.
+- Our clients are **builders and owner-builders**. Don't lead with architects.
+- Say what we do first: commercial and architectural roofing, cladding and roof plumbing.
+
+Approved line: "We put the project first. We work through the builder to keep the programme on track, plan around the other trades, and finish the job properly." 
 
 **Design rules (6 Oct):**
 - No eyebrows or section labels above headings. Simple is best.

@@ -121,6 +121,8 @@ Ranked by damage to the business if left.
 >   - Estimating and accounts are with BuildLaunch (Mairead, Marianne). They're not named on the site; an optional "dedicated specialists" line is still to be decided.
 > - Careers "Position of interest" dropdown options: edit in the Designer (not editable through the API). They should be Qualified roof plumber / Subcontractor / Casual / Other.
 >
+> **Emails confirmed 6 Oct:** estimates@ and accounts@ are both active and in use.
+>
 > **Note:** Services and Projects now link to Work With Formclad. That page must come off Draft in the same publish, or those buttons will 404.
 
 Format: **Current** → **Proposed**, with a short why. Lines not listed are fine as they are.

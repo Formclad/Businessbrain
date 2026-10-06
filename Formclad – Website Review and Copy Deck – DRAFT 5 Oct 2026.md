@@ -95,11 +95,20 @@ Ranked by damage to the business if left.
 > - About SEO description now names Travis and Sofia.
 > - Also fixed: Services "Program" → "Programme", "facade" → "façade", "&" → "and" in card headings.
 >
-> **Held (needs a fact first)**
-> - About: Master Builders SA member line (A13).
-> - About: adding Sofia's team card (A11; needs a photo and confirmation that Gareth and Jack are current).
-> - Services: materials cards (A14).
-> - Careers: open roles list (A10).
+> **Resolved 6 Oct**
+> - Master Builders SA membership confirmed; the line stays.
+> - Materials confirmed. Cards rewritten: COLORBOND® and Zincalume® / Zinc and copper / Aluminium systems / Corten and feature metals.
+> - Careers roles now:
+>   - Qualified roof plumbers
+>   - Subcontractors
+>   - Casuals
+>   - "Not on the list?" (fourth card kept for the grid layout)
+>
+>   Form radio "Supervisory or leading hand" is now "Subcontractor with own ABN".
+>
+> **Still open**
+> - About team: Gareth and Jack are current. Decide whether to keep them, and add Sofia.
+> - Careers "Position of interest" dropdown options: edit in the Designer (not editable through the API). They should be Qualified roof plumber / Subcontractor / Casual / Other.
 >
 > **Note:** Services and Projects now link to Work With Formclad. That page must come off Draft in the same publish, or those buttons will 404.
 

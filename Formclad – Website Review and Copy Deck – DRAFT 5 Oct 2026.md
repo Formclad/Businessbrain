@@ -85,6 +85,24 @@ Ranked by damage to the business if left.
 
 ## PART B – COPY DECK, PAGE BY PAGE
 
+> **STATUS 6 Oct 2026: applied in Webflow, not yet published**
+>
+> **Applied**
+> - Every Part B change on Home, About, Services, Projects, Careers, Work With Formclad, Navbar, Footer and 404.
+> - Dead buttons removed: 18 on Services, 3 on Projects, 2 on About, 6 on Careers.
+> - Careers "View role" ×4 and "Apply now" now jump to the application form (#apply).
+> - Projects and Services CTAs linked to Contact and to Work With Formclad.
+> - About SEO description now names Travis and Sofia.
+> - Also fixed: Services "Program" → "Programme", "facade" → "façade", "&" → "and" in card headings.
+>
+> **Held (needs a fact first)**
+> - About: Master Builders SA member line (A13).
+> - About: adding Sofia's team card (A11; needs a photo and confirmation that Gareth and Jack are current).
+> - Services: materials cards (A14).
+> - Careers: open roles list (A10).
+>
+> **Note:** Services and Projects now link to Work With Formclad. That page must come off Draft in the same publish, or those buttons will 404.
+
 Format: **Current** → **Proposed**, with a short why. Lines not listed are fine as they are.
 
 ### HOME

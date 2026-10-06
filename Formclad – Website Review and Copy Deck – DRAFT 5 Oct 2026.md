@@ -240,3 +240,49 @@ Already finished this session. One proposed tweak to match the voice:
 3. Add project images and alt text (A2, A9), and the share image (A8).
 4. Decide the drafts (A16–A20) and the phone number (A5).
 5. One full review in the Designer, then publish.
+
+---
+
+## PART C – CLEARING OLD WORDPRESS PAGES FROM GOOGLE (7 Oct 2026)
+
+Google still lists pages from the old WordPress site. They no longer exist on Webflow and now show a "page not found". Found in a search for "formclad roofing":
+- /category/books/ ("Books")
+- /people-spearheading-the-new-design-revolution/ (theme demo post)
+- /author/admin/page/2/ ("admin – Page 2")
+- /tag/material/ ("Material Tag")
+
+### Step 1 – 301 redirects in Webflow
+In Webflow: **Site settings → Publishing → 301 redirects**. Add each row (old path → redirect to), then **publish the site**. Redirects only take effect after a publish.
+
+| Old path | Redirect to | Covers |
+|---|---|---|
+| `/people-spearheading-the-new-design-revolution` | `/` | The demo post |
+| `/category/(.*)` | `/` | /category/books and any other category pages |
+| `/tag/(.*)` | `/services` | /tag/material and any other tag pages |
+| `/author/(.*)` | `/about` | /author/admin and its page 2, 3… |
+| `/page/(.*)` | `/` | Old blog paging |
+| `/feed` | `/` | Old RSS feed |
+| `/wp-content/(.*)` | `/` | Old images and uploads still indexed |
+| `/wp-admin` | `/` | Old login page |
+| `/wp-login.php` | `/` | Old login page |
+
+`(.*)` means "anything after this", so one row catches every page in that group. Webflow doesn't need trailing slashes.
+
+### Step 2 – Google Search Console
+1. Go to search.google.com/search-console and add the property **formclad.com.au** (Domain property).
+   - If it asks for DNS verification, choose the "HTML tag" method on a URL-prefix property instead.
+   - Paste the tag into Webflow: Site settings → SEO → Google Site Verification.
+   - Publish, then click Verify.
+2. **Sitemaps** → submit `https://www.formclad.com.au/sitemap.xml`.
+3. **Removals → New request → "Remove all URLs with this prefix"**, one request each:
+   - `https://www.formclad.com.au/category/`
+   - `https://www.formclad.com.au/tag/`
+   - `https://www.formclad.com.au/author/`
+   - `https://www.formclad.com.au/people-spearheading-the-new-design-revolution/`
+
+   Removals hide the results within about a day. The redirects make the removal permanent.
+4. **URL inspection → Request indexing** for `https://www.formclad.com.au/` and `https://www.formclad.com.au/about`, so Google picks up the new descriptions sooner.
+
+### Off-site, not the website
+- **Google Business Profile:** phone shows 0477 163 878 (Travis's mobile). Change it to 08 7085 7973 and add business hours.
+- **Facebook, Instagram, LinkedIn bios:** still use "solutions" and "premium outcomes". Update them to the project-first message.

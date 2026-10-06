@@ -94,7 +94,9 @@ Ranked by damage to the business if left.
 
 ## PART B – COPY DECK, PAGE BY PAGE
 
-> **STATUS 6 Oct 2026: applied in Webflow, not yet published**
+> **STATUS: PUBLISHED 7 Oct 2026, 9:12am Adelaide (22:42 UTC 6 Oct)** to formclad.com.au and www.formclad.com.au. Work With Formclad taken off Draft and published in the same release.
+>
+> **Still to do in the Designer after launch:** project gallery on Projects Template, main photos for Kalara Reserve and Golden Grove, Careers "Position of interest" dropdown options.
 >
 > **Applied**
 > - Every Part B change on Home, About, Services, Projects, Careers, Work With Formclad, Navbar, Footer and 404.

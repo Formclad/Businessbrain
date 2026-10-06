@@ -294,3 +294,16 @@ In Webflow: **Site settings → Publishing → 301 redirects**. Add each row (ol
 ### Off-site, not the website
 - **Google Business Profile:** phone shows 0477 163 878 (Travis's mobile). Change it to 08 7085 7973 and add business hours.
 - **Facebook, Instagram, LinkedIn bios:** still use "solutions" and "premium outcomes". Update them to the project-first message.
+
+---
+
+## PART D – DIRECT CLIENTS (7 Oct 2026)
+
+**Decision:** no separate homeowner page yet. Direct clients (owner-builders, owners of architectural homes or commercial buildings) are inside the Business Plan's market position. A dedicated page waits until there are two or three direct-client projects to show.
+
+**Published 7 Oct, 9:32am Adelaide:** new Services section after "Who this is built for":
+> **Working with us directly** – Owner-builders, and owners of architectural homes or commercial buildings, can engage us directly. It works best when there are drawings, a clear scope and time to do it properly. We'll tell you early if a builder is the better route. [Talk to us about your project → Contact]
+
+The Services page is now left-aligned like About (the sector list stays centred).
+
+**Before taking the first direct job:** confirm SA domestic building contract and building indemnity insurance requirements with Master Builders SA or the broker.

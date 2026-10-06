@@ -107,7 +107,9 @@ Ranked by damage to the business if left.
 >   Form radio "Supervisory or leading hand" is now "Subcontractor with own ABN".
 >
 > **Still open**
-> - About team: Gareth and Jack are current. Decide whether to keep them, and add Sofia.
+> - About team: Sofia's card added 6 Oct, after Travis. General Manager; bio: "Keeps the crew looked after, the projects moving and the next job coming in." Gareth and Jack stay.
+>   - Team photos are hidden on all cards. To show them, upload full-size headshots in the Designer and unhide the image on each card.
+>   - Estimating and accounts are with BuildLaunch (Mairead, Marianne). They're not named on the site; an optional "dedicated specialists" line is still to be decided.
 > - Careers "Position of interest" dropdown options: edit in the Designer (not editable through the API). They should be Qualified roof plumber / Subcontractor / Casual / Other.
 >
 > **Note:** Services and Projects now link to Work With Formclad. That page must come off Draft in the same publish, or those buttons will 404.

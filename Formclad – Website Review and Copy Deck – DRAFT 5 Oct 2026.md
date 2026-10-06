@@ -10,6 +10,15 @@ Nothing in Part B has been changed on the site yet. Mark each line KEEP, CHANGE 
 
 Direction: Pentagram's authority with MASH's bluntness. Established, confident and mature, with one line per page that a reader might disagree with.
 
+**Core message (from Sofia, 6 Oct):** what clients value is that Formclad is *project first*. We work collaboratively with the builder, the architect and the other trades, and we want the whole project finished to a high standard, not just our scope. Every page should support this.
+
+**Design rules (6 Oct):**
+- No eyebrows or section labels above headings. Simple is best.
+- Numbers (01, 02, 03) appear only in the main menu.
+- Numbered steps in a sequence (e.g. "What happens next") are fine.
+- Everything left-aligned except the sector list.
+- No promised response times: "we reply by email", not "within two business days".
+
 There's no written tone-of-voice guide in the Business Brain or in Drive. These rules come from that direction, the five values (Purpose, Mission & Values) and the Capability Statement v2. Once approved, they become the guide.
 
 1. **Say it once, plainly.** Short declarative sentences. One idea each. No warm-up.

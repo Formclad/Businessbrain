@@ -31,12 +31,13 @@ Approved line: "We put the project first. We work through the builder to keep th
 - **White** is the base. Most sections are white and flow together, with no alternating grey bands. (Colour scheme 4, which was light grey, is now white.)
 - **Warm stone #D6D2C4** is for page headers only (colour scheme 5).
 - **Brand navy #252A34** gets one full-width statement block per page, plus the footer. Colour scheme 2, which was near-black #191919, is now navy.
-  - Home: the closing CTA ("Talk to us before the drawings are locked").
+  - Home: the mid-page CTA (section_cta19).
   - About: "Built around standards".
-  - Services: the closing CTA.
+  - Services: "Who this is built for".
   - Projects: the proof section.
   - Careers: the culture section.
   - Contact: the existing dark band.
+- The last section before the footer is always white, so there's a clear gap above the navy footer.
 - **Radical red #FF2E63** is for buttons and accents only. It is never a background.
 - Changing a section's colour means changing its colour-scheme class, not adding one-off colours.
 - Careers role cards: each "Apply" link jumps to the form on the same page (#apply). With four roles, there's no need for separate role pages.

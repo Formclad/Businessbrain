@@ -24,7 +24,9 @@ Approved line: "We put the project first. We work through the builder to keep th
 - No eyebrows or section labels above headings. Simple is best.
 - Numbers (01, 02, 03) appear only in the main menu.
 - Numbered steps in a sequence (e.g. "What happens next") are fine.
-- Everything left-aligned except the sector list.
+- Everything left-aligned, including the sector list (changed 8 Oct).
+- Sectors, everywhere they appear: Residential / Education / Health / Community / Hospitality / Commercial. These match the actual project list (ELC, Goolwa Ambulance, Kalara and Mortlock clubrooms, Golden Grove Tavern) and the positioning (architectural residential plus selected small commercial). Industrial, Multi-residential, Civic, Workplace and Adaptive Reuse were removed.
+- Roof plumbing is one trade, not three. Metal roofing, wall cladding, flashings, gutters and drainage all sit under it; the job is controlling water. Services H1 is now "One trade. We control the water."
 - No promised response times: "we reply by email", not "within two business days".
 
 **Colour rules (8 Oct, applied in the Designer, not yet published):**

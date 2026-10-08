@@ -193,7 +193,7 @@ Keep: "Formclad exists for projects where finish matters…" "Not statements. Be
 | H1 | Envelope scope, delivered straight | **Three trades. One standard.** | |
 | Sub | Services designed for complex architectural and commercial work — integrated from early design through to delivery. | **Metal roofing, wall cladding and roof plumbing for architectural and commercial work. From design input to handover.** | Drops "designed for" and "integrated". |
 | "What we deliver" body | Metal roofing, cladding, and roof plumbing. Integrated from design through completion. | **One contractor for the roof, the walls and the water.** | It currently repeats the sub. |
-| Fit card heading | Seeking lowest-cost shortcuts? | **Chasing the cheapest price?** | |
+| Fit card heading | Seeking lowest-cost shortcuts? | **Removed 8 Oct.** Talking about price this openly reads as tacky. Don't discuss pricing on the site. | |
 | Fit card body | We're not the right partner. We work with teams that prioritise envelope performance and finish integrity. | **Then we're not your roofer. We price the job properly, and we build it the way we priced it.** | The page's one line with an edge. |
 | Final CTA heading | Have a complex project? | **Got a roof that keeps the architect up at night?** | |
 | Final CTA body | Early engagement changes everything. Talk to us before scope locks. | **Send it to us before the scope locks.** | |

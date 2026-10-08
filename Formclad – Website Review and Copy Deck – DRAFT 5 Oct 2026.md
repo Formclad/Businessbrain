@@ -351,3 +351,24 @@ Design: no stock icons, no boxed cards. Cards use the "is-rule" modifier: no bac
 - **One left edge.** The navbar container now has the same 80rem max width as the page content, so the FORMCLAD wordmark lines up with every headline on every page.
 - **Page H1s are sentence case** (shared "head" style): weight 500, up to 5.5rem, with more room above the headline in every page header. The wordmark is the only all-caps lockup at the top of a page. The Home hero ("hero-headline", over a photo) stays in caps for now, pending a decision.
 - **About, How we work** is a plain full-width list, not an accordion: value on the left, line on the right, thin navy rules. No chevrons. "Built on collaboration" now reads: "We work in with the builder and the trades around us."
+
+## ABOUT PAGE TEST LAYOUT AND NEW FOOTER (8 Oct 2026, unpublished)
+
+Reference direction: Built Environs, Haven Constructions, 38th. White space is held by structure (a rule on top, a narrow left column for the heading, content in the right two-thirds) rather than left floating.
+
+**About (test page, before rolling out site-wide)**
+1. Header on white (no stone band). H1 "The project comes first." with "comes first." in radical red (the one-word accent, class text-accent).
+2. Full-width project photo directly under the headline (aerial roof).
+3. Credentials line.
+4. Why builders come back (image cards).
+5. How we work: rule on top, H2 left, values right in large type.
+6. Built around standards (now white; still uses a Relume stock image, to replace).
+7. The team: the page's navy statement block, with the heading left and names and roles right in two columns on faint rules. "Good people. Good crew." sits below it with a light outline button.
+8. CTA on white.
+Removed the hidden leftover sections (stats, layout121).
+
+**Wordmark rule:** one wordmark. The navbar and footer FORMCLAD use the same face, weight 600, -0.01em tracking, uppercase. The footer version is scaled to the full container width.
+
+**Footer:** links and tagline at the top, a "Recently completed" card (currently text only, linking to the ELC; add the photo in the Designer and update it when a new project goes live), then the full-width wordmark, then legal and socials.
+
+**Team portraits:** book 20 minutes of on-site crew portraits at the Mortlock Park shoot.

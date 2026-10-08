@@ -26,7 +26,7 @@ Approved line: "We put the project first. We work through the builder to keep th
 - Numbered steps in a sequence (e.g. "What happens next") are fine.
 - Everything left-aligned, including the sector list (changed 8 Oct).
 - Sectors, everywhere they appear: Commercial / Community / Education / Health / Hospitality / Residential (alphabetical). These match the actual project list (ELC, Goolwa Ambulance, Kalara and Mortlock clubrooms, Golden Grove Tavern) and the positioning (architectural residential plus selected small commercial). Industrial, Multi-residential, Civic, Workplace and Adaptive Reuse were removed.
-- Framing: we skin the building and control the water. Metal roofing, wall cladding, flashings, gutters and drainage make one metal envelope whose job is keeping the building dry. Services H1: "We skin the building. We control the water." The Home kicker keeps Roofing · Cladding · Roof plumbing (each is distinct).
+- Framing: we skin the building and control the water. Metal roofing, wall cladding, flashings, gutters and drainage make one metal envelope whose job is keeping the building dry. Services H1: "Metal skin. Dry building." Second line held in reserve: "Skin, roof, water. Under control." The Home kicker keeps Roofing · Cladding · Roof plumbing (each is distinct).
 - Footer service links use the Services page headings: Architectural metal roof systems / Wall cladding and façade / Roof plumbing and detailing / Remedial and complex upgrades.
 - No promised response times: "we reply by email", not "within two business days".
 

@@ -325,3 +325,23 @@ In Webflow: **Site settings → Publishing → 301 redirects**. Add each row (ol
 The Services page is now left-aligned like About (the sector list stays centred).
 
 **Before taking the first direct job:** confirm SA domestic building contract and building indemnity insurance requirements with Master Builders SA or the broker.
+
+## SERVICES PAGE RESTRUCTURE (8 Oct 2026, unpublished)
+
+Order: Header → What we deliver → Materials → Where projects win or lose → Who we work with (navy) → Closing CTA (white).
+
+**Where projects win or lose** (the how). Intro: "Most roof problems are decided before anyone climbs a ladder."
+- On paper: Falls, junctions and fixings resolved while changing them still only takes a pen.
+- Where trades meet: Our work meets windows, frames and finishes. We fit around what's there and leave our part right for the next trade.
+- Project first: Sites change. When they do, we adjust. The finished building matters more than our part of it.
+- At handover: Every seam, edge and flashing checked against the drawings. Nothing left for someone else to fix.
+
+**Who we work with** (the who; merges "Who this is built for" and "Working with us directly"). Intro: "Whoever brings us in, the project comes first."
+- Builders: Most of our work comes through builders. We price the drawings, work in with the other trades on site, and finish our part to the standard the building deserves.
+- Architects: Bring us in while the details are still on paper. We'll help make the roof and façade buildable, then deliver it through your builder.
+- Owners and owner-builders: Owner-builders, and owners of architectural homes, can engage us directly when there are drawings and a clear scope. If a builder is the better route, we'll tell you early.
+- Button: Talk to us about your project.
+
+Copy rules from this round: don't promise dates (delays happen; say project first instead). Don't claim we coordinate other trades; we work in with their work. No pricing talk.
+
+Design: no stock icons, no boxed cards. Cards use the "is-rule" modifier: no background, a thin line on top (navy on white, faint white on navy).

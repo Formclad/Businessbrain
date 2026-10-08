@@ -345,3 +345,9 @@ Order: Header → What we deliver → Materials → Where projects win or lose �
 Copy rules from this round: don't promise dates (delays happen; say project first instead). Don't claim we coordinate other trades; we work in with their work. No pricing talk.
 
 Design: no stock icons, no boxed cards. Cards use the "is-rule" modifier: no background, a thin line on top (navy on white, faint white on navy).
+
+## TYPE AND ALIGNMENT (8 Oct 2026, unpublished)
+
+- **One left edge.** The navbar container now has the same 80rem max width as the page content, so the FORMCLAD wordmark lines up with every headline on every page.
+- **Page H1s are sentence case** (shared "head" style): weight 500, up to 5.5rem, with more room above the headline in every page header. The wordmark is the only all-caps lockup at the top of a page. The Home hero ("hero-headline", over a photo) stays in caps for now, pending a decision.
+- **About, How we work** is a plain full-width list, not an accordion: value on the left, line on the right, thin navy rules. No chevrons. "Built on collaboration" now reads: "We work in with the builder and the trades around us."

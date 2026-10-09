@@ -376,3 +376,7 @@ Removed the hidden leftover sections (stats, layout121).
 **Update 9 Oct:** About header test rejected. It's back to the stone header band with a plain sentence-case H1 ("The project comes first."), no red accent and no photo under the headline. Stone page headers stay the site-wide system. Standards section copy updated, and its image is the Fleurieu ELC (our photo, despite the Relume file name). The credentials line has moved to the bottom of About.
 
 **Projects page (9 Oct):** removed "How we deliver". It repeated the Services content, promised weekly milestones and talked about variation pricing. The project cards now show title and location only, with no summary; the full write-up stays on each project's own page. Optional next step: a sector tag on each card (needs a nested collection list in the Designer because Project type is a multi-reference field).
+
+**Photography rule (9 Oct):** project photos are always in colour. Black and white is only used as a background under text (with a dark overlay).
+
+**Home featured project (9 Oct):** the six-tile mixed gallery has been replaced with a CMS-driven block. It has the heading "Proof is in the junctions.", then the featured project's name, location and main image (bound to the Projects CMS), a "See the project" button linking to that project's page, and a "See all projects" link. Still to do in the Designer: add the filter "Featured Project? is On" to the collection list (the limit is already set to 1). To change the featured project, switch Featured on for the new project and off for the old one.

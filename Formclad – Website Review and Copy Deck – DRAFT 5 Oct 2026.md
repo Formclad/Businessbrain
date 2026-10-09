@@ -374,3 +374,5 @@ Removed the hidden leftover sections (stats, layout121).
 **Team portraits:** book 20 minutes of on-site crew portraits at the Mortlock Park shoot.
 
 **Update 9 Oct:** About header test rejected. It's back to the stone header band with a plain sentence-case H1 ("The project comes first."), no red accent and no photo under the headline. Stone page headers stay the site-wide system. Standards section copy updated, and its image is the Fleurieu ELC (our photo, despite the Relume file name). The credentials line has moved to the bottom of About.
+
+**Projects page (9 Oct):** removed "How we deliver". It repeated the Services content, promised weekly milestones and talked about variation pricing. The project cards now show title and location only, with no summary; the full write-up stays on each project's own page. Optional next step: a sector tag on each card (needs a nested collection list in the Designer because Project type is a multi-reference field).

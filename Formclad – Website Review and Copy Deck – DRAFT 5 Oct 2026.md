@@ -384,3 +384,32 @@ Removed the hidden leftover sections (stats, layout121).
 **9 Oct, continued:**
 - Home "Roof. Façade." section: the black-and-white image is removed and only the colour façade photo is left. The "Explore projects" link now inherits white on navy.
 - Cove Tavern CMS entry filled in from the Drive take-off (SCR-RFN-24-001, March 2024) and the SWMS (October 2024, PC Gilmore Construction & Refurbishment): intro, summary, builder and scope. Still a draft. Architect unknown. To confirm: the as-built scope matches the take-off, and the main image (file named "ai-studio-…") is a real photo of the job.
+
+## SCHEMA MARKUP (9 Oct 2026, unpublished)
+
+JSON-LD is written in each page's settings. Every page points to one business record (`https://www.formclad.com.au/#organization`, type RoofingContractor).
+
+| Page | Schema |
+|---|---|
+| Home | RoofingContractor (full record) + WebSite + WebPage |
+| About | AboutPage + full business record + breadcrumb |
+| Services | WebPage with an OfferCatalog of the 5 services + breadcrumb |
+| Projects | CollectionPage + breadcrumb |
+| Contact | ContactPage + full business record + breadcrumb. This replaces the old schema, which had Travis's mobile and "Tier 2 and Tier 3". |
+| Careers, Work with Formclad | WebPage + breadcrumb |
+
+The business record holds: name, legal name, office phone 08 7085 7973, the admin, estimates and accounts emails, Hallett Cove SA 5158 (no street address), areaServed South Australia, licence BLD 333524, ABN, Master Builders SA membership, Travis as founder, and the Facebook, Instagram and LinkedIn profiles.
+
+Deliberately left out: JobPosting on Careers (Google penalises job schema without dates and pay); reviews and ratings (none to cite yet); street address (not published on the site).
+
+**Project pages (to add in the Designer):** Page settings for the Projects Template > Custom code > Inside head. Paste the block below and insert the CMS fields with the "+ Add field" button where shown:
+
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"CreativeWork",
+     "name":"[Project Name]","description":"[Project Summary]",
+     "image":"[Main Project Image]","locationCreated":{"@type":"Place","name":"[Location]"},
+     "creator":{"@id":"https://www.formclad.com.au/#organization"},
+     "url":"https://www.formclad.com.au/project/[Slug]"}
+    </script>
+
+Also fixed: the footer "Recently completed" link now goes to /project/elc-fleurieu-wellbeing-precinct (project pages live under /project/, not /projects/).

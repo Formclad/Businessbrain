@@ -1,0 +1,38 @@
+FORMCLAD – SOCIAL CONTENT CALENDAR – DRAFT (9 October 2026)
+Home: this file. Channels: Instagram + Facebook (Meta Business Suite), LinkedIn (native scheduler).
+Status: awaiting approval (Checkpoint 1). No designs or captions generated yet. Nothing is published by Claude; posts are staged as a scheduling CSV only.
+
+VOICE (draft, built from Capability Statement v2; the website could not be read from this environment, so confirm)
+- Short, declarative, confident. Headline first, one idea per post.
+- Specifics over adjectives: materials, profiles, details, programme. No "passionate", "exciting news", "thrilled", "solutions".
+- No exclamation marks. Plain Australian English.
+- Anchor lines from the brain: "Built to detail. Built to last." / "Architectural roofing and cladding, delivered with relentless standards."
+- Five commitments as recurring pillars: Clear and Confident, Organised and Ahead of It, Relentless Standards, Straight Up, Built on Collaboration.
+- Positioning: high-end architectural residential and selected small commercial, South Australia. Architect- and builder-facing.
+- Facts only from the brain: BLD 333524, 12-month workmanship guarantee, COLORBOND and Zincalume steel, Australian Standards, SWMS, early design-stage involvement. No invented project details, client quotes or numbers.
+
+CADENCE: 3 posts a week, 4 weeks (Tue/Wed/Fri; week 4 shifted to Wed/Thu/Fri). One asset feeds IG + FB + a LinkedIn variant (reframed to business outcome, no hashtags).
+Post times: LinkedIn 7:30am ACDT, Instagram/Facebook 12:00pm ACDT (adjustable).
+
+| # | Date | Theme | Path | Format | Angle | Needs from Sofia |
+|---|------|-------|------|--------|-------|------------------|
+| 1 | Tue 13 Oct | Capability | Canva | Type card | "We are not generalists." Who we are | none |
+| 2 | Wed 14 Oct | Tip | Canva | Carousel | Early involvement is cheaper than a variation later | none |
+| 3 | Fri 16 Oct | Finished project | Supplied photos | Photo carousel | One roof/facade, the detail that made it hard | project name, 3-5 photos, material/profile, builder/architect OK to name |
+| 4 | Tue 20 Oct | Credentials | Canva | Stat/credential card | Licensed BLD 333524, insured, 12-month workmanship guarantee | confirm current insurance cert wording |
+| 5 | Wed 21 Oct | Hiring | Canva | Type card | Hiring: role and what we look for | role, location, how to apply |
+| 6 | Fri 23 Oct | Finished project | Supplied video | Reel (9:16) | Install or finished-result clip | clip, project name |
+| 7 | Tue 27 Oct | Tip | Supplied video | Reel (9:16) | Travis on one detail (flashing, box gutter or fixing) | clip, which detail |
+| 8 | Wed 28 Oct | Client win | Canva | Quote card | Architect/builder comment | real quote + permission to name |
+| 9 | Fri 30 Oct | Finished project | Supplied photos | Photo carousel | Second project, different material | project name, photos |
+| 10 | Wed 4 Nov | Capability | Canva | Carousel | Five commitments, one slide each | none |
+| 11 | Thu 5 Nov | Tip | Canva | Type card | Why we price labour, materials, access and risk separately | none |
+| 12 | Fri 6 Nov | Client win | Supplied photo | Photo + caption | Repeat builder/architect relationship, project result | permission, project name |
+
+SPLIT: 7 Canva, 3 supplied photo, 2 supplied video. Theme mix: 3 finished, 3 capability/credentials, 3 tips, 2 client wins, 1 hiring.
+Row 12 is a client-win post built on a supplied photo. No email rows.
+
+OPEN ITEMS
+- Capability Statement still has [TO CONFIRM] items (project spotlight, heritage, industrial re-roofing). Posts avoid those claims.
+- Fleurieu ELC Wellbeing Precinct was the nominated spotlight project but never written up; candidate for post 3 or 9.
+- Instagram/Facebook handles: @formclad, facebook.com/formclad (from Capability Statement).

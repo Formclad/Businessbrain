@@ -380,3 +380,7 @@ Removed the hidden leftover sections (stats, layout121).
 **Photography rule (9 Oct):** project photos are always in colour. Black and white is only used as a background under text (with a dark overlay).
 
 **Home featured project (9 Oct):** the six-tile mixed gallery has been replaced with a CMS-driven block. It has the heading "Proof is in the junctions.", then the featured project's name, location and main image (bound to the Projects CMS), a "See the project" button linking to that project's page, and a "See all projects" link. Still to do in the Designer: add the filter "Featured Project? is On" to the collection list (the limit is already set to 1). To change the featured project, switch Featured on for the new project and off for the old one.
+
+**9 Oct, continued:**
+- Home "Roof. Façade." section: the black-and-white image is removed and only the colour façade photo is left. The "Explore projects" link now inherits white on navy.
+- Cove Tavern CMS entry filled in from the Drive take-off (SCR-RFN-24-001, March 2024) and the SWMS (October 2024, PC Gilmore Construction & Refurbishment): intro, summary, builder and scope. Still a draft. Architect unknown. To confirm: the as-built scope matches the take-off, and the main image (file named "ai-studio-…") is a real photo of the job.

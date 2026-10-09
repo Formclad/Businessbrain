@@ -372,3 +372,5 @@ Removed the hidden leftover sections (stats, layout121).
 **Footer:** links and tagline at the top, a "Recently completed" card (currently text only, linking to the ELC; add the photo in the Designer and update it when a new project goes live), then the full-width wordmark, then legal and socials.
 
 **Team portraits:** book 20 minutes of on-site crew portraits at the Mortlock Park shoot.
+
+**Update 9 Oct:** About header test rejected. It's back to the stone header band with a plain sentence-case H1 ("The project comes first."), no red accent and no photo under the headline. Stone page headers stay the site-wide system. Standards section copy updated, and its image is the Fleurieu ELC (our photo, despite the Relume file name). The credentials line has moved to the bottom of About.

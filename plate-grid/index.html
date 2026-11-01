@@ -92,7 +92,7 @@ button.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 .cell.drop{border-color:var(--ink);border-style:dashed}
 .cell .em{font-size:30px;line-height:1}
 .cell .nm{font-size:12.5px;font-weight:700;line-height:1.25;color:var(--ink);overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.cell .mt{font-size:11px;opacity:.85;margin-top:auto;display:flex;gap:6px;align-items:center}
+.cell .mt{font-size:11px;opacity:.85;margin-top:auto;display:flex;flex-wrap:wrap;gap:2px 8px;align-items:center}
 .cell .tx{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1}
 .cell.is-done{opacity:.62}
 .cell.is-done .nm{text-decoration:line-through;text-decoration-thickness:1.5px}
@@ -147,6 +147,7 @@ button.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 .stepper b{min-width:30px;text-align:center}
 .progress{height:10px;background:var(--surface2);border-radius:99px;overflow:hidden;flex:1 1 200px;min-width:120px}
 .progress i{display:block;height:100%;background:var(--ok);border-radius:99px;transition:width .3s}
+.shopdays{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-bottom:12px}
 .aisles{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px;align-items:start}
 .aisle h3{font-size:18px;display:flex;align-items:center;gap:8px;margin-bottom:8px}
 .aisle h3 small{font-family:var(--body);font-size:12px;color:var(--muted);font-weight:600;margin-left:auto}
@@ -213,7 +214,7 @@ button.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 .form label{display:flex;flex-direction:column;gap:4px;font-weight:600;font-size:13.5px}
 .form input[type=text],.form input[type=number],.form textarea{border:1.5px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 10px;font-weight:400;width:100%}
 .form textarea{min-height:110px;resize:vertical}
-.nums{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(70px,1fr));gap:8px}
 .emojis{display:flex;flex-wrap:wrap;gap:6px}
 .emojis button{font-size:22px;border:2px solid var(--line);background:var(--surface);border-radius:10px;width:44px;height:44px;padding:0}
 .emojis button[aria-pressed="true"]{border-color:var(--ink);background:var(--surface2)}
@@ -222,8 +223,29 @@ button.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 .toast button{background:none;border:0;color:var(--accent);font-weight:700;text-decoration:underline}
 :root[data-theme="light"] .toast button,:root:not([data-theme]) .toast button{color:#FFB39F}
 .empty{padding:40px 16px;text-align:center;color:var(--muted)}
+
+.kc{display:flex;flex-direction:column;font-size:11px;line-height:1.25;border-top:1px dashed var(--line);padding-top:5px;color:var(--muted)}
+.kc b{font-size:13px;color:var(--ink);font-family:var(--display)}
+.kc span{white-space:nowrap}
+.macros .mnums,.mrow .mnums{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.mnum{border:0;border-radius:14px;background:var(--surface2);color:var(--ink);padding:9px 6px;display:flex;flex-direction:column;align-items:center;gap:1px;min-width:0}
+button.mnum:hover{outline:2px solid var(--ink)}
+.mnum b{font-family:var(--display);font-size:22px;line-height:1.1}
+.mnum span{font-size:11.5px;font-weight:600;color:var(--muted)}
+.mrow .mnum{background:color-mix(in srgb,var(--surface) 70%,transparent)}
+.mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
+.mrow{border-radius:18px;padding:12px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.mrow.is-logged{opacity:.65}
+.mhead{display:flex;align-items:center;gap:10px}
+.mhead .em{font-size:30px}
+.mname{font-family:var(--display);font-size:16px;line-height:1.2;color:var(--ink);overflow-wrap:anywhere}
+.mrow .btn{background:color-mix(in srgb,var(--surface) 75%,transparent)}
+.pill.p2,.chip.p2{background:color-mix(in srgb,var(--warn) 22%,transparent);color:var(--warn)}
+.p2b{font-size:10.5px;font-weight:700;background:var(--warn);color:var(--bg);border-radius:99px;padding:1px 7px}
+.fills .p2b{background:var(--warn);color:var(--bg)}
+@media (max-width:560px){.mgrid{grid-template-columns:minmax(0,1fr)}.mnum b{font-size:19px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
-@media (max-width:560px){.ings{grid-template-columns:1fr}.tabs{width:100%}.tab{flex:1;justify-content:center;padding:9px 6px}}
+@media (max-width:560px){.ings{grid-template-columns:1fr}.tabs{width:100%;overflow-x:auto;scrollbar-width:none}.tab{flex:1 0 auto;justify-content:center;padding:9px 11px;white-space:nowrap;font-size:14px}}
 </style>
 
 <div class="wrap">
@@ -378,6 +400,40 @@ M({id:'minestrone',name:'Minestrone soup',em:'🍅',types:['l'],serves:2,t:{},ta
 M({id:'loadedChicken',name:'Loaded chicken salad',em:'🥗',types:['l','d'],serves:2,t:{m:1.5,d:.8},tags:['chicken'],
  ings:[I('Chicken strips or mince',500,'g','prot'),I('Salad leaves',100,'g','prod'),I('Cherry tomatoes',150,'g','prod'),I('Cucumber',1,'x','prod'),I('Avocado',1,'x','prod'),I('Red onion',1,'x','prod'),I('Feta',25,'g','dairy'),PS('Extra virgin olive oil',4,'tbsp'),PS('Dijon mustard',2,'tsp'),PS('Balsamic vinegar',2,'tsp'),PS('Apple cider vinegar',1,'tbsp'),PS('Maple syrup',.5,'tbsp'),I('Garlic (cloves)',1,'x','prod'),PS('Salt & pepper',1,'tsp')],
  steps:['Brown the chicken in a frypan (Tuscan seasoning optional).','Divide the salad ingredients between plates.','Shake the dressing in a jar.','Serve the chicken over the salad and top with dressing.'],notes:'Phase two can be served with a portion of cooked couscous.'});
+
+/* recipes from the cookbook photos (slow cooker / Instant Pot) */
+M({id:'blackEyed',name:'Black-eyed pea soup',em:'🥣',types:['l','d'],serves:4,t:{m:.3},tags:['pork'],cook:'Instant Pot',
+ ings:[I('Brown onion',1,'x','prod'),I('Garlic (cloves)',2,'x','prod'),I('Bacon rashers',5,'x','prot'),I('Black-eyed peas (dried)',185,'g','tin'),I('Chicken stock (reduced salt)',1250,'ml','tin'),I('Kale (chopped)',210,'g','prod'),I('Bay leaf',2,'x','oth'),PS('Extra virgin olive oil',1,'tbsp'),PS('Dried thyme',.5,'tsp'),PS('Salt & pepper',1,'tsp')],
+ steps:['Set the Instant Pot to high saute. Add the olive oil, then the onion and garlic, and cook until softened.','Add the bacon and cook until crispy. Add the black-eyed peas and stir to combine. Pour in the stock, kale or spinach, bay leaves, thyme, salt and pepper.','Close the lid and set to manual high pressure for 20 minutes.','Let the pressure release naturally for 10 minutes, then quick release the rest.','Open the lid, remove the bay leaves and season with salt and pepper.','Ladle into bowls and garnish with micro herbs.'],
+ notes:'Instant Pot recipe. Kale or baby spinach both work. Skip the optional sourdough toast in Phase one.'});
+M({id:'chickenStew',name:'Chicken, chickpea & bean stew',em:'🍲',types:['d'],serves:4,t:{m:.9},tags:['chicken'],cook:'Instant Pot',p2:'Uses waxy potatoes. For Phase one swap them for pumpkin or extra carrot.',
+ ings:[I('Chicken tenderloins',500,'g','prot'),I('Brown onion',1,'x','prod'),I('Garlic (cloves)',3,'x','prod'),I('Carrots',2,'x','prod'),I('Waxy potatoes',2,'x','prod'),I('Chickpeas',1,'can','tin'),I('Cannellini beans',1,'can','tin'),I('Kale (chopped)',140,'g','prod'),I('Chicken stock (reduced salt)',1000,'ml','tin'),PS('Extra virgin olive oil',3,'tbsp'),PS('Sweet paprika',2,'tsp'),PS('Ground turmeric',1,'tsp'),PS('Ground coriander',1,'tsp'),PS('Salt & pepper',1,'tsp')],
+ steps:['Set the Instant Pot to high saute. Add the oil and saute the onion and garlic for 3–4 minutes until translucent.','Add the paprika, turmeric, coriander, salt and pepper. Cook 3 minutes until fragrant.','Add the chicken and cook until just cooked. Add the carrots, potatoes, chickpeas, cannellini beans and kale. Mix to combine.','Pour in the stock, making sure everything is well coated.','Close the lid and set to manual high pressure for 30 minutes.','Release naturally for 10 minutes, then quick release the rest. Adjust seasoning and serve warm.'],
+ notes:'Instant Pot recipe. Cans are 420g.'});
+M({id:'beefChilli',name:'Beef & black bean chilli',em:'🌶️',types:['d'],serves:4,t:{m:.83,d:.2},tags:['beef'],cook:'Slow cooker',p2:'Uses corn, flour and rice. For Phase one leave out the corn and rice, and skip the flour.',
+ ings:[I('Stewing beef (chuck, gravy or osso bucco)',500,'g','prot'),I('Brown onion',1,'x','prod'),I('Garlic (cloves)',2,'x','prod'),I('Red capsicum',2,'x','prod'),I('Corn kernels',350,'g','prod'),I('Black beans',2,'can','tin'),I('Beef stock',500,'ml','tin'),I('Coriander',1,'bunch','prod'),I('Light sour cream',80,'g','dairy'),PS('Plain flour',2,'tbsp'),PS('Extra virgin olive oil',4,'tbsp'),PS('Smoked paprika',2,'tbsp'),I('Cooked white rice',4,'x','tin')],
+ steps:['Add the meat, flour and olive oil to a large bowl. Toss to coat and set aside.','Add the onion, garlic, capsicum, corn, black beans and stock to the slow cooker and stir.','Add the coated beef and mix well. Cook on high for 3 hours or low for 5 hours, until the meat is tender.','Adjust seasoning. Serve with rice, sour cream and chopped coriander.'],
+ notes:'Slow cooker recipe. Cans are 400g. Rice is listed as 4 serves; skip it in Phase one.'});
+M({id:'richBeefStew',name:'Rich beef stew with crispy potatoes',em:'🥘',types:['d'],serves:4,t:{m:.83,d:.4},tags:['beef'],cook:'Slow cooker',p2:'Uses potatoes and peas. For Phase one top with sliced swede or pumpkin and skip the peas.',
+ ings:[I('Gravy beef',500,'g','prot'),I('Brown onion',1,'x','prod'),I('Garlic (cloves)',2,'x','prod'),I('Carrots',2,'x','prod'),I('Peas',170,'g','prod'),I('Tomato paste',30,'g','tin'),I('Red wine',250,'ml','oth'),I('Fresh thyme',1,'bunch','prod'),I('Beef stock',500,'ml','tin'),I('Large white potatoes',3,'x','prod'),I('Butter',30,'g','dairy'),I('Parmesan',50,'g','dairy')],
+ steps:['Heat a large frying pan over medium-high heat. Cook the beef for 3–4 minutes each side until browned. Transfer to the slow cooker.','Add the onion, garlic, carrots, peas, tomato paste, wine, thyme and stock. Cook on high for 4 hours, then allow to cool.','Boil the potatoes in salted water until almost done. Drain, slice, then toss with the melted butter and half the Parmesan.','Transfer the stew to an ovenproof dish, arrange the potato slices on top and sprinkle with the rest of the Parmesan.','Bake at 160°C until golden and crisp on top.'],
+ notes:'Slow cooker recipe. The bake time is cut off in the photo, so check on it as it browns.'});
+M({id:'fishLentil',name:'Spiced fish & lentil soup',em:'🍲',types:['l','d'],serves:4,t:{m:.7},tags:['fish'],cook:'Slow cooker',p2:'Has ½ cup white rice for the pot. Leave it out for a strict Phase one version.',
+ ings:[I('Firm white fish fillets',450,'g','prot'),I('Brown onion',1,'x','prod'),I('Garlic (cloves)',3,'x','prod'),I('Red chilli',1,'x','prod'),I('Red lentils (dried)',.75,'cup','tin'),I('White rice (dry)',80,'g','tin'),I('Fish or vegetable stock',1000,'ml','tin'),I('Coriander',1,'bunch','prod'),I('Coconut cream',125,'ml','tin'),PS('Extra virgin olive oil',2,'tbsp'),PS('Curry powder',2,'tbsp'),PS('Cumin',1,'tsp'),PS('Ground coriander',1,'tsp'),PS('Ground turmeric',.5,'tsp'),PS('Ground ginger',.5,'tsp'),PS('Cayenne pepper',.5,'tsp'),PS('Salt & pepper',1,'tsp')],
+ steps:['Heat the oil in a frying pan over medium heat. Saute the onion, garlic and chilli for 1–2 minutes. Stir in the spices, salt and pepper and cook until fragrant.','Transfer to the slow cooker. Add the lentils, rice and stock and stir.','Cover and cook on low for 5–6 hours, until the lentils and rice are tender.','Add the fish and coriander and cook on high for 15–20 minutes until the fish is opaque.','Ladle into bowls, top with a swirl of coconut cream and extra coriander.'],
+ notes:'Slow cooker recipe. Uses 1 cup (185g) dried lentils.'});
+M({id:'greenMin',name:'Green minestrone',em:'🥬',types:['l'],serves:4,t:{},tags:['plant'],cook:'Slow cooker',p2:'Uses green peas and risoni. For Phase one leave out the peas and risoni and add extra beans.',
+ ings:[I('Leeks',2,'x','prod'),I('Garlic (cloves)',1,'x','prod'),I('Peas',340,'g','prod'),I('Green beans',300,'g','prod'),I('Zucchini',2,'x','prod'),I('Vegetable stock',1250,'ml','tin'),I('Cannellini beans',1,'can','tin'),I('Risoni',50,'g','tin'),PS('Extra virgin olive oil',3,'tbsp')],
+ steps:['Heat the oil in a saucepan over medium heat. Add the leeks and garlic and saute until fragrant.','Transfer to the slow cooker. Add the peas, green beans, zucchini, stock and cannellini beans and stir well. Cook on low for 6 hours.','Remove the lid, add the risoni, turn to high and cook 45 minutes more, until the risoni is tender.','Ladle into bowls and drizzle with olive oil.'],
+ notes:'Slow cooker recipe.'});
+M({id:'canKale',name:'Cannellini bean & kale soup',em:'🫘',types:['l'],serves:4,t:{},tags:['plant'],cook:'Slow cooker',p2:'Has a little quinoa. Leave it out for a strict Phase one version.',
+ ings:[I('Brown onion',1,'x','prod'),I('Garlic (cloves)',3,'x','prod'),I('Cannellini beans',1,'can','tin'),I('Pumpkin',270,'g','prod'),I('Kale (chopped)',1,'bunch','prod'),I('Vegetable stock',1250,'ml','tin'),I('Tricolour quinoa',80,'g','tin'),PS('Extra virgin olive oil',2,'tbsp'),PS('Dried thyme',1,'tsp'),PS('Dried rosemary',1,'tsp'),PS('Salt & pepper',1,'tsp')],
+ steps:['Heat the oil in a frying pan over medium-high heat. Saute the onion until translucent, add the garlic and cook a minute more. Transfer to the slow cooker.','Add the beans, pumpkin, kale, stock, quinoa, herbs, salt and pepper. Stir well.','Cover and cook on low for 6–8 hours or until the pumpkin is tender.','Season to taste. Ladle into bowls and serve warm with a drizzle of olive oil.'],
+ notes:'Slow cooker recipe.'});
+M({id:'coconutCurry',name:'Chicken & chickpea coconut curry',em:'🍛',types:['d'],serves:4,t:{m:.9},tags:['chicken'],cook:'Slow cooker',
+ ings:[I('Boneless chicken thighs',500,'g','prot'),I('Chickpeas',1,'can','tin'),I('Brown onion',1,'x','prod'),I('Garlic (cloves)',3,'x','prod'),I('Tinned diced tomatoes',1,'can','tin'),I('Red capsicum',1,'x','prod'),I('Yellow capsicum',1,'x','prod'),I('Chicken stock (reduced salt)',250,'ml','tin'),I('Coconut milk',400,'ml','tin'),I('Coriander',1,'bunch','prod'),PS('Curry powder',2,'tbsp'),PS('Cumin',1,'tsp'),PS('Ground coriander',1,'tsp'),PS('Ground turmeric',1,'tsp'),PS('Paprika',1,'tsp'),PS('Cayenne pepper',.5,'tsp'),PS('Salt & pepper',1,'tsp')],
+ steps:['In a shallow bowl season the chicken with salt and pepper.','Place the chicken, chickpeas, onion, garlic, tomatoes, capsicum, stock and coconut milk in the slow cooker.','Sprinkle the curry powder, cumin, coriander, turmeric, paprika and cayenne over the top and stir well.','Cover and cook on low for 6–8 hours.','Serve with fresh coriander.'],
+ notes:'Slow cooker recipe. Basmati rice is served alongside in the book. Save it for Phase two.'});
 M({id:'free',kind:'special',special:'free',name:'Free meal',em:'🍽️',types:['b','l','d'],serves:1,tags:[],ings:[],steps:[],notes:'You get 1 free meal each week. Eat what you love and enjoy it.'});
 M({id:'treat',kind:'special',special:'treat',name:'Treat',em:'🍰',types:['s'],serves:1,tags:[],ings:[],steps:[],notes:'You get 2 treats each week.'});
 
@@ -395,12 +451,14 @@ const FRUITS=[['🍎','Apple','1'],['🍑','Apricots','2'],['🍌','Small banana
 
 /* ---------- state ---------- */
 const KEY='plategrid.v1';
-let S={plan:defaultPlan(),people:1,batch:false,hidePantry:true,checked:{},extras:[],customs:[]};
+let S={plan:defaultPlan(),macroOv:{},mday:null,shopDays:[1,1,1,1,1,1,1],people:1,batch:false,hidePantry:true,checked:{},extras:[],customs:[]};
 try{const raw=localStorage.getItem(KEY);if(raw){const o=JSON.parse(raw);if(o&&o.plan&&o.plan.length===7)S=Object.assign(S,o)}}catch(e){}
+if(!S.macroOv)S.macroOv={};
+if(!Array.isArray(S.shopDays)||S.shopDays.length!==7)S.shopDays=[1,1,1,1,1,1,1];
 function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
 S.customs.forEach(m=>{meals[m.id]=m});
 const todayIdx=(new Date().getDay()+6)%7;
-const UI={view:'plan',day:todayIdx,drawer:null,rFilter:'all',rQuery:'',swapQuery:'',swapTag:'all'};
+const UI={view:'plan',day:todayIdx,mday:todayIdx,editMac:false,drawer:null,rFilter:'all',rQuery:'',swapQuery:'',swapTag:'all'};
 let undoSnap=null;
 
 /* ---------- meal logic ---------- */
@@ -413,6 +471,78 @@ function tally(d,skip){const r={e:0,f:0,d:0,m:0,n:0};SLOTS.forEach(s=>{if(s.k===
 function status(k,v){const[lo,hi]=TTARGET[k];return v<lo-.05?'low':v>hi+.05?'over':'ok'}
 function dayBalanced(d){const t=tally(d);return TK.every(k=>status(k,t[k])==='ok')}
 function counts(){let free=0,treat=0,done=0,total=0;S.plan.forEach(d=>SLOTS.forEach(s=>{const e=d[s.k],m=meals[e.id];total++;if(e.done)done++;if(m&&m.special==='free')free++;if(m&&m.special==='treat')treat++}));return{free,treat,done,total}}
+
+
+/* ---------- nutrition estimates ---------- */
+/* name: [kcal, protein g, carbs g, fat g] per 100g or 100ml, then optional grams per count unit (x, can, bunch, pack, cup) and grams per tsp */
+const NUTR={
+'Almonds':[579,21,22,50],'Apple cider vinegar':[21,0,.9,0],'Asparagus':[20,2.2,3.9,.1,250],'Avocado':[160,2,9,15,150],'Baby spinach':[23,2.9,3.6,.4],
+'Bacon rashers':[200,16,.4,15,35],'Balsamic vinegar':[88,.5,17,0],'Bay leaf':[313,7.6,75,8,.2],'Beef (raw or leftover roast)':[200,21,0,13],'Beef mince':[190,20,0,12],
+'Beef steak':[140,22,0,5.5],'Beef stock':[3,.4,.3,0],'Beef stock powder':[200,10,25,6,0,4],'Black beans':[132,8.9,23.7,.5,240],'Black-eyed peas (dried)':[336,23.5,60,1.3],
+'Blade steak':[165,21,0,9],'Blueberries':[57,.7,14,.3],'Boneless chicken thighs':[125,19,0,5.5],'Brown lentils (canned)':[116,9,20,.4,240],'Brown lentils (dried)':[352,25,60,1.1,190],
+'Brown onion':[40,1.1,9.3,.1,110],'Brown sugar':[380,0,98,0,0,4],'Butter':[717,.9,.1,81],'Button mushrooms':[22,3.1,3.3,.3],'Cabbage':[25,1.3,5.8,.1,800],
+'Cannellini beans':[110,7.3,19,.5,240],'Carrots':[41,.9,9.6,.2,70],'Cauliflower':[25,1.9,5,.3,600],'Cayenne pepper':[318,12,57,17,0,1.8],'Celery (sticks)':[16,.7,3,.2,40],
+'Cheese (cheddar)':[403,25,1.3,33],'Cherry tomatoes':[18,.9,3.9,.2],'Chia seeds':[486,17,42,31,0,4],'Chicken breast':[110,23,0,1.5],'Chicken mince':[143,17,0,8],
+'Chicken stock (reduced salt)':[5,.6,.4,.1],'Chicken stock powder':[200,10,25,6,0,4],'Chicken stock powder (reduced salt)':[200,10,25,6,0,4],'Chicken strips or mince':[135,20,0,6],
+'Chicken tenderloins':[110,23,0,1.5],'Chicken thigh fillets':[121,19,0,5,120],'Chickpeas':[139,7.2,22,2.8,240],'Coconut cream':[330,3.6,6,34],'Coconut milk':[190,2,3,19],
+'Coconut milk (165ml)':[190,2,3,19,165],'Cooked white rice':[130,2.7,28,.3,158],'Coriander':[23,2.1,3.7,.5,40],'Corn kernels':[86,3.3,19,1.4],'Cubed beetroot (tin)':[43,1.7,10,.2,225],
+'Cucumber':[15,.7,3.6,.1,200],'Cumin':[375,18,44,22,0,2],'Curry powder':[325,14,58,14,0,2.2],'Dijon mustard':[66,4,5,4],'Dried oregano':[265,9,69,4.3,0,1],
+'Dried rosemary':[331,4.9,64,15,0,1.2],'Dried thyme':[276,9,64,7,0,1.4],'Dry white wine':[82,.1,2.6,0],'Eggs':[143,12.6,.7,9.5,50],'Extra virgin olive oil':[884,0,0,100,0,4.5],
+'Feta':[264,14,4,21],'Firm tofu':[125,13,2,7],'Firm white fish fillets':[95,20,0,1.5],'Fish or vegetable stock':[5,.5,.5,.1],'Fish sauce':[35,5,3.6,0,0,6],
+'Four bean mix':[120,8,19,.8,240],'Fresh ginger (knob)':[80,1.8,18,.8,15],'Fresh rosemary':[131,3.3,21,5.9,20],'Fresh thyme':[101,5.6,24,1.7,20],'Frozen mixed berries':[50,.8,11,.4],
+'Garlic (cloves)':[149,6.4,33,.5,4],'Grapes':[69,.7,18,.2],'Gravox powder':[330,2,75,2,0,3],'Gravy beef':[145,21,0,6.5],'Green beans':[31,1.8,7,.2],'Green capsicum':[20,.9,4.6,.2,150],
+'Ground cinnamon':[247,4,81,1.2,0,2.6],'Ground coriander':[298,12,55,18,0,1.8],'Ground ginger':[335,9,72,4.2,0,1.8],'Ground turmeric':[312,10,67,3.3,0,3],'Honey':[304,.3,82,0,0,7],
+'Hummus':[200,7,14,14],'Kalamata olives':[115,.8,6,11],'Kale (chopped)':[49,4.3,9,.9,200],'Kale slaw kit (with dressing)':[95,2.5,10,5,300],'Kent pumpkin':[26,1,6.5,.1],
+'Kidney beans':[127,8.7,22.8,.5,240],'Lamb mince':[220,18,0,17],'Lamb strips or mince':[175,20,0,10],'Large white potatoes':[77,2,17,.1,200],'Lean beef mince':[150,21,0,7],
+'Leeks':[61,1.5,14,.3,150],'Lemon':[29,1.1,9,.3,60],'Light sour cream':[135,5,5.5,10],'Lime':[30,.7,10,.2,45],'Long red chillies':[40,1.9,9,.4,15],'Mango':[60,.8,15,.4,250],
+'Maple syrup':[260,0,67,0,0,7],'Milk':[62,3.4,4.8,3.3],'Mint':[44,3.3,8.4,.7,30],'Mixed nuts (almonds, walnuts, cashews)':[607,20,21,54],'Mixed vegetables (tin, 200g)':[50,2.8,9,.4,200],
+'Mushrooms':[22,3.1,3.3,.3],'Natural Greek yoghurt':[110,8,4,6],'Natural yoghurt':[75,5,6,3],'Paprika':[282,14,54,13,0,2.3],'Parmesan':[431,38,4,29],'Parsley':[36,3,6,.8,50],
+'Peach':[39,.9,10,.3,150],'Peanuts':[567,26,16,49],'Peas':[81,5.4,14,.4],'Plain flour':[364,10,76,1,0,3],'Pork mince':[190,19,0,12.5],'Portobello mushrooms':[22,2.5,3.3,.3,80],
+'Pumpkin':[26,1,6.5,.1],'Raspberries':[52,1.2,12,.7],'Red capsicum':[31,1,6,.3,150],'Red chilli':[40,1.9,9,.4,15],'Red lentils (dried)':[358,24,60,1.1,190],'Red onion':[40,1.1,9.3,.1,110],
+'Red wine':[85,.1,2.6,0],'Risoni':[358,12,72,1.5],'Rocket':[25,2.6,3.7,.7],'Rolled oats':[379,13,67,6.5,90],'Salad leaves':[15,1.4,2.2,.2],'Salmon fillet':[200,20,0,13],
+'Salt & pepper':[0,0,0,0],'Sesame oil':[884,0,0,100,0,4.5],'Sesame seeds':[573,18,23,50,0,3],'Skinless chicken thighs':[121,19,0,5],'Slendier angel hair pasta':[150,12,15,2.5,200],
+'Small banana':[89,1.1,23,.3,100],'Smoked paprika':[282,14,54,13,0,2.3],'Soy sauce':[60,8,6,0,0,5.3],'Spring onions':[32,1.8,7.3,.2,15],'Stewing beef (chuck, gravy or osso bucco)':[145,21,0,6.5],
+'Strawberries':[32,.7,7.7,.3],'Swede':[38,1.1,8.6,.2,500],'Sweet paprika':[282,14,54,13,0,2.3],'Tinned diced tomatoes':[22,1.2,4,.2,400],'Tomato paste':[82,4.3,19,.5,0,6],'Tomatoes':[18,.9,3.9,.2,120],
+'Tricolour quinoa':[368,14,64,6],'Tuna (small tin)':[120,26,0,1.5,95],'Tuscan seasoning':[270,9,60,4,0,2],'Vegetable oil':[884,0,0,100,0,4.5],'Vegetable stock':[4,.2,.8,.1],
+'Waxy potatoes':[75,2,16,.1,150],'White rice (dry)':[360,7,80,.6],'Wholegrain mustard':[150,7,10,8,0,5],'Wombok (Chinese cabbage)':[13,1.5,2.2,.2,800],'Worcestershire sauce':[78,0,19,0,0,5],
+'Yellow capsicum':[27,1,6.3,.2,150],'Zucchini':[17,1.2,3.1,.3,200],
+/* loose matches for meals you create */
+'Olive oil':[884,0,0,100,0,4.5],'Chicken':[135,20,0,6],'Beef':[160,21,0,8],'Lamb':[200,19,0,14],'Pork':[190,19,0,12.5],'Fish':[110,20,0,3],'Tofu':[125,13,2,7],'Egg':[143,12.6,.7,9.5,50],
+'Onion':[40,1.1,9.3,.1,110],'Tomato':[18,.9,3.9,.2,120],'Potato':[77,2,17,.1,200],'Broccoli':[34,2.8,7,.4,300],'Spinach':[23,2.9,3.6,.4],'Lettuce':[15,1.4,2.2,.2],'Banana':[89,1.1,23,.3,100],
+'Apple':[52,.3,14,.2,180],'Yoghurt':[75,5,6,3],'Cheese':[350,24,2,28],'Oats':[379,13,67,6.5,90],'Almond':[579,21,22,50],'Capsicum':[31,1,6,.3,150],'Mushroom':[22,3.1,3.3,.3],'Chickpea':[139,7.2,22,2.8,240],
+'Lentil':[116,9,20,.4,240],'Beans':[127,8.7,22.8,.5,240]};
+const CHECK=new Set(['Slendier angel hair pasta','Kale slaw kit (with dressing)','Hummus','Light sour cream','Coconut cream','Cooked white rice','Skinless chicken thighs']);
+function nutrFor(name){
+  if(NUTR[name])return NUTR[name];const n=name.toLowerCase();let best=null,bl=0;
+  for(const k in NUTR){const kl=k.toLowerCase();if(n.includes(kl)&&kl.length>bl){best=NUTR[k];bl=kl.length}}return best}
+function gramsOf(q,u,e){
+  if(u==='g'||u==='ml')return q;
+  if(u==='tsp')return q*(e[5]||5);if(u==='tbsp')return q*3*(e[5]||5);
+  if(u==='cup')return q*(e[4]||240);
+  return q*(e[4]||100)}
+const macCache={};
+function estMac(m,prot){
+  const key=m.id+'|'+prot+'|'+S.people;
+  const r={k:0,p:0,c:0,f:0,miss:[],check:[]};
+  ingsFor(m,prot).forEach(i=>{const e=nutrFor(i.n);if(!e){r.miss.push(i.n);return}
+    const g=gramsOf(i.q,i.u,e)/100;r.k+=e[0]*g;r.p+=e[1]*g;r.c+=e[2]*g;r.f+=e[3]*g;if(CHECK.has(i.n))r.check.push(i.n)});
+  const sv=m.serves||1;r.k/=sv;r.p/=sv;r.c/=sv;r.f/=sv;return r}
+function getMac(m,prot){
+  if(!m||m.special)return{k:0,p:0,c:0,f:0,miss:[],check:[],src:'none'};
+  const ov=S.macroOv[m.id];if(ov)return Object.assign({miss:[],check:[],src:'yours'},ov);
+  if(m.mac)return Object.assign({miss:[],check:[],src:'yours'},m.mac);
+  const r=estMac(m,prot||0);r.src='est';return r}
+function macFor(m,prot,serv){const x=getMac(m,prot),k=serv||1;return{k:x.k*k,p:x.p*k,c:x.c*k,f:x.f*k,src:x.src,miss:x.miss,check:x.check}}
+const fmtK=k=>Math.round(k/5)*5;
+const fmtG=g=>Math.round(g);
+function macLine(m,e,d){const x=macFor(m,e.prot,e.serv),sv=e.serv||1;
+  return dispName(m,e.prot)+' | '+(sv===1?'1 serve':sv+' serves')+' | '+fmtK(x.k)+' kcal | P '+fmtG(x.p)+' g | C '+fmtG(x.c)+' g | F '+fmtG(x.f)+' g'}
+function dayMac(d){const r={k:0,p:0,c:0,f:0};SLOTS.forEach(s=>{const e=S.plan[d][s.k],m=meals[e.id];if(!m||m.special)return;const x=macFor(m,e.prot,e.serv);r.k+=x.k;r.p+=x.p;r.c+=x.c;r.f+=x.f});return r}
+function dayText(d){const out=[DAYFULL[d]];SLOTS.forEach(s=>{const e=S.plan[d][s.k],m=meals[e.id];out.push(s.name+': '+(m.special?m.name+' (log by hand)':macLine(m,e,d)))});const t=dayMac(d);out.push('Total: '+fmtK(t.k)+' kcal | P '+fmtG(t.p)+' g | C '+fmtG(t.c)+' g | F '+fmtG(t.f)+' g');return out.join('\n')}
+function weekCsv(){const rows=[['Day','Slot','Meal','Serves','Calories','Protein g','Carbs g','Fat g']];
+  S.plan.forEach((day,d)=>SLOTS.forEach(s=>{const e=day[s.k],m=meals[e.id];if(!m||m.special)return;const x=macFor(m,e.prot,e.serv);rows.push([DAYFULL[d],s.name,dispName(m,e.prot),e.serv||1,fmtK(x.k),fmtG(x.p),fmtG(x.c),fmtG(x.f)])}));
+  return rows.map(r=>r.map(c=>'"'+String(c).replace(/"/g,'""')+'"').join(',')).join('\n')}
+function recipeText(m,prot){const out=[dispName(m,prot)+' (makes '+m.serves+')'];ingsFor(m,prot).forEach(i=>{if(i.n==='Salt & pepper')return;out.push('- '+fmtAmt(i.q,i.u,false)+' '+i.n)});const x=getMac(m,prot);out.push('Per serve: '+fmtK(x.k)+' kcal | P '+fmtG(x.p)+' g | C '+fmtG(x.c)+' g | F '+fmtG(x.f)+' g');return out.join('\n')}
 
 /* ---------- formatting ---------- */
 const FR=[[0,''],[.25,'¼'],[.33,'⅓'],[.5,'½'],[.66,'⅔'],[.75,'¾'],[1,'']];
@@ -429,7 +559,7 @@ function pretty(n){return n}
 /* ---------- shopping list ---------- */
 function buildList(){
   const per={};
-  S.plan.forEach((d,di)=>SLOTS.forEach(s=>{const e=d[s.k],m=meals[e.id];if(!m||m.special)return;const f=S.people/m.serves;(per[m.id]=per[m.id]||{m,sum:0,items:[]});per[m.id].sum+=f;per[m.id].items.push({f,prot:e.prot,di})}));
+  S.plan.forEach((d,di)=>SLOTS.forEach(s=>{if(!S.shopDays[di])return;const e=d[s.k],m=meals[e.id];if(!m||m.special)return;const f=S.people/m.serves;(per[m.id]=per[m.id]||{m,sum:0,items:[]});per[m.id].sum+=f;per[m.id].items.push({f,prot:e.prot,di})}));
   const map={};
   Object.values(per).forEach(g=>{
     const mult=(S.batch&&g.m.serves>1)?Math.ceil(g.sum-1e-9)/g.sum:1;
@@ -438,8 +568,9 @@ function buildList(){
       o.q+=ing.q*it.f*mult;o.src.add(dispName(g.m,it.prot))}))});
   return Object.values(map).sort((a,b)=>a.n.localeCompare(b.n));
 }
+function shopDaysLabel(){const on=DAYS.filter((_,i)=>S.shopDays[i]);if(on.length===7)return'the whole week';if(!on.length)return'no days';return on.join(', ')}
 function listText(){
-  const L=buildList();const out=['Shopping list'];
+  const L=buildList();const out=['Shopping list for '+shopDaysLabel()];
   Object.keys(CATS).forEach(c=>{const it=L.filter(x=>x.c===c&&!(c==='pan'&&S.hidePantry));if(!it.length)return;out.push('','== '+CATS[c][0]+' ==');it.forEach(x=>out.push('[ ] '+x.n+' – '+fmtAmt(x.q,x.u,true)))});
   if(S.extras.length){out.push('','== Added by you ==');S.extras.forEach(x=>out.push('[ ] '+x.n))}
   return out.join('\n')}
@@ -451,7 +582,7 @@ function planText(){
 /* ---------- rendering ---------- */
 function renderTabs(){
   const open=Object.values(S.checked).filter(Boolean).length;
-  const items=[['plan','Week plan'],['recipes','Recipes'],['shop','Shopping'],['guide','Food guide']];
+  const items=[['plan','Plan'],['recipes','Recipes'],['shop','Shopping'],['macros','MacroFactor'],['guide','Guide']];
   $('#tabs').innerHTML=items.map(([k,l])=>`<button class="tab" role="tab" aria-selected="${UI.view===k}" data-act="tab" data-v="${k}">${l}${k==='shop'?'<span class="badge num">'+buildList().filter(x=>!(x.c==='pan'&&S.hidePantry)).length+'</span>':''}</button>`).join('')}
 
 function ringSvg(p,color){const r=19,c=2*Math.PI*r;return `<svg class="ring" viewBox="0 0 46 46"><circle cx="23" cy="23" r="${r}" fill="none" stroke="var(--surface2)" stroke-width="6"/><circle cx="23" cy="23" r="${r}" fill="none" stroke="${color}" stroke-width="6" stroke-linecap="round" stroke-dasharray="${(c*p).toFixed(1)} ${c.toFixed(1)}" transform="rotate(-90 23 23)"/></svg>`}
@@ -464,12 +595,12 @@ function cellHtml(d,s){
   const prot=m.prot?`<span>${esc(protOf(m,e.prot).n)}</span>`:(m.kind==='recipe'&&m.serves>1?`<span>makes ${m.serves}</span>`:'');
   return `<div class="cell cell-slot-${s.k}${m.special?' special':''}${e.done?' is-done':''}${sel}" role="button" tabindex="0" draggable="true" data-act="open" data-d="${d}" data-s="${s.k}" aria-label="${DAYFULL[d]} ${s.name}: ${esc(dispName(m,e.prot))}">
     <span class="em" aria-hidden="true">${m.em}</span>
-    <div class="tx"><span class="nm">${esc(dispName(m,e.prot))}</span><span class="mt">${e.lock?'🔒 ':''}${prot}</span></div>
+    <div class="tx"><span class="nm">${esc(dispName(m,e.prot))}</span><span class="mt">${e.lock?'🔒 ':''}${prot}${m.special?'':'<span class="num">'+fmtK(macFor(m,e.prot,e.serv).k)+' kcal</span>'}</span></div>
     <button class="eat" data-act="eat" data-d="${d}" data-s="${s.k}" aria-pressed="${!!e.done}" aria-label="Mark eaten">${e.done?'✓':''}</button></div>`}
 function checkHtml(d){
   const t=tally(d),sel=d===UI.day?' sel':'';
   return `<div class="daycheck${sel}" title="Approximate daily targets from your plan"><div class="bars">${TK.map(k=>{const st=status(k,t[k]),pc=Math.min(100,t[k]/TTARGET[k][0]*100);const v=Math.round(t[k]*10)/10;
-    return `<div class="bar ${st}" title="${TL[k]}: ${v} of ${TTEXT[k]}"><span>${TL[k][0]}</span><div class="tr"><div class="fl" style="width:${pc}%"></div></div><span class="v num">${v}</span></div>`}).join('')}</div></div>`}
+    return `<div class="bar ${st}" title="${TL[k]}: ${v} of ${TTEXT[k]}"><span>${TL[k][0]}</span><div class="tr"><div class="fl" style="width:${pc}%"></div></div><span class="v num">${v}</span></div>`}).join('')}</div>${(()=>{const m=dayMac(d);return `<div class="kc num"><b>${fmtK(m.k).toLocaleString()}</b> kcal<span>P ${fmtG(m.p)} · C ${fmtG(m.c)} · F ${fmtG(m.f)}</span></div>`})()}</div>`}
 
 function renderPlan(){
   const c=counts(),bal=S.plan.reduce((a,_,i)=>a+(dayBalanced(i)?1:0),0);
@@ -505,7 +636,7 @@ function renderRecipes(){
    <div class="filters">${F.map(([k,l])=>`<button class="chip" data-act="rfilter" data-v="${k}" aria-pressed="${UI.rFilter===k}">${l}</button>`).join('')}</div>
    <div class="grid" id="rgrid">${list.length?list.map(m=>{const sk=slotBg[m.types[0]];
      return `<button class="rcard" data-act="recipe" data-id="${m.id}"><div class="pic cell-slot-${sk}"><span class="kind">${m.kind==='recipe'?'Recipe':m.kind==='custom'?'Yours':m.kind==='extra'?'Idea':'Easy'}</span>${m.em}</div>
-      <div class="bd"><h3>${esc(dispName(m,0))}</h3><div class="row">${m.types.map(t=>`<span class="pill t">${SLOT_TYPE_NAME[t]}</span>`).join('')}<span class="pill">${m.serves>1?'serves '+m.serves:'1 serve'}</span></div></div></button>`}).join(''):'<div class="empty">No meals match. Try another filter.</div>'}</div>`}
+      <div class="bd"><h3>${esc(dispName(m,0))}</h3><div class="row">${m.types.map(t=>`<span class="pill t">${SLOT_TYPE_NAME[t]}</span>`).join('')}<span class="pill">${m.serves>1?'serves '+m.serves:'1 serve'}</span><span class="pill num">${fmtK(getMac(m,0).k)} kcal</span>${m.p2?'<span class="pill p2">Phase 2</span>':''}</div></div></button>`}).join(''):'<div class="empty">No meals match. Try another filter.</div>'}</div>`}
 
 function renderShop(){
   const L=buildList();
@@ -518,6 +649,9 @@ function renderShop(){
     <button class="btn sm" data-act="pantry" aria-pressed="${!S.hidePantry}">Show pantry staples</button>
     <div class="progress" aria-label="Ticked off"><i style="width:${tot?done/tot*100:0}%"></i></div><span class="num muted">${done}/${tot}</span>
     <button class="btn sm" data-act="copylist">Copy list</button><button class="btn sm ghost" data-act="clearticks">Clear ticks</button></div>
+   <div class="shopdays"><span class="eyebrow">Shopping for</span>
+    <div class="picker" role="group" aria-label="Days to shop for">${DAYS.map((d,i)=>`<button data-act="shopday" data-d="${i}" aria-pressed="${!!S.shopDays[i]}">${d}</button>`).join('')}</div>
+    <div class="row"><button class="chip" data-act="shopset" data-v="all">Whole week</button><button class="chip" data-act="shopset" data-v="weekdays">Mon–Fri</button><button class="chip" data-act="shopset" data-v="weekend">Sat + Sun</button><button class="chip" data-act="shopset" data-v="today">Today onwards</button></div></div>
    <p class="hint" style="margin:0 0 14px">${S.batch?'Buying every ingredient for whole recipes, so leftovers cover extra portions.':'Quantities are scaled to the portions you plan to eat.'} The list updates as you swap meals.</p>
    <div class="aisles">`;
   Object.keys(CATS).forEach(c=>{
@@ -526,10 +660,28 @@ function renderShop(){
     h+=`<section class="card aisle"><h3><span aria-hidden="true">${CATS[c][1]}</span>${CATS[c][0]}<small>${it.filter(x=>S.checked[x.key]).length}/${it.length}</small></h3>${it.map(x=>itemHtml(x.key,x.n,fmtAmt(x.q,x.u,true),[...x.src].join(', '))).join('')}</section>`});
   h+=`<section class="card aisle"><h3><span aria-hidden="true">✏️</span>Added by you<small>${S.extras.filter(x=>S.checked['x:'+x.id]).length}/${S.extras.length}</small></h3>${S.extras.map(x=>itemHtml('x:'+x.id,x.n,'','',x.id)).join('')}
    <form class="addrow" id="addform"><input id="addinput" type="text" placeholder="Add an item (e.g. sourdough)" aria-label="Add shopping item"><button class="btn sm primary" type="submit">Add</button></form></section></div>`;
-  if(!L.length)h+='<div class="empty">Your plan has no cooked meals yet. Add some meals to build a list.</div>';
+  if(!L.length)h+='<div class="empty">'+(S.shopDays.some(Boolean)?'The selected days have no cooked meals yet.':'Pick at least one day above to build your list.')+'</div>';
   return h}
 function itemHtml(key,n,qty,src,xid){return `<button class="item" data-act="tick" data-k="${esc(key)}" aria-pressed="${!!S.checked[key]}"><span class="box" aria-hidden="true">✓</span><span><span class="nm">${esc(n)}</span>${src?`<span class="src" title="${esc(src)}">${esc(src)}</span>`:''}</span><span class="qty">${esc(qty)}${xid?`<span class="chip" data-act="rmextra" data-id="${xid}" style="cursor:pointer">remove</span>`:''}</span></button>`}
 
+function renderMacros(){
+  const d=UI.mday,tot=dayMac(d);
+  const rows=SLOTS.map(s=>{const e=S.plan[d][s.k],m=meals[e.id];if(!m)return'';
+    const x=macFor(m,e.prot,e.serv),sv=e.serv||1;
+    const tile=(l,v,u)=>`<button class="mnum" data-act="copyval" data-v="${v}" title="Tap to copy ${v}"><b class="num">${v}</b><span>${l}${u||''}</span></button>`;
+    return `<div class="mrow cell-slot-${s.k}${e.logged?' is-logged':''}">
+      <div class="mhead"><span class="em" aria-hidden="true">${m.em}</span><div style="min-width:0;flex:1"><div class="eyebrow" style="color:inherit;opacity:.8">${s.name}</div><b class="mname">${esc(dispName(m,e.prot))}</b></div>
+       ${m.special?'':`<div class="stepper"><button data-act="serv" data-d="${d}" data-s="${s.k}" data-v="-0.5" aria-label="Fewer serves">−</button><b class="num" title="serves">${sv}</b><button data-act="serv" data-d="${d}" data-s="${s.k}" data-v="0.5" aria-label="More serves">＋</button></div>`}</div>
+      ${m.special?`<p class="hint" style="margin:0;color:inherit">Log this one in MacroFactor yourself.</p>`:`<div class="mnums">${tile('kcal',fmtK(x.k))}${tile('protein',fmtG(x.p),' g')}${tile('carbs',fmtG(x.c),' g')}${tile('fat',fmtG(x.f),' g')}</div>`}
+      <div class="row">${m.special?'':`<button class="btn sm" data-act="copymeal" data-d="${d}" data-s="${s.k}">Copy entry</button>`}<button class="btn sm" data-act="logged" data-d="${d}" data-s="${s.k}" aria-pressed="${!!e.logged}">✓ Logged in MacroFactor</button><button class="btn sm ghost" data-act="open" data-d="${d}" data-s="${s.k}" style="color:inherit">Details</button></div></div>`}).join('');
+  const done=SLOTS.filter(s=>S.plan[d][s.k].logged).length;
+  return `<div class="card" style="margin-bottom:14px"><h2 style="font-size:20px;margin-bottom:4px">Get your meals into MacroFactor</h2>
+    <p class="hint" style="margin:0">MacroFactor has no import I can connect to, so this page gives you the numbers in the order its custom food form asks for them: calories, protein, carbs, fat. Tap any number to copy it, or copy a whole entry. Numbers are estimates from the ingredients. Use <b>Edit numbers</b> on a meal when you have exact figures from a label.</p></div>
+   <div class="daytabs" style="display:flex" role="tablist" aria-label="Day">${DAYS.map((n,i)=>`<button class="daytab" role="tab" aria-selected="${i===d}" data-act="mday" data-d="${i}">${n}</button>`).join('')}</div>
+   <div class="card macros" style="margin-bottom:14px"><div class="row" style="justify-content:space-between;margin-bottom:8px"><h3 style="font-size:18px">${DAYFULL[d]} total</h3><span class="chip num">${done}/${SLOTS.length} logged</span></div>
+    <div class="mnums"><div class="mnum static"><b class="num">${fmtK(tot.k)}</b><span>kcal</span></div><div class="mnum static"><b class="num">${fmtG(tot.p)}</b><span>protein g</span></div><div class="mnum static"><b class="num">${fmtG(tot.c)}</b><span>carbs g</span></div><div class="mnum static"><b class="num">${fmtG(tot.f)}</b><span>fat g</span></div></div>
+    <div class="row" style="margin-top:10px"><button class="btn sm primary" data-act="copyday" data-d="${d}">Copy this day</button><button class="btn sm" data-act="copyweek">Copy whole week (CSV)</button></div></div>
+   <div class="mgrid">${rows}</div>`}
 function renderGuide(){
   const rules=[['🍗','150g','Meat or tofu/TVP','Limit crumbed and processed. Aim for 2 serves of fish per week.','l'],['🥚','2','Eggs','½ cup rolled oats can stand in for the eggs.','b'],['🍓','2–3','Fruit serves','See the serve sizes below.','s3'],['🥛','2','Dairy serves','Milk, yoghurt, kefir or cheese.','s1'],['🥜','40g','Nuts & seeds','Or 1 tsp nut butter. ½ avocado can stand in.','s2'],['🫘','∞','Pulses','Chickpeas, kidney beans, lentils, cannellini, soya beans. Canned is fine.','d'],['🥦','∞','Low-starch veg','Everything except potato, corn and peas. About 2 cups per meal.','s1'],['🎉','1 + 2','Free meal + treats','Per week.','b']];
   const cond=['Herbs & spices (fresh and dried)','Salt and pepper','Stocks (beef, chicken, vegetable)','Extra virgin olive oil (2 tbsp)','Butter (use sparingly)','Mustard','Vinegar (red, white, apple cider, balsamic)','Lemon + lime juice','Soy sauce (gluten free)','Fish sauce','Tomato paste'];
@@ -549,7 +701,7 @@ function renderGuide(){
 function render(){
   renderTabs();
   const v=$('#view');
-  v.innerHTML=UI.view==='plan'?renderPlan():UI.view==='recipes'?renderRecipes():UI.view==='shop'?renderShop():renderGuide();
+  v.innerHTML=UI.view==='plan'?renderPlan():UI.view==='recipes'?renderRecipes():UI.view==='shop'?renderShop():UI.view==='macros'?renderMacros():renderGuide();
 }
 
 /* ---------- drawer ---------- */
@@ -571,7 +723,9 @@ function drawHtml(){
   if(D.mode==='slot'){
     body+=`<div class="seg" role="tablist"><button role="tab" aria-selected="${D.tab!=='swap'}" data-act="dtab" data-v="details">Details</button><button role="tab" aria-selected="${D.tab==='swap'}" data-act="dtab" data-v="swap">⇄ Swap meal</button></div>`}
   if(D.mode==='slot'&&D.tab==='swap'){body+=swapHtml(D);return $('#drawer').innerHTML=head+`<div class="dbody">${body}</div>`}
-  if(!m.special){body+=`<div class="row">${chipsFor(m)}${m.serves>1?`<span class="chip">recipe makes ${m.serves}</span>`:''}</div>`}
+  if(!m.special){body+=`<div class="row">${chipsFor(m)}${m.serves>1?`<span class="chip">recipe makes ${m.serves}</span>`:''}${m.cook?`<span class="chip">${m.cook}</span>`:''}${m.p2?'<span class="chip p2">Phase 2</span>':''}</div>`;
+    if(m.p2)body+=`<div class="note" style="background:color-mix(in srgb,var(--warn) 18%,transparent)">${esc(m.p2)}</div>`;
+    body+=macroCard(m,e,prot,D)}
   if(m.prot){body+=`<div><div class="eyebrow" style="margin-bottom:6px">Choose your protein</div><div class="seg" role="group">${m.prot.map((p,i)=>`<button data-act="prot" data-i="${i}" aria-pressed="${i===prot}">${esc(p.n)}</button>`).join('')}</div></div>`}
   if(D.mode==='slot'){
     body+=`<div class="row"><button class="btn sm" data-act="lock" aria-pressed="${!!e.lock}">🔒 ${e.lock?'Locked':'Lock for shuffle'}</button><button class="btn sm" data-act="eat2" aria-pressed="${!!e.done}">✓ ${e.done?'Eaten':'Mark eaten'}</button>
@@ -590,6 +744,17 @@ function drawHtml(){
   if(m.kind==='custom')body+=`<button class="btn sm ghost" data-act="delcustom" data-id="${m.id}">Delete this meal</button>`;
   $('#drawer').innerHTML=head+`<div class="dbody">${body}</div>`}
 
+function macroCard(m,e,prot,D){
+  const sv=e?(e.serv||1):1,x=macFor(m,prot,sv),base=getMac(m,prot);
+  const tile=(l,v,u)=>`<button class="mnum" data-act="copyval" data-v="${v}" title="Tap to copy ${v}"><b class="num">${v}</b><span>${l}${u?' '+u:''}</span></button>`;
+  let h=`<div class="card macros"><div class="row" style="justify-content:space-between;margin-bottom:8px"><h3 style="font-size:18px">Macros ${e?'':'per serve'}</h3>
+    ${e?`<div class="row"><span class="hint">Eating</span><div class="stepper"><button data-act="serv" data-d="${D.d}" data-s="${D.s}" data-v="-0.5" aria-label="Less">−</button><b class="num">${sv}</b><button data-act="serv" data-d="${D.d}" data-s="${D.s}" data-v="0.5" aria-label="More">＋</button></div><span class="hint">serve${sv===1?'':'s'}</span></div>`:''}</div>
+    <div class="mnums">${tile('kcal',fmtK(x.k))}${tile('protein',fmtG(x.p),'g')}${tile('carbs',fmtG(x.c),'g')}${tile('fat',fmtG(x.f),'g')}</div>
+    <div class="row" style="margin-top:10px"><button class="btn sm primary" data-act="copymealdrawer">Copy for MacroFactor</button><button class="btn sm" data-act="copyrecipe">Copy ingredients</button><button class="btn sm ghost" data-act="editmac">${UI.editMac?'Close editor':'Edit numbers'}</button></div>
+    <p class="hint" style="margin:8px 0 0">${base.src==='yours'?'These are your own numbers.':'Estimated from the ingredients, per serve.'}${x.check&&x.check.length?' Check the label on: '+[...new Set(x.check)].join(', ')+'.':''}${x.miss&&x.miss.length?' No data for: '+[...new Set(x.miss)].join(', ')+'.':''}</p>`;
+  if(UI.editMac){const b=base;h+=`<div class="nums" style="margin-top:10px">${[['k','kcal',fmtK(b.k)],['p','Protein',fmtG(b.p)],['c','Carbs',fmtG(b.c)],['f','Fat',fmtG(b.f)]].map(([k,l,v])=>`<label class="form" style="font-size:12.5px;font-weight:600;gap:3px">${l}<input type="number" id="mo_${k}" min="0" step="1" value="${v}" style="border:1.5px solid var(--line);background:var(--surface);border-radius:10px;padding:7px;width:100%"></label>`).join('')}</div>
+    <div class="row" style="margin-top:8px"><button class="btn sm primary" data-act="savemac">Save my numbers</button>${S.macroOv[m.id]?'<button class="btn sm" data-act="resetmac">Back to estimate</button>':''}</div>`}
+  return h+'</div>'}
 function candidates(D){
   const e=slotEntry(D.d,D.s),slot=SLOTS.find(s=>s.k===D.s),t=tally(D.d,D.s);
   const q=UI.swapQuery.toLowerCase(),tag=UI.swapTag;
@@ -607,7 +772,7 @@ function swapHtml(D){
 function swapCards(D){
   const e=slotEntry(D.d,D.s),t=tally(D.d,D.s);const list=candidates(D);
   if(!list.length)return'<div class="empty" style="grid-column:1/-1">Nothing matches. Clear the search or pick another filter.</div>';
-  return list.map(m=>{const g=gapFills(m,t);return `<button class="swapc cell-slot-${D.s}${m.id===e.id?' current':''}" data-act="doswap" data-id="${m.id}"><span class="em">${m.em}</span><b>${esc(dispName(m,0))}</b><div class="fills">${g.map(k=>`<span>+${TL[k].toLowerCase()}</span>`).join('')}</div></button>`}).join('')}
+  return list.map(m=>{const g=gapFills(m,t);return `<button class="swapc cell-slot-${D.s}${m.id===e.id?' current':''}" data-act="doswap" data-id="${m.id}"><span class="em">${m.em}</span><b>${esc(dispName(m,0))}</b><div class="fills">${m.p2?'<span class="p2b">Phase 2</span>':''}${g.map(k=>`<span>+${TL[k].toLowerCase()}</span>`).join('')}</div></button>`}).join('')}
 
 const EMOJIS=['🥗','🍲','🍳','🥘','🍜','🍛','🥪','🌯','🍣','🍤','🥩','🍗','🥑','🥣','🧆','🫓'];
 function createHtml(){
@@ -623,6 +788,8 @@ function createHtml(){
    <label>Method (optional)<textarea id="csteps" style="min-height:70px" placeholder="One step per line"></textarea></label>
    <div><div class="eyebrow" style="margin-bottom:6px">Counts toward your daily targets, per serve</div><div class="nums">${TK.map(k=>`<label>${TL[k]}<input type="number" id="ct_${k}" min="0" step="0.25" value="0"></label>`).join('')}</div>
    <p class="hint" style="margin:6px 0 0">Eggs: number. Fruit and dairy: serves. Protein: 1 = 150g. Nuts: 1 = 40g.</p></div>
+   <div><div class="eyebrow" style="margin-bottom:6px">Macros per serve (optional)</div><div class="nums">${[['k','kcal'],['p','Protein'],['c','Carbs'],['f','Fat']].map(([k,l])=>`<label>${l}<input type="number" id="cm_${k}" min="0" step="1" placeholder="auto"></label>`).join('')}</div>
+   <p class="hint" style="margin:6px 0 0">Leave blank to estimate from the ingredients. Fill all four if you have the exact numbers.</p></div>
    <button class="btn primary" type="submit">Save meal</button></form>`}
 function guessCat(n,u){const s=n.toLowerCase();
   if(/chicken|beef|lamb|pork|fish|salmon|tuna|mince|steak|tofu|tvp|prawn|sausage/.test(s))return 'prot';
@@ -643,18 +810,18 @@ function parseIngs(txt){return txt.split('\n').map(l=>l.trim()).filter(Boolean).
 let toastTimer;
 function toast(msg,undo){const t=$('#toast');t.innerHTML=esc(msg)+(undo?' <button data-act="undo">Undo</button>':'');t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),undo?6000:2600)}
 function snapshot(){undoSnap=JSON.stringify(S.plan)}
-function setMeal(d,k,id,prot){const e=S.plan[d][k];e.id=id;e.prot=prot||0;e.done=false}
+function setMeal(d,k,id,prot){const e=S.plan[d][k];e.id=id;e.prot=prot||0;e.done=false;e.serv=1;e.logged=false}
 function shuffle(){
   snapshot();const used=new Set();S.plan.forEach(d=>SLOTS.forEach(s=>used.add(d[s.k].id)));
   S.plan.forEach((day,di)=>{const dayUsed=new Set(SLOTS.map(s=>day[s.k].id));
     SLOTS.forEach(s=>{const e=day[s.k];if(e.lock)return;
-      let pool=Object.values(meals).filter(m=>!m.special&&m.types.includes(s.t));
+      let pool=Object.values(meals).filter(m=>!m.special&&!m.p2&&m.types.includes(s.t));
       const fresh=pool.filter(m=>!used.has(m.id)&&!dayUsed.has(m.id));if(fresh.length)pool=fresh;else pool=pool.filter(m=>!dayUsed.has(m.id)||m.id===e.id)||pool;
       if(!pool.length)return;const pick=pool[Math.floor(Math.random()*pool.length)];
-      dayUsed.delete(e.id);used.delete(e.id);e.id=pick.id;e.prot=pick.prot?Math.floor(Math.random()*pick.prot.length):0;e.done=false;used.add(pick.id);dayUsed.add(pick.id)})});
+      dayUsed.delete(e.id);used.delete(e.id);e.id=pick.id;e.prot=pick.prot?Math.floor(Math.random()*pick.prot.length):0;e.done=false;e.serv=1;e.logged=false;used.add(pick.id);dayUsed.add(pick.id)})});
   save();render();$('#week')&&[...document.querySelectorAll('.cell')].forEach(c=>c.classList.add('pop'));toast('Week shuffled. Locked meals stayed put.',true)}
-async function copyText(text,label){
-  try{await navigator.clipboard.writeText(text);toast(label+' copied')}catch(e){openDrawer({mode:'copy',text})}}
+async function copyText(text,label,soft){
+  try{await navigator.clipboard.writeText(text);toast(label+' copied')}catch(e){if(soft)toast('Copying is blocked here. The number is '+text);else openDrawer({mode:'copy',text})}}
 const REFRESH=()=>{save();render();if(UI.drawer&&UI.drawer.mode!=='create'&&UI.drawer.mode!=='copy')drawHtml()};
 
 document.addEventListener('click',ev=>{
@@ -664,7 +831,7 @@ document.addEventListener('click',ev=>{
   switch(a){
    case 'tab':UI.view=el.dataset.v;render();window.scrollTo({top:0});break;
    case 'day':UI.day=+el.dataset.d;render();break;
-   case 'open':openDrawer({mode:'slot',d:+el.dataset.d,s:el.dataset.s,tab:'details'});break;
+   case 'open':UI.editMac=false;openDrawer({mode:'slot',d:+el.dataset.d,s:el.dataset.s,tab:'details'});break;
    case 'eat':{ev.stopPropagation();const e=slotEntry(+el.dataset.d,el.dataset.s);e.done=!e.done;REFRESH();const d=+el.dataset.d;if(e.done&&SLOTS.every(s=>S.plan[d][s.k].done))toast(DAYFULL[d]+' complete. Nice work.');break}
    case 'close':closeDrawer();break;
    case 'dtab':D.tab=el.dataset.v;UI.swapQuery='';UI.swapTag='all';drawHtml();break;
@@ -681,7 +848,7 @@ document.addEventListener('click',ev=>{
    case 'undo':if(undoSnap){S.plan=JSON.parse(undoSnap);undoSnap=null;REFRESH();$('#toast').classList.remove('show')}break;
    case 'copyplan':copyText(planText(),'Plan');break;
    case 'rfilter':UI.rFilter=el.dataset.v;render();break;
-   case 'recipe':openDrawer({mode:'recipe',id:el.dataset.id,prot:0,portions:S.people});break;
+   case 'recipe':UI.editMac=false;openDrawer({mode:'recipe',id:el.dataset.id,prot:0,portions:S.people});break;
    case 'addday':D.addD=+el.dataset.d;drawHtml();break;
    case 'addslot':D.addS=el.dataset.s;drawHtml();break;
    case 'addplan':{snapshot();setMeal(+el.dataset.d,el.dataset.s,D.id,D.prot||0);UI.day=+el.dataset.d;save();const nm=dispName(meals[D.id],D.prot||0);closeDrawer();UI.view='plan';render();toast(nm+' added to '+DAYFULL[+el.dataset.d],true);break}
@@ -689,6 +856,20 @@ document.addEventListener('click',ev=>{
    case 'cemoji':D.em=el.dataset.v;keepForm();break;
    case 'ctype':{const t=el.dataset.v;D.types=D.types.includes(t)?D.types.filter(x=>x!==t):D.types.concat(t);keepForm();break}
    case 'delcustom':{const id=el.dataset.id;S.customs=S.customs.filter(m=>m.id!==id);delete meals[id];S.plan.forEach(d=>SLOTS.forEach(s=>{if(d[s.k].id===id)d[s.k]={id:s.t==='s'?'sNuts':s.t==='b'?'bBoiled':s.t==='l'?'minestrone':'dGrill',prot:0,done:false,lock:false}}));closeDrawer();REFRESH();toast('Meal deleted');break}
+   case 'shopday':{const i=+el.dataset.d;S.shopDays[i]=S.shopDays[i]?0:1;REFRESH();break}
+   case 'shopset':{const v=el.dataset.v;S.shopDays=DAYS.map((_,i)=>v==='all'?1:v==='weekdays'?(i<5?1:0):v==='weekend'?(i>=5?1:0):(i>=todayIdx?1:0));REFRESH();break}
+   case 'mday':UI.mday=+el.dataset.d;render();break;
+   case 'serv':{const e=slotEntry(+el.dataset.d,el.dataset.s);e.serv=Math.min(6,Math.max(.5,(e.serv||1)+ +el.dataset.v));REFRESH();break}
+   case 'logged':{const e=slotEntry(+el.dataset.d,el.dataset.s);e.logged=!e.logged;REFRESH();break}
+   case 'copyval':copyText(el.dataset.v,el.dataset.v,true);break;
+   case 'copymeal':{const e=slotEntry(+el.dataset.d,el.dataset.s);copyText(macLine(meals[e.id],e),'Entry');break}
+   case 'copymealdrawer':{const m=D.mode==='slot'?meals[slotEntry(D.d,D.s).id]:meals[D.id];const e=D.mode==='slot'?slotEntry(D.d,D.s):{prot:D.prot||0,serv:1};copyText(macLine(m,e),'Entry');break}
+   case 'copyrecipe':{const m=D.mode==='slot'?meals[slotEntry(D.d,D.s).id]:meals[D.id];const pr=D.mode==='slot'?slotEntry(D.d,D.s).prot:(D.prot||0);copyText(recipeText(m,pr),'Ingredients');break}
+   case 'copyday':copyText(dayText(+el.dataset.d),DAYFULL[+el.dataset.d]);break;
+   case 'copyweek':copyText(weekCsv(),'Week');break;
+   case 'editmac':UI.editMac=!UI.editMac;drawHtml();break;
+   case 'savemac':{const m=D.mode==='slot'?meals[slotEntry(D.d,D.s).id]:meals[D.id];const v=k=>Math.max(0,parseFloat($('#mo_'+k).value)||0);S.macroOv[m.id]={k:v('k'),p:v('p'),c:v('c'),f:v('f')};UI.editMac=false;REFRESH();toast('Saved your numbers for '+dispName(m,0));break}
+   case 'resetmac':{const m=D.mode==='slot'?meals[slotEntry(D.d,D.s).id]:meals[D.id];delete S.macroOv[m.id];UI.editMac=false;REFRESH();toast('Back to the estimate');break}
    case 'people':S.people=Math.min(12,Math.max(1,S.people+ +el.dataset.v));REFRESH();break;
    case 'batch':S.batch=el.dataset.v==='1';REFRESH();break;
    case 'pantry':S.hidePantry=!S.hidePantry;REFRESH();break;
@@ -697,8 +878,8 @@ document.addEventListener('click',ev=>{
    case 'clearticks':S.checked={};REFRESH();break;
    case 'copylist':copyText(listText(),'Shopping list');break;
   }});
-function keepForm(){const f={n:$('#cname')&&$('#cname').value,s:$('#cserves')&&$('#cserves').value,i:$('#cings')&&$('#cings').value,st:$('#csteps')&&$('#csteps').value,t:TK.map(k=>$('#ct_'+k)&&$('#ct_'+k).value)};
-  drawHtml();$('#cname').value=f.n||'';$('#cserves').value=f.s||1;$('#cings').value=f.i||'';$('#csteps').value=f.st||'';TK.forEach((k,i)=>{$('#ct_'+k).value=f.t[i]||0})}
+function keepForm(){const f={n:$('#cname')&&$('#cname').value,s:$('#cserves')&&$('#cserves').value,i:$('#cings')&&$('#cings').value,st:$('#csteps')&&$('#csteps').value,t:TK.map(k=>$('#ct_'+k)&&$('#ct_'+k).value),m:['k','p','c','f'].map(k=>$('#cm_'+k)&&$('#cm_'+k).value)};
+  drawHtml();$('#cname').value=f.n||'';$('#cserves').value=f.s||1;$('#cings').value=f.i||'';$('#csteps').value=f.st||'';TK.forEach((k,i)=>{$('#ct_'+k).value=f.t[i]||0});['k','p','c','f'].forEach((k,i)=>{$('#cm_'+k).value=f.m[i]||''})}
 
 document.addEventListener('input',ev=>{
   const id=ev.target.id;
@@ -710,6 +891,7 @@ document.addEventListener('submit',ev=>{
   if(f.id==='cform'){const D=UI.drawer;const name=$('#cname').value.trim();if(!name)return;
     const types=D.types.length?D.types:['d'];const t={};TK.forEach(k=>{const v=parseFloat($('#ct_'+k).value);if(v>0)t[k]=v});
     const m={id:'c'+Date.now(),kind:'custom',name,em:D.em,types,serves:Math.max(1,parseInt($('#cserves').value)||1),t,tags:[],ings:parseIngs($('#cings').value),steps:$('#csteps').value.split('\n').map(s=>s.trim()).filter(Boolean)};
+    {const mv=['k','p','c','f'].map(k=>parseFloat($('#cm_'+k).value));if(mv.every(v=>isFinite(v)))m.mac={k:mv[0],p:mv[1],c:mv[2],f:mv[3]}}
     meals[m.id]=m;S.customs.push(m);save();closeDrawer();UI.view='recipes';UI.rFilter='custom';render();toast('Saved. Find it under Mine, or swap it into your plan.')}});
 document.addEventListener('keydown',ev=>{
   if(ev.key==='Escape'&&UI.drawer)closeDrawer();

@@ -293,25 +293,31 @@ const meals={};
 function M(o){o.kind=o.kind||'recipe';o.t=o.t||{};o.tags=o.tags||[];o.steps=o.steps||[];meals[o.id]=o;return o}
 const GRILL=[{n:'Chicken breast',s:'chicken',q:150,u:'g'},{n:'Salmon fillet',s:'salmon',q:150,u:'g'},{n:'Beef steak',s:'beef',q:150,u:'g'},{n:'Firm tofu',s:'tofu',q:150,u:'g'}];
 /* easy options (from the example days) */
-M({id:'bBoiled',kind:'easy',name:'Soft boiled eggs',em:'🥚',types:['b'],serves:1,t:{e:2},tags:['quick','plant'],
+M({id:'bBoiled',cooked:true,kind:'easy',name:'Soft boiled eggs',em:'🥚',types:['b'],serves:1,t:{e:2},tags:['quick','plant'],
  ings:[I('Eggs',2,'x','dairy'),PS('Salt & pepper',1,'tsp')],steps:['Boil the eggs for 6 minutes, cool briefly, peel and halve.','Season with salt and pepper.']});
-M({id:'bOmelette',kind:'easy',name:'Mushroom omelette',em:'🍳',types:['b'],serves:1,t:{e:2},tags:['quick'],
+M({id:'bOmelette',cooked:true,kind:'easy',name:'Mushroom omelette',em:'🍳',types:['b'],serves:1,t:{e:2},tags:['quick'],
  ings:[I('Eggs',2,'x','dairy'),I('Mushrooms',60,'g','prod'),I('Brown onion',.25,'x','prod'),I('Red capsicum',.25,'x','prod')],
  steps:['Sauté onion, capsicum and mushrooms until soft.','Whisk the eggs, pour over and mix through. Cook until set.']});
-M({id:'bPorridge',kind:'easy',name:'Berry porridge',em:'🥣',types:['b'],serves:1,t:{e:2,f:1,d:1},tags:['plant'],
+M({id:'bPorridge',cooked:true,kind:'easy',name:'Berry porridge',em:'🥣',types:['b'],serves:1,t:{e:2,f:1,d:1},tags:['plant'],
  ings:[I('Rolled oats',.33,'cup','tin'),I('Milk',250,'ml','dairy'),I('Blueberries',75,'g','prod')],
  steps:['Cook the oats in the milk, stirring, until thick.','Stir in fresh fruit and cook for a minute more.'],notes:'The plan lets ½ cup of rolled oats stand in for the two eggs.'});
-M({id:'bCrispy',kind:'easy',name:'Crispy eggs, tomato & garlic mushrooms',em:'🍅',types:['b'],serves:1,t:{e:2},tags:['quick'],
+M({id:'bCrispy',cooked:true,kind:'easy',name:'Crispy eggs, tomato & garlic mushrooms',em:'🍅',types:['b'],serves:1,t:{e:2},tags:['quick'],
  ings:[I('Eggs',2,'x','dairy'),I('Tomatoes',1,'x','prod'),I('Mushrooms',80,'g','prod'),I('Garlic (cloves)',1,'x','prod'),PS('Extra virgin olive oil',1,'tsp')],
  steps:['Fry the mushrooms with crushed garlic.','Grill the tomato halves.','Fry the eggs in a hot pan until the edges crisp.']});
-M({id:'bSmoothie',kind:'easy',name:'Berry breakfast smoothie',em:'🥤',types:['b'],serves:1,t:{f:1,d:1},tags:['quick','plant'],
+M({id:'bSmoothie',kind:'easy',name:'Berry breakfast smoothie',em:'🥤',types:['b'],serves:1,t:{f:1,d:1},tags:['quick','plant','nocook'],
  ings:[I('Frozen mixed berries',100,'g','prod'),I('Milk',250,'ml','dairy'),PS('Honey',1,'tsp')],steps:['Blend everything until smooth.'],notes:'Milk or yoghurt both work.'});
-M({id:'bGreek',kind:'extra',name:'Greek yoghurt & berry bowl',em:'🫐',types:['b','s'],serves:1,t:{f:1,d:1,n:.5},tags:['quick','plant'],
+M({id:'bOvernight',kind:'extra',name:'Overnight oats with berries',em:'🫙',types:['b'],serves:1,t:{e:2,f:1,d:1},tags:['quick','plant','nocook'],
+ ings:[I('Rolled oats',.33,'cup','tin'),I('Milk',200,'ml','dairy'),I('Natural yoghurt',50,'g','dairy'),I('Blueberries',75,'g','prod')],
+ steps:['Stir the oats, milk and yoghurt together in a jar.','Leave in the fridge overnight.','Top with berries in the morning.'],notes:'No cooking. Added by the app. The plan lets oats stand in for the two eggs.'});
+M({id:'bCottage',kind:'extra',name:'Cottage cheese & berry bowl',em:'🍓',types:['b'],serves:1,t:{f:1,d:1,n:.5},tags:['quick','plant','nocook'],
+ ings:[I('Cottage cheese',60,'g','dairy'),I('Strawberries',100,'g','prod'),I('Almonds',20,'g','nut')],
+ steps:['Spoon the cottage cheese into a bowl.','Top with halved strawberries and almonds.'],notes:'No cooking. Added by the app. 60g of cottage cheese counts as one dairy serve.'});
+M({id:'bGreek',kind:'extra',name:'Greek yoghurt & berry bowl',em:'🫐',types:['b','s'],serves:1,t:{f:1,d:1,n:.5},tags:['quick','plant','nocook'],
  ings:[I('Natural Greek yoghurt',150,'g','dairy'),I('Raspberries',75,'g','prod'),I('Almonds',20,'g','nut')],steps:['Spoon yoghurt into a bowl and top with berries and almonds.'],notes:'Added by the app using foods from your Phase one lists.'});
-M({id:'bScramble',kind:'extra',name:'Veggie scramble',em:'🥬',types:['b'],serves:1,t:{e:2},tags:['quick'],
+M({id:'bScramble',cooked:true,kind:'extra',name:'Veggie scramble',em:'🥬',types:['b'],serves:1,t:{e:2},tags:['quick'],
  ings:[I('Eggs',2,'x','dairy'),I('Baby spinach',40,'g','prod'),I('Cherry tomatoes',80,'g','prod'),PS('Extra virgin olive oil',1,'tsp')],steps:['Wilt spinach and tomatoes in the oil.','Add beaten eggs and stir gently until just set.'],notes:'Added by the app using foods from your Phase one lists.'});
 /* snacks */
-M({id:'sYogBlue',kind:'easy',name:'Yoghurt with blueberries',em:'🫐',types:['s'],serves:1,t:{d:1,f:1},tags:['quick'],
+M({id:'sYogBlue',kind:'easy',name:'Yoghurt with blueberries',em:'🫐',types:['s','b'],serves:1,t:{d:1,f:1},tags:['quick','nocook'],
  ings:[I('Natural yoghurt',150,'g','dairy'),I('Blueberries',75,'g','prod')],steps:['Mix 150g natural yoghurt with 15 fresh blueberries.']});
 M({id:'sBanana',kind:'easy',name:'Small banana with carrot & celery sticks',em:'🍌',types:['s'],serves:1,t:{f:1},tags:['quick','plant'],
  ings:[I('Small banana',1,'x','prod'),I('Carrots',1,'x','prod'),I('Celery (sticks)',1,'x','prod')],steps:['Peel the banana, cut the carrot and celery into sticks.']});
@@ -331,7 +337,7 @@ M({id:'sGrapes',kind:'easy',name:'Small bunch of grapes',em:'🍇',types:['s'],s
  ings:[I('Grapes',90,'g','prod')],steps:['About 15 grapes.']});
 M({id:'sCheese',kind:'easy',name:'Sliced cheese with carrot & cucumber sticks',em:'🧀',types:['s'],serves:1,t:{d:1},tags:['quick'],
  ings:[I('Cheese (cheddar)',30,'g','dairy'),I('Carrots',1,'x','prod'),I('Cucumber',.5,'x','prod')],steps:['Slice 30g cheese and serve with the sticks.']});
-M({id:'sChia',kind:'easy',name:'Chia seed pudding with berries',em:'🍮',types:['s'],serves:1,t:{d:1,f:.5,n:.5},tags:['plant'],
+M({id:'sChia',kind:'easy',name:'Chia seed pudding with berries',em:'🍮',types:['s','b'],serves:1,t:{d:1,f:.5,n:.5},tags:['plant','nocook'],
  ings:[I('Chia seeds',2,'tbsp','nut'),I('Milk',250,'ml','dairy'),I('Frozen mixed berries',50,'g','prod'),PS('Maple syrup',1,'tsp')],
  steps:['Mix 2 tbsp chia seeds with 1 cup milk.','Leave in the fridge for 5–6 hours.','Top with berries and 1 tsp maple syrup.']});
 M({id:'sAlmonds',kind:'easy',name:'Raw almonds',em:'🌰',types:['s'],serves:1,t:{n:.75},tags:['quick','plant'],
@@ -438,12 +444,12 @@ M({id:'free',kind:'special',special:'free',name:'Free meal',em:'🍽️',types:[
 M({id:'treat',kind:'special',special:'treat',name:'Treat',em:'🍰',types:['s'],serves:1,tags:[],ings:[],steps:[],notes:'You get 2 treats each week.'});
 
 const DEFAULT_PLAN=[
- ['bBoiled','sYogBlue','lChickpea','sBanana',['dGrill',0],'sNuts'],
- ['bOmelette','sStraw','minestrone','sNuts','strog','sPeachYog'],
- ['bPorridge','sHummus','beefSoup','sSmoothie','kaisimin','sNuts'],
- ['bCrispy','sGrapes','beanSalad','sCheese',['dGrill',1],'sChia'],
+ ['bOvernight','sYogBlue','lChickpea','sBanana',['dGrill',0],'sNuts'],
+ ['bGreek','sStraw','minestrone','sNuts','strog','sPeachYog'],
+ ['bCottage','sHummus','beefSoup','sSmoothie','kaisimin','sNuts'],
+ ['sChia','sGrapes','beanSalad','sCheese',['dGrill',1],'sNuts'],
  ['bSmoothie','sAlmonds','lTuna','sHummusCuc','pumpkinLamb','sMango'],
- ['bGreek','sNuts',['kaleSlaw',0],'sGrapes','cacciatore','sStraw'],
+ ['bCrispy','sNuts',['kaleSlaw',0],'sGrapes','cacciatore','sStraw'],
  ['bScramble','sPeachYog','loadedChicken','sHummus','thaiBeef','sChia']];
 function defaultPlan(){const p=[];DEFAULT_PLAN.forEach((d,i)=>{p[i]={};d.forEach((v,j)=>{const id=Array.isArray(v)?v[0]:v;p[i][SLOTS[j].k]={id,prot:Array.isArray(v)?v[1]:0,done:false,lock:false}})});return p}
 
@@ -451,12 +457,17 @@ const FRUITS=[['🍎','Apple','1'],['🍑','Apricots','2'],['🍌','Small banana
 
 /* ---------- state ---------- */
 const KEY='plategrid.v1';
-let S={plan:defaultPlan(),macroOv:{},mday:null,shopDays:[1,1,1,1,1,1,1],people:1,batch:false,hidePantry:true,checked:{},extras:[],customs:[]};
+let S={plan:defaultPlan(),noCook:true,macroOv:{},mday:null,shopDays:[1,1,1,1,1,1,1],people:1,batch:false,hidePantry:true,checked:{},extras:[],customs:[]};
 try{const raw=localStorage.getItem(KEY);if(raw){const o=JSON.parse(raw);if(o&&o.plan&&o.plan.length===7)S=Object.assign(S,o)}}catch(e){}
 if(!S.macroOv)S.macroOv={};
+const NOCOOK_ROT=['bOvernight','bGreek','bCottage','bSmoothie','sChia','sYogBlue'];
+function enforceNoCook(){let n=0;if(!S.noCook)return 0;const used=new Set();S.plan.forEach(d=>used.add(d.b.id));
+  for(let d=0;d<5;d++){const e=S.plan[d].b,m=meals[e.id];if(m&&m.cooked){const pick=NOCOOK_ROT.find(i=>!used.has(i))||NOCOOK_ROT[d%NOCOOK_ROT.length];e.id=pick;e.prot=0;e.done=false;e.serv=1;e.logged=false;used.add(pick);n++}}return n}
+let migrated=0;
 if(!Array.isArray(S.shopDays)||S.shopDays.length!==7)S.shopDays=[1,1,1,1,1,1,1];
 function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
 S.customs.forEach(m=>{meals[m.id]=m});
+S.noCook=S.noCook!==false;
 const todayIdx=(new Date().getDay()+6)%7;
 const UI={view:'plan',day:todayIdx,mday:todayIdx,editMac:false,drawer:null,rFilter:'all',rQuery:'',swapQuery:'',swapTag:'all'};
 let undoSnap=null;
@@ -482,7 +493,7 @@ const NUTR={
 'Blade steak':[165,21,0,9],'Blueberries':[57,.7,14,.3],'Boneless chicken thighs':[125,19,0,5.5],'Brown lentils (canned)':[116,9,20,.4,240],'Brown lentils (dried)':[352,25,60,1.1,190],
 'Brown onion':[40,1.1,9.3,.1,110],'Brown sugar':[380,0,98,0,0,4],'Butter':[717,.9,.1,81],'Button mushrooms':[22,3.1,3.3,.3],'Cabbage':[25,1.3,5.8,.1,800],
 'Cannellini beans':[110,7.3,19,.5,240],'Carrots':[41,.9,9.6,.2,70],'Cauliflower':[25,1.9,5,.3,600],'Cayenne pepper':[318,12,57,17,0,1.8],'Celery (sticks)':[16,.7,3,.2,40],
-'Cheese (cheddar)':[403,25,1.3,33],'Cherry tomatoes':[18,.9,3.9,.2],'Chia seeds':[486,17,42,31,0,4],'Chicken breast':[110,23,0,1.5],'Chicken mince':[143,17,0,8],
+'Cheese (cheddar)':[403,25,1.3,33],'Cottage cheese':[98,11,3.4,4.3],'Cherry tomatoes':[18,.9,3.9,.2],'Chia seeds':[486,17,42,31,0,4],'Chicken breast':[110,23,0,1.5],'Chicken mince':[143,17,0,8],
 'Chicken stock (reduced salt)':[5,.6,.4,.1],'Chicken stock powder':[200,10,25,6,0,4],'Chicken stock powder (reduced salt)':[200,10,25,6,0,4],'Chicken strips or mince':[135,20,0,6],
 'Chicken tenderloins':[110,23,0,1.5],'Chicken thigh fillets':[121,19,0,5,120],'Chickpeas':[139,7.2,22,2.8,240],'Coconut cream':[330,3.6,6,34],'Coconut milk':[190,2,3,19],
 'Coconut milk (165ml)':[190,2,3,19,165],'Cooked white rice':[130,2.7,28,.3,158],'Coriander':[23,2.1,3.7,.5,40],'Corn kernels':[86,3.3,19,1.4],'Cubed beetroot (tin)':[43,1.7,10,.2,225],
@@ -612,7 +623,7 @@ function renderPlan(){
    <div class="planbar">
     <button class="btn primary" data-act="shuffle">🎲 Shuffle unlocked meals</button>
     <button class="btn" data-act="copyplan">Copy plan</button>
-    <button class="btn ghost" data-act="reset">Reset to my PDF plan</button>
+    <button class="btn" data-act="nocook" aria-pressed="${S.noCook}">🥣 Mon–Fri no-cook breakfasts</button><button class="btn ghost" data-act="reset">Reset plan</button>
     <span class="grow"></span><span class="hint">Tap a tile for details and swaps. Drag tiles to move meals between slots.</span></div>
    <div class="daytabs" role="tablist" aria-label="Day">${DAYS.map((d,i)=>`<button class="daytab" role="tab" aria-selected="${i===UI.day}" data-act="day" data-d="${i}">${d}</button>`).join('')}</div>
    <div class="week" id="week"><div class="corner"></div>`;
@@ -625,7 +636,7 @@ function renderPlan(){
 
 function renderRecipes(){
   const all=Object.values(meals).filter(m=>m.kind!=='special');
-  const F=[['all','All'],['recipe','Recipes'],['easy','Easy options'],['chicken','Chicken'],['beef','Beef'],['lamb','Lamb'],['pork','Pork'],['fish','Fish'],['plant','Plant-based'],['custom','Mine']];
+  const F=[['all','All'],['recipe','Recipes'],['easy','Easy options'],['nocook','No-cook'],['chicken','Chicken'],['beef','Beef'],['lamb','Lamb'],['pork','Pork'],['fish','Fish'],['plant','Plant-based'],['custom','Mine']];
   const q=UI.rQuery.toLowerCase();
   const list=all.filter(m=>{
     const f=UI.rFilter;let ok=f==='all'||(f==='recipe'&&m.kind==='recipe')||(f==='easy'&&(m.kind==='easy'||m.kind==='extra'))||(f==='custom'&&m.kind==='custom');
@@ -759,6 +770,7 @@ function candidates(D){
   const e=slotEntry(D.d,D.s),slot=SLOTS.find(s=>s.k===D.s),t=tally(D.d,D.s);
   const q=UI.swapQuery.toLowerCase(),tag=UI.swapTag;
   return Object.values(meals).filter(m=>m.types.includes(slot.t)).filter(m=>{
+    if(slot.t==='b'&&D.d<5&&S.noCook&&m.cooked&&!UI.showCooked)return false;
     if(q&&!dispName(m,0).toLowerCase().includes(q)&&!m.ings.some(i=>i.n.toLowerCase().includes(q)))return false;
     if(tag==='all')return true;if(tag==='recipe')return m.kind==='recipe';if(tag==='easy')return m.kind==='easy'||m.kind==='extra';
     if(tag==='gap'){return gapFills(m,t).length>0}
@@ -766,8 +778,9 @@ function candidates(D){
 function gapFills(m,t){if(m.special)return[];return TK.filter(k=>{const need=TTARGET[k][0]-t[k];return need>.3&&(m.t[k]||0)>=Math.min(need,.5)})}
 function swapHtml(D){
   const e=slotEntry(D.d,D.s);
-  const tags=[['all','All'],['gap','Fills a gap'],['recipe','Recipes'],['easy','Easy'],['chicken','Chicken'],['beef','Beef'],['lamb','Lamb'],['pork','Pork'],['fish','Fish'],['plant','Plant']];
-  return `<input class="search" id="swapsearch" type="search" placeholder="Search meals or ingredients" value="${esc(UI.swapQuery)}" aria-label="Search swaps"><div class="row">${tags.map(([k,l])=>`<button class="chip" data-act="swaptag" data-v="${k}" aria-pressed="${UI.swapTag===k}">${l}</button>`).join('')}</div>
+  const tags=[['all','All'],['gap','Fills a gap'],['nocook','No-cook'],['recipe','Recipes'],['easy','Easy'],['chicken','Chicken'],['beef','Beef'],['lamb','Lamb'],['pork','Pork'],['fish','Fish'],['plant','Plant']];
+  const nc=SLOTS.find(s=>s.k===D.s).t==='b'&&D.d<5&&S.noCook;
+  return (nc?`<div class="note" style="display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap"><span>${UI.showCooked?'Showing cooked breakfasts too.':'Mon–Fri: showing no-cook breakfasts only.'}</span><button class="btn sm" data-act="showcooked">${UI.showCooked?'Hide cooked':'Show cooked too'}</button></div>`:'')+`<input class="search" id="swapsearch" type="search" placeholder="Search meals or ingredients" value="${esc(UI.swapQuery)}" aria-label="Search swaps"><div class="row">${tags.map(([k,l])=>`<button class="chip" data-act="swaptag" data-v="${k}" aria-pressed="${UI.swapTag===k}">${l}</button>`).join('')}</div>
    <div class="swapgrid" id="swapgrid">${swapCards(D)}</div>`}
 function swapCards(D){
   const e=slotEntry(D.d,D.s),t=tally(D.d,D.s);const list=candidates(D);
@@ -815,7 +828,7 @@ function shuffle(){
   snapshot();const used=new Set();S.plan.forEach(d=>SLOTS.forEach(s=>used.add(d[s.k].id)));
   S.plan.forEach((day,di)=>{const dayUsed=new Set(SLOTS.map(s=>day[s.k].id));
     SLOTS.forEach(s=>{const e=day[s.k];if(e.lock)return;
-      let pool=Object.values(meals).filter(m=>!m.special&&!m.p2&&m.types.includes(s.t));
+      let pool=Object.values(meals).filter(m=>!m.special&&!m.p2&&m.types.includes(s.t)&&!(s.k==='b'&&di<5&&S.noCook&&m.cooked));
       const fresh=pool.filter(m=>!used.has(m.id)&&!dayUsed.has(m.id));if(fresh.length)pool=fresh;else pool=pool.filter(m=>!dayUsed.has(m.id)||m.id===e.id)||pool;
       if(!pool.length)return;const pick=pool[Math.floor(Math.random()*pool.length)];
       dayUsed.delete(e.id);used.delete(e.id);e.id=pick.id;e.prot=pick.prot?Math.floor(Math.random()*pick.prot.length):0;e.done=false;e.serv=1;e.logged=false;used.add(pick.id);dayUsed.add(pick.id)})});
@@ -844,6 +857,8 @@ document.addEventListener('click',ev=>{
    case 'swaptag':UI.swapTag=el.dataset.v;drawHtml();break;
    case 'doswap':{snapshot();const m=meals[el.dataset.id];setMeal(D.d,D.s,m.id,0);D.tab='details';REFRESH();toast('Swapped to '+dispName(m,0),true);break}
    case 'shuffle':shuffle();break;
+   case 'nocook':{snapshot();S.noCook=!S.noCook;let n=0;if(S.noCook)n=enforceNoCook();REFRESH();toast(S.noCook?(n?n+' weekday '+(n===1?'breakfast':'breakfasts')+' changed to no-cook':'Weekday breakfasts are already no-cook'):'Cooked breakfasts allowed on weekdays',n>0);break}
+   case 'showcooked':UI.showCooked=!UI.showCooked;drawHtml();break;
    case 'reset':snapshot();S.plan=defaultPlan();REFRESH();toast('Plan reset to the PDF example days',true);break;
    case 'undo':if(undoSnap){S.plan=JSON.parse(undoSnap);undoSnap=null;REFRESH();$('#toast').classList.remove('show')}break;
    case 'copyplan':copyText(planText(),'Plan');break;
@@ -851,7 +866,7 @@ document.addEventListener('click',ev=>{
    case 'recipe':UI.editMac=false;openDrawer({mode:'recipe',id:el.dataset.id,prot:0,portions:S.people});break;
    case 'addday':D.addD=+el.dataset.d;drawHtml();break;
    case 'addslot':D.addS=el.dataset.s;drawHtml();break;
-   case 'addplan':{snapshot();setMeal(+el.dataset.d,el.dataset.s,D.id,D.prot||0);UI.day=+el.dataset.d;save();const nm=dispName(meals[D.id],D.prot||0);closeDrawer();UI.view='plan';render();toast(nm+' added to '+DAYFULL[+el.dataset.d],true);break}
+   case 'addplan':{snapshot();setMeal(+el.dataset.d,el.dataset.s,D.id,D.prot||0);UI.day=+el.dataset.d;save();const nm=dispName(meals[D.id],D.prot||0);{const mm=meals[D.id],dd2=+el.dataset.d;const warn=mm.cooked&&el.dataset.s==='b'&&dd2<5&&S.noCook;closeDrawer();UI.view='plan';render();toast(nm+' added to '+DAYFULL[dd2]+(warn?'. Heads up: that breakfast is cooked.':''),true);break}}
    case 'create':openDrawer({mode:'create',em:EMOJIS[0],types:['d']});break;
    case 'cemoji':D.em=el.dataset.v;keepForm();break;
    case 'ctype':{const t=el.dataset.v;D.types=D.types.includes(t)?D.types.filter(x=>x!==t):D.types.concat(t);keepForm();break}
@@ -910,7 +925,9 @@ document.addEventListener('drop',ev=>{
   if(!mA.types.includes(tA)||!mB.types.includes(tB)){toast('Those two slots take different kinds of meals');render();return}
   snapshot();const tmp=Object.assign({},A);S.plan[from.d][from.s]=Object.assign({},B);S.plan[to.d][to.s]=tmp;REFRESH();toast('Swapped '+DAYS[from.d]+' and '+DAYS[to.d]+' meals',true)});
 
+migrated=enforceNoCook();if(migrated)save();
 render();
+if(migrated)setTimeout(()=>toast(migrated+' weekday '+(migrated===1?'breakfast was':'breakfasts were')+' changed to no-cook'),400);
 })();
 </script>
 
